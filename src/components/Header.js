@@ -18,12 +18,17 @@ class Header extends Component {
 
 
   render() {
+    const icons = {contact:'../../shared/icons/glass-cheers-solid'}
     const moreMenu = (status) => {
       if (status) {
         return (
           <Nav navbar>
           <NavItem>
-            <span className = "fa fa-2x fa-home">HOME</span>
+          
+          <Button className="headerButtons"  > <span className="fa fa-2x  fa-home"></span> HOME </Button>
+          <Button className="headerButtons"  > <span className="fa fa-2x  fa-code"></span> CODINGZ </Button>
+          <Button className="headerButtons"  > <span className="fa fa-2x  fa-user-secret"></span> ABOUT ME  </Button>
+          <Button className="headerButtons"  > <span className="fa fa-2x  fa-coffee"></span> CATCH ME  </Button>
           </NavItem>
         </Nav>
         )
@@ -35,7 +40,8 @@ class Header extends Component {
       
         <Navbar dark expand = "md">
           <div className = "container">
-         <Button onClick = {this.toggleNav} > <span className="fa fa-3x  fa-compass"> ></span>  </Button>
+            <br/>
+         <Button className="headerButtons" onClick = {this.toggleNav} > <span className="fa fa-4x  fa-compass"></span>  </Button>
           {moreMenu(this.state.isNavOpen)}
         </div>
         </Navbar>
