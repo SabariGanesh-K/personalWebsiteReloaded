@@ -24,11 +24,18 @@ class Header extends Component {
         return (
           <Nav navbar>
           <NavItem>
-          
+          <NavLink className = "nav-link" to = "/home">
           <Button className="headerButtons"  > <span className="fa fa-2x  fa-home"></span> HOME </Button>
+          </NavLink>
+          <NavLink className = "nav-link" to = "/codingz">
           <Button className="headerButtons"  > <span className="fa fa-2x  fa-code"></span> CODINGZ </Button>
+          </NavLink>
+          <NavLink className = "nav-link" to = "/about">
           <Button className="headerButtons"  > <span className="fa fa-2x  fa-user-secret"></span> ABOUT ME  </Button>
+          </NavLink>
+          <NavLink className = "nav-link" to = "/contact">
           <Button className="headerButtons"  > <span className="fa fa-2x  fa-coffee"></span> CATCH ME  </Button>
+          </NavLink>
           </NavItem>
         </Nav>
         )
