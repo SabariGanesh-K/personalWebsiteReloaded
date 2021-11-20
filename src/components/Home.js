@@ -58,9 +58,9 @@ function Home() {
                 //   style={{ paddingLeft: "1rem" }}
               >
                   <Row>
-                <a href = "#"><span className="fa fa-3x fa-linkedin" style = {{paddingLeft : '3rem'}} /> </a>
-                <a href = "#"><span className="fa fa-3x fa-instagram" style = {{paddingLeft : '3rem'}} /> </a>
-                <a href = "#"><span className="fa fa-3x fa-github"style = {{paddingLeft : '3rem'}} /> </a>
+                <a href = "#"><span className="fa fa-3x fa-linkedin" style = {{paddingLeft : '3rem',color:'blue'}} /> </a>
+                <a href = "#"><span className="fa fa-3x fa-instagram" style = {{paddingLeft : '3rem',color:'#f5022f'}} /> </a>
+                <a href = "#"><span className="fa fa-3x fa-github"style = {{paddingLeft : '3rem',color:'white'}} /> </a>
                 
                 </Row>
               </span>
