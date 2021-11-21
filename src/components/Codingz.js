@@ -136,16 +136,27 @@ function Codingz() {
       >
         MY SKILLS INCLUDE
       </div>
-      
+      <br/><br/>
       <div className = "container" >
-          <Row style = {{textAlign:'center'}}>
+          <Row style = {{textAlign:'left'}}>
             <Col>
             <img src = {python} width = "15%" height = "15%" style = {{padding:'20px'}}/>
             <img src = {js} width = "15%" height = "15%" style = {{padding:'20px'}}/>
             <img src = {react} width = "15%" height = "15%" style = {{padding:'20px'}}/>
             </Col>
           </Row>
-      </div>
+           </div>
+           <br/>
+           <div className = "container" >
+          <Row style = {{textAlign:'right'}}>
+            <Col>
+            <img src = {git} width = "15%" height = "15%" style = {{padding:'20px'}}/>
+            <img src = {html} width = "15%" height = "15%" style = {{padding:'20px'}}/>
+            <img src = {css} width = "15%" height = "15%" style = {{padding:'20px'}}/>
+            </Col>
+          </Row>
+          </div>
+     
       <div>my works</div>
       <div>Honours and achievements</div>
     </div>
