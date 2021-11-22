@@ -21,7 +21,7 @@ import hackerrank from "../shared/codingz/hackerrank.png";
 import { Card, Row, Col } from "react-bootstrap";
 import Button from "@restart/ui/esm/Button";
 
-function RenderProject({skill, tag, desc, git, view,uses}) {
+function RenderProject({ skill, tag, desc, git, view, uses }) {
   return (
     <div
       className="container"
@@ -34,9 +34,7 @@ function RenderProject({skill, tag, desc, git, view,uses}) {
         </Col>
 
         <Col style={{ fontSize: "1rem", textAlign: "center" }}>
-          <span>
-            {desc}
-          </span>
+          <span>{desc}</span>
         </Col>
         <Col>
           <span>{uses}</span>
@@ -66,7 +64,6 @@ function RenderProject({skill, tag, desc, git, view,uses}) {
     </div>
   );
 }
-
 
 class Codingz extends Component {
   render() {
@@ -248,30 +245,140 @@ class Codingz extends Component {
         >
           MY WORKS{" "}
         </div>
-       <br/><br/>
+        <br />
         <div>
-          <RenderProject
-            skill="PERSONAL WEBSITE"
-            tag="<This Website/>"
-            desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
-            git="cfecec.com"
-            view="fewcfecfe.com"
-            uses = "uses blah blah and all"
-          />
-          <br/>
-                  <RenderProject
-            skill="WIX WEBSITE"
-            tag="<Personal website 2/>"
-            desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
-            git="cfecec.com"
-            view="fewcfecfe.com"
-            uses = "Uses blah,blah and all"
-          />
+          <div style={{ display: "flex", justifyContent: "right" }}>
+            <RenderProject
+              skill="PERSONAL WEBSITE"
+              tag="<This Website/>"
+              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              git="cfecec.com"
+              view="fewcfecfe.com"
+              uses="uses blah blah and all"
+            />
+          </div>
+
+          <div style={{ display: "flex", justifyContent: "left" }}>
+            <RenderProject
+              skill="WIX WEBSITE"
+              tag="<Personal website 2/>"
+              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              git="cfecec.com"
+              view="fewcfecfe.com"
+              uses="Uses blah,blah and all"
+            />
+          </div>
+
+          <div style={{ display: "flex", justifyContent: "right" }}>
+            <RenderProject
+              skill="SECUREZ"
+              tag="<Desktop app/>"
+              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              git="cfecec.com"
+              view="fewcfecfe.com"
+              uses="Uses blah,blah and all"
+            />
+          </div>
+
+          <div style={{ display: "flex", justifyContent: "left" }}>
+            <RenderProject
+              skill="COVID TRACKER"
+              tag="<Guided/>"
+              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              git="cfecec.com"
+              view="fewcfecfe.com"
+              uses="Uses blah,blah and all"
+            />
+          </div>
+
+          <div style={{ display: "flex", justifyContent: "right" }}>
+            <RenderProject
+              skill="Restaurant Website"
+              tag="<Guided/>"
+              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              git="cfecec.com"
+              view="fewcfecfe.com"
+              uses="Uses blah,blah and all"
+            />
+          </div>
+
+          <div style={{ display: "flex", justifyContent: "left" }}>
+            <RenderProject
+              skill="PORTFOLIO"
+              tag="<ONLY DESKTOP />"
+              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              git="cfecec.com"
+              view="fewcfecfe.com"
+              uses="Uses blah,blah and all"
+            />
+          </div>
+        </div>
+        <div
+          className="container"
+          style={{
+            fontFamily: "Roboto Slab",
+            color: "black",
+            fontWeight: "bolder",
+            fontSize: "2rem",
+            textAlign: "center",
+          }}
+        >
+          Honours and achievements
+        </div>
+        <div
+          className="container"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <div style={{ fontFamily: "Audiowide", fontSize: "2rem" }}>
+            HACTOBERFEST{" "}
+          </div>
+        </div>
+        <div
+          className="container"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          Blah blah blah and this and that
+          <br />
+          //IMAGE //IMAGE
         </div>
 
-        <div>Honours and achievements</div>
+        <div
+          className="container"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <div style={{ fontFamily: "Audiowide", fontSize: "2rem" }}>
+            HACKERRANK BADGES {" "}
+          </div>
+        </div>
+        <div
+          className="container"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          Blah blah blah and this and that
+          <br />
+          //IMAGE //IMAGE
+        </div>
 
+
+        <div
+          className="container"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <div style={{ fontFamily: "Audiowide", fontSize: "2rem" }}>
+            COURSES{" "}
+          </div>
+        </div>
+        <div
+          className="container"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          Blah blah blah and this and that
+          <br />
+          //IMAGE //IMAGE
+        </div>
       </div>
+
+      
     );
   }
 }

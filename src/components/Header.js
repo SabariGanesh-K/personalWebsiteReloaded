@@ -7,18 +7,26 @@ class Header extends Component {
     super(props);
     this.state = {
       isNavOpen: false,
+      exploreText : "EXPLORE"
     };
     this.toggleNav = this.toggleNav.bind(this);
   }
 
   toggleNav() {
     this.setState({ isNavOpen: !this.state.isNavOpen });
+    if (this.state.exploreText === "EXPLORE") {
+      this.setState({ exploreText: "" });
+    }
+    else {
+      this.setState({ exploreText: "EXPLORE" });
+    }
   }
 
 
 
   render() {
     const icons = {contact:'../../shared/icons/glass-cheers-solid'}
+ 
     const moreMenu = (status) => {
       if (status) {
         return (
@@ -48,7 +56,7 @@ class Header extends Component {
         <Navbar dark expand = "md">
           <div className = "container">
             <br/>
-         <Button className="headerButtons" onClick = {this.toggleNav} > <span className="fa fa-4x  fa-compass"></span>  </Button>
+         <Button className="headerButtons" onClick = {this.toggleNav} > <span className="fa fa-4x  fa-compass"> {this.state.exploreText}</span>  </Button>
           {moreMenu(this.state.isNavOpen)}
         </div>
         </Navbar>
