@@ -29,7 +29,7 @@ function About(){
                 </div>
                 </div>
                     <br/><br/>
-                <div style = {{background:'rgba(74,30,30,0.8)',borderRadius:'4rem',padding:'2rem'}}>
+                <div style = {{background:'rgba(242, 103, 17,0.8)',borderRadius:'4rem',padding:'2rem'}}>
                 <div style = {{fontFamily:'Comfortaa'}}>I completed my School life  @ </div>
                 <div style = {{textAlign:'center'}} >
                         <div>
@@ -46,6 +46,21 @@ function About(){
                         </div>
                 </div>
                 </div>
+            </div>
+            <br/><br/>
+            <div>
+                <div>NOT ONLY ACADEMICS :) , </div>
+                <br/>
+                <div style = {{textAlign:'center'}}> I equipped myself to be a leader acquiring relevant skills by becoming the Assistant HEAD BOY and HEAD BOY of my School.<br/>
+                #IMG
+                 </div>
+            </div>
+            <br/>
+            <div>
+               
+                <div style = {{textAlign:'center'}}> I Have attained a BROWN - 1 Grade in Karate headed by<br/>
+                #IMG
+                 </div>
             </div>
         </div>
     )
