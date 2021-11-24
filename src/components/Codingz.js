@@ -18,52 +18,16 @@ import css from "../shared/codingz/css.png";
 import github from "../shared/codingz/github.png";
 import instagram from "../shared/codingz/instagram.png";
 import hackerrank from "../shared/codingz/hackerrank.png";
+import hacto2020 from "../shared/codingz/hacto2020.jpg"
+import hacto2021 from "../shared/codingz/hacto2021.jpg"
+import hacto2020swags from "../shared/codingz/hacto2020swags.png"
+import courserafrontend from "../shared/codingz/courserafrontend.jpg"
+import udemykotlin from "../shared/codingz/udemykotlin.jpg"
+import badges from "../shared/codingz/badges.png"
 import { Card, Row, Col } from "react-bootstrap";
-import Button from "@restart/ui/esm/Button";
+import RenderProject from "./Projects";
+import { Carousel } from "react-responsive-carousel";
 
-function RenderProject({ skill, tag, desc, git, view, uses }) {
-  return (
-    <div
-      className="container"
-      style={{ background: "orange", padding: "2rem", borderRadius: "1rem" }}
-    >
-      <Row>
-        <Col>
-          <span style={{ fontSize: "2rem" }}>{skill}</span>
-          <span style={{ fontSize: "1rem" }}> {tag}</span>
-        </Col>
-
-        <Col style={{ fontSize: "1rem", textAlign: "center" }}>
-          <span>{desc}</span>
-        </Col>
-        <Col>
-          <span>{uses}</span>
-        </Col>
-
-        <Col>
-          <Button
-            style={{
-              fontSize: "2rem",
-              background: "rgba(0,0,0,0)",
-              color: "#d42404",
-            }}
-          >
-            VIEW
-          </Button>
-          <Button
-            style={{
-              fontSize: "2rem",
-              background: "rgba(0,0,0,0)",
-              color: "black",
-            }}
-          >
-            GITHUB
-          </Button>
-        </Col>
-      </Row>
-    </div>
-  );
-}
 
 class Codingz extends Component {
   render() {
@@ -257,7 +221,7 @@ class Codingz extends Component {
               uses="uses blah blah and all"
             />
           </div>
-
+          <br />
           <div style={{ display: "flex", justifyContent: "left" }}>
             <RenderProject
               skill="WIX WEBSITE"
@@ -268,7 +232,7 @@ class Codingz extends Component {
               uses="Uses blah,blah and all"
             />
           </div>
-
+          <br />
           <div style={{ display: "flex", justifyContent: "right" }}>
             <RenderProject
               skill="SECUREZ"
@@ -279,7 +243,7 @@ class Codingz extends Component {
               uses="Uses blah,blah and all"
             />
           </div>
-
+          <br />
           <div style={{ display: "flex", justifyContent: "left" }}>
             <RenderProject
               skill="COVID TRACKER"
@@ -290,7 +254,7 @@ class Codingz extends Component {
               uses="Uses blah,blah and all"
             />
           </div>
-
+          <br />
           <div style={{ display: "flex", justifyContent: "right" }}>
             <RenderProject
               skill="Restaurant Website"
@@ -301,7 +265,7 @@ class Codingz extends Component {
               uses="Uses blah,blah and all"
             />
           </div>
-
+          <br />
           <div style={{ display: "flex", justifyContent: "left" }}>
             <RenderProject
               skill="PORTFOLIO"
@@ -313,6 +277,7 @@ class Codingz extends Component {
             />
           </div>
         </div>
+        <br/><br/><br/>
         <div
           className="container"
           style={{
@@ -325,6 +290,7 @@ class Codingz extends Component {
         >
           Honours and achievements
         </div>
+        <br/>
         <div
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
@@ -333,20 +299,54 @@ class Codingz extends Component {
             HACTOBERFEST{" "}
           </div>
         </div>
-        <div
+  
+          <span style = {{display:'flex',textAlign:'center',justifyContent:'center'}}>
+         I successfully completed the Hactoberfest challenge consecutively for  2years 2020 and 2021 
+         </span>
+         
+          <div
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          Blah blah blah and this and that
-          <br />
-          //IMAGE //IMAGE
-        </div>
+          <div
+        className="carousel-container"
+        style={{
+          display:'flex',
+          justifyContent:'center',
+          textAlign: "center",
+          alignContent: "center",
+          padding:'2.5rem',
+          fontSize:'2rem',
+          width:'50%'
+        //   paddingLeft: "5rem",
+        //   paddingRight: "5rem",
+        }}
+      >
+        <Carousel style={{ display: "flex", textAlign: "center",justifyContent:'center'}}>
+          <div> 
+            <img src={hacto2020swags} />
+            
+          </div>
+
+          <div>
+            <img src={hacto2020} />
+            
+          </div>
+
+          <div>
+            <img src={hacto2021} />
+            
+          </div>
+        </Carousel>
+      </div>
+      </div>
+     
 
         <div
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <div style={{ fontFamily: "Audiowide", fontSize: "2rem" }}>
+          <div style={{ fontFamily: "Audiowide", fontSize: "2rem",textAlign:'center' }}>
             HACKERRANK BADGES {" "}
           </div>
         </div>
@@ -354,11 +354,16 @@ class Codingz extends Component {
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          Blah blah blah and this and that
+          <span style = {{display:'flex',textAlign:'center',justifyContent:'center'}}>
+          Starting my journey with Competitive programming ,I achieved following badges in Hackerrank
+          </span>
+          </div>
           <br />
-          //IMAGE //IMAGE
-        </div>
-
+          <div className = "container" style = {{display:'flex',justifyContent:'center'}}>
+          <img src = {badges} width='75%'/>
+          </div>
+        
+          <br/><br/>
 
         <div
           className="container"
@@ -368,14 +373,57 @@ class Codingz extends Component {
             COURSES{" "}
           </div>
         </div>
-        <div
+          <span style = {{display:'flex',textAlign:'center',justifyContent:'center'}}>
+          Sucessfully completed these online courses to gain TECH skills
+          </span>
+        
+          <div
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          Blah blah blah and this and that
-          <br />
-          //IMAGE //IMAGE
+          <div
+        className="carousel-container"
+        style={{
+          display:'flex',
+          justifyContent:'center',
+          textAlign: "center",
+          alignContent: "center",
+          padding:'2.5rem',
+          fontSize:'2rem',
+          width:'50%'
+        //   paddingLeft: "5rem",
+        //   paddingRight: "5rem",
+        }}
+      >
+        <Carousel style={{ display: "flex", textAlign: "center",justifyContent:'center'}}>
+          <div> 
+            <img src={courserafrontend} />
+            
+          </div>
+
+          <div>
+            <img src={udemykotlin} />
+            
+          </div>
+
+
+        </Carousel>
+      </div>
+      </div>
+      <div
+          className="container"
+          style={{
+            display: "flex",
+            fontFamily: "Grechen Fuemen",
+            fontSize: "3rem",
+            textAlign: "center",
+            justifyContent: "center",
+          }}
+        >
+         MORE TO GO... <br />  🚀🚀🚀
         </div>
+
+      <br/><br/>
       </div>
 
       
