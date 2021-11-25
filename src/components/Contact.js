@@ -24,8 +24,8 @@ function Contact() {
       >
         <img src={instagram} width="5%" />
 
-        <Button style={{ borderRadius: "1rem" }}>
-          @sabz_qetuowryip_1357924680
+        <Button style={{ borderRadius: "1rem",backgroundColor:"rgb(204, 0, 102)" }}>
+        <span style = {{color:'black',fontWeight:'bolder'}}> @sabz_qetuowryip_1357924680 </span>
         </Button>
         
       </div>
@@ -36,7 +36,7 @@ function Contact() {
       >
         <img src={instagram} width="5%" />
 
-        <Button style={{ borderRadius: "1rem" }}> &nbsp; &nbsp;&nbsp; &nbsp;  @beingcodeworm &nbsp; &nbsp;&nbsp; &nbsp;  </Button>
+        <Button style={{ borderRadius: "1rem" ,backgroundColor:"rgb(204, 0, 102)"}}> &nbsp; &nbsp;&nbsp; &nbsp;  <span style = {{color:'black',fontWeight:'bolder'}}>@beingcodeworm </span>&nbsp; &nbsp;&nbsp; &nbsp;  </Button>
       </div>
       <div
         className="container"
@@ -44,8 +44,9 @@ function Contact() {
       >
         <img src={linkedin} width="5%" />
 
-        <Button style={{ borderRadius: "1rem" }}>
-          @sabariganeshk&nbsp; &nbsp; 
+        <Button style={{ borderRadius: "1rem" ,backgroundColor:"rgb(0, 102, 255)"}}>
+        <span style = {{color:'white',fontWeight:'bolder'}}>
+          @sabariganeshk </span> &nbsp; &nbsp; 
         </Button>
         
       </div>
@@ -56,8 +57,10 @@ function Contact() {
       >
         <img src={medium} width="5%" />
 
-        <Button style={{ borderRadius: "1rem" }}>
+        <Button style={{ borderRadius: "1rem" ,backgroundColor:"black"}}>
+        <span style = {{color:'white',fontWeight:'bolder'}}>
         @k.sabarii.ganesh
+        </span>
         </Button>
         
       </div>
@@ -68,8 +71,10 @@ function Contact() {
       >
         <img src={discord} width="5%" />
 
-        <Button style={{ borderRadius: "1rem" }}>
+        <Button style={{ borderRadius: "1rem" ,backgroundColor:"#a366ff"}}>
+        <span style = {{color:'black',fontWeight:'bolder'}}>
           @SabariGaneshK#1057
+          </span>
         </Button>
         
       </div>
@@ -80,8 +85,8 @@ function Contact() {
       >
         <img src={twitter} width="5%" />
 
-        <Button style={{ borderRadius: "1rem" }}>
-        &nbsp; &nbsp; @SABARISABS1&nbsp; &nbsp; &nbsp; 
+        <Button style={{ borderRadius: "1rem",backgroundColor:"lightblue" }}>
+        &nbsp; &nbsp; <span style = {{color:'black',fontWeight:'bolder'}}>@SABARISABS1</span>&nbsp; &nbsp; &nbsp; 
         </Button>
         
       </div>

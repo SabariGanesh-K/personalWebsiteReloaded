@@ -63,6 +63,7 @@ class Codingz extends Component {
         <div
           className="container"
           style={{
+            position:'relative',
             display: "flex",
             justifyContent: "center",
             textAlign: "center",
@@ -72,7 +73,7 @@ class Codingz extends Component {
             <Col style={{ padding: "0.5rem" }}>
               <Card
                 style={{
-                  width: "7.5rem",
+                  width: "100%",
                   backgroundColor: "black",
                   borderRadius: "8px",
                   textAlign: "center",
@@ -91,7 +92,7 @@ class Codingz extends Component {
             <Col style={{ padding: "0.5rem" }}>
               <Card
                 style={{
-                  width: "7.5rem",
+                  width: "100%",
                   backgroundColor: "green",
                   borderRadius: "8px",
                   textAlign: "center",
@@ -103,7 +104,7 @@ class Codingz extends Component {
                   style={{ width: "50%" }}
                 />
                 <Card.Body>
-                  <Card.Title>COMPETITIVE CODING</Card.Title>
+                  <Card.Title>COMPETITIVE <br/> CODING</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
@@ -112,7 +113,7 @@ class Codingz extends Component {
             <Col style={{ padding: "0.5rem" }}>
               <Card
                 style={{
-                  width: "7.5rem",
+                  width: "100%",
                   backgroundColor: "#bc2a8d",
                   borderRadius: "8px",
                   textAlign: "center",
@@ -215,10 +216,11 @@ class Codingz extends Component {
             <RenderProject
               skill="PERSONAL WEBSITE"
               tag="<This Website/>"
-              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              desc="This is a website which contains every BIT about me and my Cool coding works."
+              desc2 = "Currently it is being hosted with help of github"
               git="cfecec.com"
               view="fewcfecfe.com"
-              uses="uses blah blah and all"
+              uses="USES:- HTML 5 , CSS 3 , JS , ReactJS , Redux , Bootstrap , FontAwesome"
             />
           </div>
           <br />
@@ -226,10 +228,11 @@ class Codingz extends Component {
             <RenderProject
               skill="WIX WEBSITE"
               tag="<Personal website 2/>"
-              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              desc="This is again a personal website but created using Wix.com and its tools"
+              desc2 = ""
               git="cfecec.com"
               view="fewcfecfe.com"
-              uses="Uses blah,blah and all"
+              uses="USES:- Wix.com"
             />
           </div>
           <br />
@@ -237,10 +240,11 @@ class Codingz extends Component {
             <RenderProject
               skill="SECUREZ"
               tag="<Desktop app/>"
-              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              desc="This is a desktop app that implements a automated security call, "
+              desc2 = "message to our contacts while in danger by just  a single click!"
               git="cfecec.com"
               view="fewcfecfe.com"
-              uses="Uses blah,blah and all"
+              uses="Uses Python 3,Twilio,MySQL,Tkinter"
             />
           </div>
           <br />
@@ -248,10 +252,11 @@ class Codingz extends Component {
             <RenderProject
               skill="COVID TRACKER"
               tag="<Guided/>"
-              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              desc="This is a website created with guidance of JSmastery Youtuber. It fetches  "
+              desc2 = " covid statistics froma public API and displays it with a visualization."
               git="cfecec.com"
               view="fewcfecfe.com"
-              uses="Uses blah,blah and all"
+              uses="USES:- HTML 5 , CSS 3, JS , ReactJS , ChartJS,MaterialUI"
             />
           </div>
           <br />
@@ -259,10 +264,11 @@ class Codingz extends Component {
             <RenderProject
               skill="Restaurant Website"
               tag="<Guided/>"
-              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
-              git="cfecec.com"
+              desc="This is a  website done as a part of Coursera course I took. It was  guided by course  "
+              desc2 = "instructor . It represents details about a Retaurant,its menu and management"
+              git=""
               view="fewcfecfe.com"
-              uses="Uses blah,blah and all"
+              uses="USES:- HTML 5 , CSS 3 , Bootstrap , ReactJS , Redux , FontAwesome , "
             />
           </div>
           <br />
@@ -270,10 +276,11 @@ class Codingz extends Component {
             <RenderProject
               skill="PORTFOLIO"
               tag="<ONLY DESKTOP />"
-              desc="This is a website blah blah blah blahcbeijvbvkbedkjvbvnkdjn"
+              desc="This is a failed project which I attempted using HTML , CSS to recreate my own Wix website."
+              desc2 = "It was published but is now deprecated due to its lack of responsiveness with devices :( "
               git="cfecec.com"
               view="fewcfecfe.com"
-              uses="Uses blah,blah and all"
+              uses="USES:- HTML 5 , CSS 3 "
             />
           </div>
         </div>

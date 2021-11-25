@@ -1,6 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 import Button from "@restart/ui/esm/Button";
-function RenderProject({ skill, tag, desc, git, view, uses }) {
+function RenderProject({ skill, tag, desc, git, view, uses,desc2 }) {
     return (
       <div
         className="container"
@@ -14,13 +14,17 @@ function RenderProject({ skill, tag, desc, git, view, uses }) {
   
           <Col style={{ fontSize: "1rem", textAlign: "center" }}>
             <span>{desc}</span>
+            <br/>
+            <span>{desc2}</span>
           </Col>
+          <br/>
           <Col>
             <span>{uses}</span>
           </Col>
   
           <Col>
             <Button
+           
               style={{
                 fontSize: "2rem",
                 background: "rgba(0,0,0,0)",
@@ -29,15 +33,18 @@ function RenderProject({ skill, tag, desc, git, view, uses }) {
             >
               VIEW
             </Button>
+
             <Button
-              style={{
-                fontSize: "2rem",
-                background: "rgba(0,0,0,0)",
-                color: "black",
-              }}
-            >
-              GITHUB
-            </Button>
+           
+           style={{
+             fontSize: "2rem",
+             background: "rgba(0,0,0,0)",
+             color: "black",
+           }}
+         >
+           GITHUB
+         </Button>
+
           </Col>
         </Row>
       </div>
