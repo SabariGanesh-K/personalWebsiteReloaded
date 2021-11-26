@@ -81,9 +81,12 @@ class Codingz extends Component {
               >
                 <Card.Img variant="top" src={github} style={{ width: "50%" }} />
                 <Card.Body>
+                <span style = {{color:'white',fontWeight:'bolder'}}>
                   <Card.Title>
+                 
                     OPEN <br /> SOURCE
                   </Card.Title>
+                  </span>
                 </Card.Body>
               </Card>
             </Col>
@@ -104,7 +107,9 @@ class Codingz extends Component {
                   style={{ width: "50%" }}
                 />
                 <Card.Body>
+                  <span style = {{color:'white',fontWeight:'bolder'}}>
                   <Card.Title>COMPETITIVE <br/> CODING</Card.Title>
+                  </span>
                 </Card.Body>
               </Card>
             </Col>
@@ -125,10 +130,12 @@ class Codingz extends Component {
                   style={{ width: "50%" }}
                 />
                 <Card.Body>
+                <span style = {{color:'white',fontWeight:'bolder'}}>
                   <Card.Title>
                     INSTA <br />
                     creations
                   </Card.Title>
+                  </span>
                 </Card.Body>
               </Card>
             </Col>

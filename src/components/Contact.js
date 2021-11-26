@@ -5,6 +5,7 @@ import discord from "../shared/contact/discord.png"
 import medium from "../shared/contact/medium.png"
 import linkedin from "../shared/contact/linkedin.png"
 import twitter from "../shared/contact/twitter.jpg"
+
 function Contact() {
   return (
     <div>
@@ -97,8 +98,12 @@ function Contact() {
       >
         SEE YA ALL ..... :)
       </div>
+      <div style = {{display:'flex',justifyContent:'center'}}>GOT FEEDBACKS ? WORRY NOT !! FEEL FREE TO SEND IT..</div>
       <br/><br/>
-
+      <div style = {{display:'flex',justifyContent:'center'}}>
+      
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScHjF_EzA1engfQ5MWiFrK-0UKRXejR2kFdqXAIbv7WqR0KDA/viewform?embedded=true" width="100%" height="1000rem" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
     </div>
   );
 }

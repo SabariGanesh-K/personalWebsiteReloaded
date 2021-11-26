@@ -5,6 +5,9 @@ import demo from "../shared/home/carouselBG.jpg";
 import dp from "../shared/home/dp.png";
 import homeintro from "../shared/home/homeintro.png";
 import dpintro from "../shared/home/dpintro.png";
+import carousel1 from "../shared/home/carousel1.png"
+import carousel2 from "../shared/home/carousel2.png"
+import carousel3 from "../shared/home/carousel3.png"
 function Home() {
   return (
     <div className="home">
@@ -28,18 +31,18 @@ function Home() {
       >
         <Carousel style={{ display: "flex", textAlign: "center" }}>
           <div>
-            <img src={demo} />
-            <p className="legend"> First slide</p>
+            <img src={carousel1} />
+           
           </div>
 
           <div>
-            <img src={demo} />
-            <p className="legend"> First slide</p>
+            <img src={carousel2} />
+            
           </div>
 
           <div>
-            <img src={demo} />
-            <p className="legend"> First slide</p>
+            <img src={carousel3} />
+            
           </div>
         </Carousel>
       </div>
@@ -49,8 +52,8 @@ function Home() {
         className="glass"
         height="45%"
         width="100%"
+        
       
-        // style={{ paddingLeft: "12rem" }}
       >
         <Container>
           <Row auto>
