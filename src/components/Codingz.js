@@ -228,6 +228,7 @@ class Codingz extends Component {
               git="cfecec.com"
               view="fewcfecfe.com"
               uses="USES:- HTML 5 , CSS 3 , JS , ReactJS , Redux , Bootstrap , FontAwesome"
+           
             />
           </div>
           <br />
@@ -240,6 +241,7 @@ class Codingz extends Component {
               git="cfecec.com"
               view="fewcfecfe.com"
               uses="USES:- Wix.com"
+     
             />
           </div>
           <br />
@@ -252,6 +254,7 @@ class Codingz extends Component {
               git="cfecec.com"
               view="fewcfecfe.com"
               uses="Uses Python 3,Twilio,MySQL,Tkinter"
+       
             />
           </div>
           <br />
@@ -264,6 +267,7 @@ class Codingz extends Component {
               git="cfecec.com"
               view="fewcfecfe.com"
               uses="USES:- HTML 5 , CSS 3, JS , ReactJS , ChartJS,MaterialUI"
+         
             />
           </div>
           <br />
@@ -276,6 +280,7 @@ class Codingz extends Component {
               git=""
               view="fewcfecfe.com"
               uses="USES:- HTML 5 , CSS 3 , Bootstrap , ReactJS , Redux , FontAwesome , "
+              
             />
           </div>
           <br />
@@ -288,6 +293,7 @@ class Codingz extends Component {
               git="cfecec.com"
               view="fewcfecfe.com"
               uses="USES:- HTML 5 , CSS 3 "
+           
             />
           </div>
         </div>

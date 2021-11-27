@@ -4,11 +4,11 @@ function RenderProject({ skill, tag, desc, git, view, uses,desc2 }) {
     return (
       <div
         className="container"
-        style={{ background: "orange", padding: "2rem", borderRadius: "1rem" }}
+        style={{ backgroundImage: "linear-gradient(#FFDA4B,#FE8F9A,#FD2B38)" , padding: "2rem", borderRadius: "1rem" }}
       >
         <Row>
           <Col>
-            <span style={{ fontSize: "2rem" }}>{skill}</span>
+            <span style={{ fontSize: "2rem" ,backgroundColor:'white'}}>{skill}</span>
             <span style={{ fontSize: "1rem" }}> {tag}</span>
           </Col>
   

@@ -2,10 +2,13 @@ import vit from "../shared/about/vit.jpg";
 import nsn from "../shared/about/nsn.jpg";
 import leader from "../shared/about/leader.jpg";
 import karate from "../shared/about/karate.jpg";
+import aboutdp from "../shared/about/aboutdp.jpg";
 function About() {
   return (
     <div>
-      <div className="container">To Brief , blah blah blah about me</div>
+      <div>
+        <div>{/* <img src = {aboutdp}width= "50%" /> */}</div>
+      </div>
       <br />
       <div>
         <div
@@ -17,83 +20,40 @@ function About() {
         >
           EDUCATION
         </div>
-        <br />
-        <br />
-        <div style={{ fontFamily: "Comfortaa" }}>
-          I am currently pursuing my UG @{" "}
+        <br/>
+        <div className = "container">
+          I PURSUING MY UG  @
         </div>
-        <div
-          style={{
-            position: "relative",
-            textAlign: "center",
-            color: "white",
-          }}
-        >
-          <img src={vit} style={{ width: "30rem" }} />
-
-          <div
-            style={{
-              background:
-                "linear-gradient(135deg,rgba(255,255,255,0.7),rgba(255,255,255,0.1))",
-              backdropFilter: "blur(10px)",
-              WebkitBackdropFilter: "blur(10px)",
-              borderRadius: "20px",
-              border: "1px solid rgba(255,255,255,0.18)",
-              
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              borderRadius: "0px",
-              fontFamily: "cursive",
-              fontSize: "1rem",
-              color: "black",
-              fontWeight: "bolder",
-            }}
-          >
-            VIT Chennai <br />
-            (2021-2025)
-            <br />
-            Btech in Computer Science and Engineering <br />
-            with specialisation in Cyber Physical Systems
+        <br/>
+        <div styl = {{display:'flex',justifyContent:'center'}}>
+          <div  style = {{display:'flex',justifyContent:'left'}}>
+            <img src = {vit} width='50%'/>
+            <div  className = "glass" style = {{display:'flex',justifyContent:'center',textAlign:'center'}}>
+            VIT CHENNAI : BTECH (2021-2025) <br/>Computer Science and Engineering with specialization in Cyber Physical Systems
+            </div>
+          </div>
+          <div style = {{display:'flex',justifyContent:'left'}}>
+           
           </div>
         </div>
-        <br />
-        <br />
-        <div style={{ fontFamily: "Comfortaa" }}>
-          I completed my School life @{" "}
+<br/><br/>
+        <div className = "container">
+          I COMPLETED MY SCHOOL LIFE @
         </div>
+        <br/>
+        <div styl = {{display:'flex',justifyContent:'center'}}>
+          <div  style = {{display:'flex',justifyContent:'left'}}>
+          <div  className = "glass" style = {{display:'flex',justifyContent:'center',textAlign:'center'}}>
+           NSN MEMORIAL SENIOR SECONDARY SCHOOL (2006=2021) <br/>Computer Science and Engineering with specialization in Cyber Physical Systems
+            </div>
+            <img src = {nsn} width='50%'/>
 
-        <div
-          style={{
-            position: "relative",
-            textAlign: "center",
-            color: "black",
-          }}
-        >
-          <img src={nsn} style={{ width: "30rem" }} />
-
-          <div
-            
-            style = {{background:"linear-gradient(135deg,rgba(255,255,255,0.7),rgba(255,255,255,0.1))",
-            backdropFilter:'blur(10px)',
-            WebkitBackdropFilter:'blur(10px)',
-            borderRadius:'20px',border:'1px solid rgba(255,255,255,0.18)',position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            borderRadius: "0px",
-            fontFamily: "cursive",
-            fontSize: "1rem",
-          color:'black',
-        fontWeight:'bolder'}}
-          >
-            NSN MEMORIAL SENIOR SECONDARY SCHOOL <br />
-            (2006-2021)
-            <br />
-            Grade 10 , Grade 12 : C.B.S.E
+          </div>
+          <div style = {{display:'flex',justifyContent:'left'}}>
+           
           </div>
         </div>
+  
       </div>
       <br />
       <br />
@@ -106,7 +66,7 @@ function About() {
           <img
             src={leader}
             style={{
-              width: "30rem",
+              width: "20rem",
               filter: "blur(1px)",
               WebkitFilter: "blur(1px)",
             }}
@@ -142,7 +102,7 @@ function About() {
           <img
             src={karate}
             style={{
-              width: "30rem",
+              width: "20rem",
               filter: "blur(1px)",
               WebkitFilter: "blur(1px)",
             }}
