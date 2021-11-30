@@ -1,13 +1,13 @@
 import { Carousel } from "react-responsive-carousel";
 import { Row, Col, Container } from "reactstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css";  
-
-import dp from "../shared/home/dp.png";
-import homeintro from "../shared/home/homeintro.png";
-import dpintro from "../shared/home/dpintro.png";
-import carousel1 from "../shared/home/carousel1.png";
-import carousel2 from "../shared/home/carousel2.png";
-import carousel3 from "../shared/home/carousel3.png";
+import './home.css'
+import dp from "./Media/dp.png";
+import homeintro from "./Media/homeintro.png";
+import dpintro from "./Media/dpintro.png";
+import carousel1 from "./Media/carousel1.jpg";
+import carousel2 from "./Media/carousel2.jpg";
+import carousel3 from "./Media/carousel3.jpg";
 
  import ScrollAnimation from 'react-animate-on-scroll';
  import React, { PureComponent } from "react";

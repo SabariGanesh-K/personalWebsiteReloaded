@@ -1,23 +1,23 @@
 import React, { PureComponent } from "react";
-import python from "../shared/codingz/python.png";
-import js from "../shared/codingz/js.jpg";
-import react from "../shared/codingz/react.jpg";
-import git from "../shared/codingz/git.png";
-import html from "../shared/codingz/html.png";
-import css from "../shared/codingz/css.png";
-import github from "../shared/codingz/github.jpg";
-import instagram from "../shared/codingz/instagram.png";
-import hackerrank from "../shared/codingz/hackerrank.jpg";
-import hacto2020 from "../shared/codingz/hacto2020.jpg"
-import hacto2021 from "../shared/codingz/hacto2021.jpg"
-import hacto2020swags from "../shared/codingz/hacto2020swags.png"
-import courserafrontend from "../shared/codingz/courserafrontend.jpg"
-import udemykotlin from "../shared/codingz/udemykotlin.jpg"
-import badges from "../shared/codingz/badges.jpg"
+import python from "./Media/python.jpg";
+import js from "./Media/js.jpg";
+import react from "./Media/react.jpg";
+import git from "./Media/git.jpg";
+import html from "./Media/html.jpg";
+import css from "./Media/css.jpg";
+import github from "./Media/github.jpg";
+import instagram from "./Media/instagram.jpg";
+import hackerrank from "./Media/hackerrank.jpg";
+import hacto2020 from "./Media/hacto2020.jpg"
+import hacto2021 from "./Media/hacto2021.jpg"
+import hacto2020swags from "./Media/hacto2020swags.jpg"
+import courserafrontend from "./Media/courserafrontend.jpg"
+import udemykotlin from "./Media/udemykotlin.jpg"
+import badges from "./Media/badges.jpg"
 import { Card, Row, Col } from "react-bootstrap";
 import RenderProject from "./Projects";
 import { Carousel } from "react-responsive-carousel";
-
+import './codingz.css'
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import "animate.css/animate.min.css";

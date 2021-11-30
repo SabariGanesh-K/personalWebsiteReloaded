@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Nav,Collapse, Navbar, NavbarToggler, NavItem, Button } from "reactstrap";
 import {NavLink} from 'react-router-dom';
 import { Card, Row, Col } from "react-bootstrap";
+import './header.css'
 class Header extends Component {
   constructor(props) {
     super(props);

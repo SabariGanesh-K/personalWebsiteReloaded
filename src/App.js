@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Main from './components/MainComponent';
+import Main from './components/MainComponent/MainComponent';
 import {BrowserRouter} from 'react-router-dom'
 function App() {
   

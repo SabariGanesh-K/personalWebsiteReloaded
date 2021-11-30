@@ -1,14 +1,14 @@
 import React,{ PureComponent }  from "react";
 import { Button } from "reactstrap";
-import instagram from "../shared/codingz/instagram.png";
-import dp from "../shared/contact/dp2.jpg";
-import discord from "../shared/contact/discord.png";
-import medium from "../shared/contact/medium.png";
-import linkedin from "../shared/contact/linkedin.png";
-import twitter from "../shared/contact/twitter.jpg";
+import instagram from "./Media/instagram.jpg";
+import dp from "./Media/dp2.jpg";
+import discord from "./Media/discord.jpg";
+import medium from "./Media/medium.jpg";
+import linkedin from "./Media/linkedin.jpg";
+import twitter from "./Media/twitter.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
-
+import './contact.css'
 class Contact extends PureComponent {
   constructor(props) {
     super(props);
