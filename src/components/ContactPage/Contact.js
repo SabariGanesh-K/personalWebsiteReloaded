@@ -1,4 +1,4 @@
-import React,{ PureComponent }  from "react";
+import React,{ Component }  from "react";
 import { Button } from "reactstrap";
 import instagram from "./Media/instagram.jpg";
 import dp from "./Media/dp2.jpg";
@@ -9,7 +9,7 @@ import twitter from "./Media/twitter.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import './contact.css'
-class Contact extends PureComponent {
+class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {
