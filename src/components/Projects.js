@@ -3,22 +3,22 @@ import Button from "@restart/ui/esm/Button";
 function RenderProject({ skill, tag, desc, git, view, uses,desc2 }) {
     return (
       <div
-        className="container"
-        style={{ backgroundImage: "linear-gradient(#FFDA4B,#FE8F9A,#FD2B38)" , padding: "2rem", borderRadius: "1rem" }}
+        className="projectBGM"
+        
       >
         <Row>
           <Col>
-            <span style={{ fontSize: "2rem" ,backgroundColor:'white'}}>{skill}</span>
-            <span style={{ fontSize: "1rem" }}> {tag}</span>
+            <span style={{ fontSize: "2rem" ,color:'#360167',backgroundColor:'#FB8CAB'}}>{skill}</span>
+            <span style={{ fontSize: "1rem" ,color:'chocolate'}}> {tag}</span>
           </Col>
   
-          <Col style={{ fontSize: "1rem", textAlign: "center" }}>
-            <span>{desc}</span>
+          <Col style={{ fontSize: "1rem", textAlign: "center",color:'white'}}>
+            <span >{desc}</span>
             <br/>
             <span>{desc2}</span>
           </Col>
           <br/>
-          <Col>
+          <Col style={{ fontSize: "1rem", textAlign: "center",color:'white' }}>
             <span>{uses}</span>
           </Col>
   
@@ -27,22 +27,22 @@ function RenderProject({ skill, tag, desc, git, view, uses,desc2 }) {
            
               style={{
                 fontSize: "2rem",
-                background: "rgba(0,0,0,0)",
-                color: "#d42404",
+                background: "white",
+                color: "black",
               }}
             >
-              VIEW
+              VIEW &gt;
             </Button>
 
             <Button
            
            style={{
              fontSize: "2rem",
-             background: "rgba(0,0,0,0)",
-             color: "black",
+             background: "black",
+             color: "white",
            }}
          >
-           GITHUB
+           GITHUB &gt;
          </Button>
 
           </Col>

@@ -1,38 +1,32 @@
-import React, { Component } from "react";
-// import {
-//   Row,
-//   Col,
-//   CardBody,
-//   CardTitle,
-//   CardImg,
-//   CardText,
-//   Button,
-// } from "reactstrap";
-import demo from "../shared/home/carouselBG.jpg";
+import React, { PureComponent } from "react";
 import python from "../shared/codingz/python.png";
-import js from "../shared/codingz/js.png";
-import react from "../shared/codingz/react.png";
+import js from "../shared/codingz/js.jpg";
+import react from "../shared/codingz/react.jpg";
 import git from "../shared/codingz/git.png";
 import html from "../shared/codingz/html.png";
 import css from "../shared/codingz/css.png";
-import github from "../shared/codingz/github.png";
+import github from "../shared/codingz/github.jpg";
 import instagram from "../shared/codingz/instagram.png";
-import hackerrank from "../shared/codingz/hackerrank.png";
+import hackerrank from "../shared/codingz/hackerrank.jpg";
 import hacto2020 from "../shared/codingz/hacto2020.jpg"
 import hacto2021 from "../shared/codingz/hacto2021.jpg"
 import hacto2020swags from "../shared/codingz/hacto2020swags.png"
 import courserafrontend from "../shared/codingz/courserafrontend.jpg"
 import udemykotlin from "../shared/codingz/udemykotlin.jpg"
-import badges from "../shared/codingz/badges.png"
+import badges from "../shared/codingz/badges.jpg"
 import { Card, Row, Col } from "react-bootstrap";
 import RenderProject from "./Projects";
 import { Carousel } from "react-responsive-carousel";
 
+import ScrollAnimation from 'react-animate-on-scroll';
 
-class Codingz extends Component {
+import "animate.css/animate.min.css";
+class Codingz extends PureComponent {
   render() {
     return (
-      <div>
+   
+      <div className = "codingz">
+        <ScrollAnimation animateIn="animate__slideInDown" animateOnce = {true}>
         <div
           className="container"
           style={{
@@ -45,21 +39,26 @@ class Codingz extends Component {
         >
           In ❤️ with CODING , <br /> exploring WEB 3.0 🚀🚀🚀
         </div>
+         </ScrollAnimation> 
         <br />
         <br />
+         <ScrollAnimation animateIn="animate__fadeInLeftBig" animateOnce = {true}> 
         <div
-          className="container"
+          className="glass"
           style={{
             fontFamily: "Roboto Slab",
             color: "black",
             fontWeight: "bolder",
             fontSize: "2rem",
-            textAlign: "center",
+            textAlign: "left",
+            
           }}
         >
           Here is A GLIMPSE.....
         </div>
+       </ScrollAnimation> 
         <br /> <br />
+         <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce = {true}> 
         <div
           className="container"
           style={{
@@ -129,6 +128,7 @@ class Codingz extends Component {
                   src={instagram}
                   style={{ width: "50%" }}
                 />
+
                 <Card.Body>
                 <span style = {{color:'white',fontWeight:'bolder'}}>
                   <Card.Title>
@@ -141,8 +141,11 @@ class Codingz extends Component {
             </Col>
           </Row>
         </div>
+       </ScrollAnimation> 
         <br /> <br />
+         <ScrollAnimation animateIn="animate__backInLeft" animateOnce = {true}> 
         <div
+        className='glass'
           style={{
             fontFamily: "Roboto Slab",
             color: "black",
@@ -152,8 +155,10 @@ class Codingz extends Component {
         >
           MY SKILLS INCLUDE
         </div>
+       </ScrollAnimation> 
         <br />
         <br />
+         <ScrollAnimation animateIn="animate__flipInX" animateOnce = {true}> 
         <div className="container">
           <Row style={{ textAlign: "left" }}>
             <Col>
@@ -178,6 +183,7 @@ class Codingz extends Component {
             </Col>
           </Row>
         </div>
+    
         <br />
         <div className="container">
           <Row style={{ textAlign: "right" }}>
@@ -203,22 +209,27 @@ class Codingz extends Component {
             </Col>
           </Row>
         </div>
+       </ScrollAnimation> 
         <br />
         <br />
+         <ScrollAnimation animateIn="animate__flipInX" animateOnce = {true}> 
         <div
-          className="container"
+          className="glass"
           style={{
             fontFamily: "Roboto Slab",
             color: "black",
             fontWeight: "bolder",
             fontSize: "2rem",
-            textAlign: "center",
+            textAlign: "left",
           }}
         >
           MY WORKS{" "}
         </div>
+     </ScrollAnimation> 
         <br />
+        
         <div>
+         <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce = {true}> 
           <div style={{ display: "flex", justifyContent: "right" }}>
             <RenderProject
               skill="PERSONAL WEBSITE"
@@ -231,7 +242,9 @@ class Codingz extends Component {
            
             />
           </div>
+           </ScrollAnimation > 
           <br />
+           <ScrollAnimation animateIn="animate__fadeInLeftBig" animateOnce = {true}> 
           <div style={{ display: "flex", justifyContent: "left" }}>
             <RenderProject
               skill="WIX WEBSITE"
@@ -241,10 +254,13 @@ class Codingz extends Component {
               git="cfecec.com"
               view="fewcfecfe.com"
               uses="USES:- Wix.com"
-     
+ 
             />
+           
           </div>
+           </ScrollAnimation> 
           <br />
+           <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce = {true}> 
           <div style={{ display: "flex", justifyContent: "right" }}>
             <RenderProject
               skill="SECUREZ"
@@ -257,7 +273,9 @@ class Codingz extends Component {
        
             />
           </div>
+           </ScrollAnimation> 
           <br />
+           <ScrollAnimation animateIn="animate__fadeInLeftBig" animateOnce = {true}> 
           <div style={{ display: "flex", justifyContent: "left" }}>
             <RenderProject
               skill="COVID TRACKER"
@@ -270,7 +288,9 @@ class Codingz extends Component {
          
             />
           </div>
+           </ScrollAnimation>/ 
           <br />
+           <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce = {true}> 
           <div style={{ display: "flex", justifyContent: "right" }}>
             <RenderProject
               skill="Restaurant Website"
@@ -283,7 +303,9 @@ class Codingz extends Component {
               
             />
           </div>
+           </ScrollAnimation> 
           <br />
+           <ScrollAnimation animateIn="animate__fadeInLeftBig" animateOnce = {true}> 
           <div style={{ display: "flex", justifyContent: "left" }}>
             <RenderProject
               skill="PORTFOLIO"
@@ -296,10 +318,12 @@ class Codingz extends Component {
            
             />
           </div>
+           </ScrollAnimation> 
         </div>
         <br/><br/><br/>
+         <ScrollAnimation animateIn="animate__flipInX" animateOnce = {true}> 
         <div
-          className="container"
+          className="glass"
           style={{
             fontFamily: "Roboto Slab",
             color: "black",
@@ -310,19 +334,25 @@ class Codingz extends Component {
         >
           Honours and achievements
         </div>
+       </ScrollAnimation> 
         <br/>
+         <ScrollAnimation animateIn="animate__flipInX" animateOnce = {true}> 
         <div
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <div style={{ fontFamily: "Audiowide", fontSize: "2rem" }}>
+          <div style={{ fontFamily: "Audiowide", fontSize: "2rem" ,color:'black'}}>
             HACTOBERFEST{" "}
           </div>
         </div>
-  
-          <span style = {{display:'flex',textAlign:'center',justifyContent:'center'}}>
+        <div
+          className="container"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <span style = {{display:'flex',textAlign:'center',justifyContent:'center',fontWeight:'bolder'}}>
          I successfully completed the Hactoberfest challenge consecutively for  2years 2020 and 2021 
          </span>
+         </div>
          
           <div
           className="container"
@@ -337,9 +367,9 @@ class Codingz extends Component {
           alignContent: "center",
           padding:'2.5rem',
           fontSize:'2rem',
-          width:'50%'
-        //   paddingLeft: "5rem",
-        //   paddingRight: "5rem",
+          width:'50%',
+           paddingLeft: "5rem",
+           paddingRight: "5rem",
         }}
       >
         <Carousel style={{ display: "flex", textAlign: "center",justifyContent:'center'}}>
@@ -361,12 +391,13 @@ class Codingz extends Component {
       </div>
       </div>
      
-
+       </ScrollAnimation> 
+       <ScrollAnimation animateIn="animate__lightSpeedInLeft" animateOnce = {true}> 
         <div
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <div style={{ fontFamily: "Audiowide", fontSize: "2rem",textAlign:'center' }}>
+          <div style={{ fontFamily: "Audiowide", fontSize: "2rem",textAlign:'center' ,color:'black'}}>
             HACKERRANK BADGES {" "}
           </div>
         </div>
@@ -374,7 +405,7 @@ class Codingz extends Component {
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <span style = {{display:'flex',textAlign:'center',justifyContent:'center'}}>
+          <span style = {{display:'flex',textAlign:'center',justifyContent:'center',fontWeight:'bolder'}}>
           Starting my journey with Competitive programming ,I achieved following badges in Hackerrank
           </span>
           </div>
@@ -384,19 +415,24 @@ class Codingz extends Component {
           </div>
         
           <br/><br/>
-
+           </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__lightSpeedInRight" animateOnce = {true}> 
         <div
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <div style={{ fontFamily: "Audiowide", fontSize: "2rem" }}>
+          <div style={{ fontFamily: "Audiowide", fontSize: "2rem" ,color:'black'}}>
             COURSES{" "}
           </div>
         </div>
-          <span style = {{display:'flex',textAlign:'center',justifyContent:'center'}}>
+        <div
+          className="container"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+        <span style = {{display:'flex',textAlign:'center',justifyContent:'center',fontWeight:'bolder'}}>
           Sucessfully completed these online courses to gain TECH skills
           </span>
-        
+          </div>
           <div
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
@@ -410,9 +446,9 @@ class Codingz extends Component {
           alignContent: "center",
           padding:'2.5rem',
           fontSize:'2rem',
-          width:'50%'
-        //   paddingLeft: "5rem",
-        //   paddingRight: "5rem",
+          width:'50%',
+           paddingLeft: "5rem",
+           paddingRight: "5rem",
         }}
       >
         <Carousel style={{ display: "flex", textAlign: "center",justifyContent:'center'}}>
@@ -430,6 +466,8 @@ class Codingz extends Component {
         </Carousel>
       </div>
       </div>
+      </ScrollAnimation>
+     <ScrollAnimation animateIn="animate__rotateIn" animateOnce = {true}> 
       <div
           className="container"
           style={{
@@ -442,9 +480,10 @@ class Codingz extends Component {
         >
          MORE TO GO... <br />  🚀🚀🚀
         </div>
-
+         </ScrollAnimation> 
       <br/><br/>
       </div>
+    
 
       
     );

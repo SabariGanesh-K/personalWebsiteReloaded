@@ -15,10 +15,6 @@ function Footer(){
       
           </div>
 
-            
-
-         
-
         </div>
         </Row>
         
