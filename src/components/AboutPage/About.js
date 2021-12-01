@@ -62,9 +62,10 @@ class About extends PureComponent {
                 fontFamily: "monospace",
                 fontSize: "2.5rem",
                 textAlign: "center",
+                background:'pink'
               }}
             >
-              EDUCATION
+              #EDUCATION
             </div>
             <br />
             <div

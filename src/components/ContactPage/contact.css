@@ -1,8 +1,9 @@
 .contact {
-  background:url('../ContactPage/Media/dwed.jpg');
+  background:url('../ContactPage/Media/contactpgbg.jpeg');
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
+  /* background:black; */
 }
 
 /* FEEDBACK button */
@@ -10,7 +11,7 @@
  display: flex;
  align-items: center;
  justify-content: center;
- height: 100vh;
+ 
 }
 .bttn {
  width: 170px;
