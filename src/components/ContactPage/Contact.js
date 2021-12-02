@@ -69,33 +69,41 @@ class Contact extends Component {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="animate__flip" animateOnce={true}> 
+      
         <div
           className="container"
           style={{ display: "flex", justifyContent: "left", padding: "1rem" }}
         >
+          
           <img src={instagram} width="5%" style = {{borderRadius:'2rem'}} />
 
-          <Button
+          <Button 
+         
             style={{
               borderRadius: "1rem",
               backgroundColor: "rgb(204, 0, 102)",
+             
             }}
           >
-            <span style={{ color: "black", fontWeight: "bolder" }}>
+            <span >
+              <a  href = "https://www.instagram.com/sabz_qetuowryip_1357924680/" target = "_blank" style = {{textDecoration:'none',color: "black", fontWeight: "bolder"}}>
               @sabz_qetuowryip_1357924680
+              </a>
             </span>
           </Button>
-        </div>
+   </div>
+    
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="animate__flip" animateOnce={true}> 
+      
         <div
           className="container"
           style={{ display: "flex", justifyContent: "left", padding: "1rem" }}
         >
           <img src={instagram} width="5%" style = {{borderRadius:'2rem'}} />
 
-          <Button
+          <Button 
             style={{
               borderRadius: "1rem",
               backgroundColor: "rgb(204, 0, 102)",
@@ -103,15 +111,19 @@ class Contact extends Component {
           >
             {" "}
             &nbsp; &nbsp;&nbsp; &nbsp;{" "}
-            <span style={{ color: "black", fontWeight: "bolder" }}>
+            <span >
+            <a  href = "https://www.instagram.com/beingcodeworm/" target = "_blank" style = {{textDecoration:'none',color: "black", fontWeight: "bolder"}}>
               @beingcodeworm{" "}
+              </a>
             </span>
             &nbsp; &nbsp;&nbsp; &nbsp;{" "}
           </Button>
         </div>
+      
          </ScrollAnimation>
 
         <ScrollAnimation animateIn="animate__flip" animateOnce={true}> 
+        
         <div
           className="container"
           style={{
@@ -128,15 +140,21 @@ class Contact extends Component {
               backgroundColor: "rgb(0, 102, 255)",
             }}
           >
-            <span style={{ color: "white", fontWeight: "bolder" }}>
+
+            <span >
+            <a  href = "https://www.linkedin.com/in/sabariganeshk/" target = "_blank" style = {{textDecoration:'none',color: "black", fontWeight: "bolder"}}>
               @sabariganeshk{" "}
+              </a>
             </span>{" "}
+          
             &nbsp; &nbsp;
           </Button>
         </div>
+      
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="animate__flip" animateOnce={true}> 
+       
         <div
           className="container"
           style={{
@@ -147,15 +165,24 @@ class Contact extends Component {
         >
           <img src={medium} width="5%" style = {{borderRadius:'2rem'}}/>
 
-          <Button style={{ borderRadius: "1rem", backgroundColor: "black" }}>
-            <span style={{ color: "white", fontWeight: "bolder" }}>
+          <Button
+            style={{
+              borderRadius: "1rem",
+              backgroundColor: "white",
+            }}
+          >
+            <span>
+            <a  href = "https://medium.com/@k.sabarii.ganesh/" target = "_blank" style = {{textDecoration:'none',color: "black", fontWeight: "bolder"}}>
               @k.sabarii.ganesh
+              </a>
             </span>
           </Button>
         </div>
+    
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="animate__flip" animateOnce={true}> 
+       
         <div
           className="container"
           style={{ display: "flex", justifyContent: "left", padding: "1rem" }}
@@ -168,25 +195,31 @@ class Contact extends Component {
             </span>
           </Button>
         </div>
+        
        </ScrollAnimation>
 
         <ScrollAnimation animateIn="animate__flip" animateOnce={true}> 
+        
         <div
           className="container"
           style={{ display: "flex", justifyContent: "left", padding: "1rem" }}
         >
           <img src={twitter} width="5%" style = {{borderRadius:'2rem'}} />
 
-          <Button
+          <Button 
             style={{ borderRadius: "1rem", backgroundColor: "lightblue" }}
           >
             &nbsp; &nbsp;{" "}
-            <span style={{ color: "black", fontWeight: "bolder" }}>
+             <span >
+             <a  href = "https://twitter.com/SABARISABS1" target = "_blank" style = {{textDecoration:'none',color: "black", fontWeight: "bolder"}}>
               @SABARISABS1
+           </a>
             </span>
+            
             &nbsp; &nbsp; &nbsp;
           </Button>
         </div>
+       
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="animate__flip" animateOnce={true}> 

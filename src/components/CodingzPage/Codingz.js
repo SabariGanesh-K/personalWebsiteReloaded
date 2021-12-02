@@ -67,7 +67,9 @@ textAlign: "center",
 >
 <Row>
 <Col style={{ padding: "0.5rem" }}>
+    <a href = "https://github.com/SabariGanesh-K" target = "_blank">
 <Card
+
 style={{
 width: "100%",
 backgroundColor: "black",
@@ -83,21 +85,25 @@ style={{ width: "50%" }}
 <Card.Body>
 <span style={{ color: "white", fontWeight: "bolder" }}>
 <Card.Title>
-OPEN <br /> SOURCE
+OPEN <br /> SOURCE 🔥
 </Card.Title>
 </span>
 </Card.Body>
 </Card>
+</a>
 </Col>
 </Row>
 <Row>
 <Col style={{ padding: "0.5rem" }}>
+    <a href = "https://www.hackerrank.com/K_Sabari_Ganesh" target = "_blank">
 <Card
+
 style={{
 width: "100%",
 backgroundColor: "green",
 borderRadius: "8px",
 textAlign: "center",
+
 }}
 >
 <Card.Img
@@ -108,21 +114,25 @@ style={{ width: "50%" }}
 <Card.Body>
 <span style={{ color: "white", fontWeight: "bolder" }}>
 <Card.Title>
-COMPETITIVE <br /> CODING
+COMPETITIVE <br /> CODING 🚀
 </Card.Title>
 </span>
 </Card.Body>
 </Card>
+</a>
 </Col>
 </Row>
 <Row>
 <Col style={{ padding: "0.5rem" }}>
-<Card
+    <a href = "https://www.instagram.com/beingcodeworm/" target = "_blank">
+<Card 
+
 style={{
 width: "100%",
 backgroundColor: "#bc2a8d",
 borderRadius: "8px",
 textAlign: "center",
+textDecoration:'none'
 }}
 >
 <Card.Img
@@ -135,11 +145,12 @@ style={{ width: "50%" }}
 <span style={{ color: "white", fontWeight: "bolder" }}>
 <Card.Title>
 INSTA <br />
-creations
+creations 🤩
 </Card.Title>
 </span>
 </Card.Body>
 </Card>
+</a>
 </Col>
 </Row>
 </div>
@@ -240,8 +251,8 @@ skill="PERSONAL WEBSITE"
 tag="<This Website/>"
 desc="This is a website which contains every BIT about me and my Cool coding works."
 desc2="Currently it is being hosted with help of github"
-git="cfecec.com"
-view="fewcfecfe.com"
+git="nil"
+view="nil"
 uses="USES:- HTML 5 , CSS 3 , JS , ReactJS , Redux , Bootstrap , FontAwesome"
 />
 </div>
@@ -257,8 +268,8 @@ skill="WIX WEBSITE"
 tag="<Personal website 2/>"
 desc="This is again a personal website but created using Wix.com and its tools"
 desc2=""
-git="cfecec.com"
-view="fewcfecfe.com"
+git="nil"
+view="https://tinyurl.com/sabariganesh"
 uses="USES:- Wix.com"
 />
 </div>
@@ -274,8 +285,8 @@ skill="SECUREZ"
 tag="<Desktop app/>"
 desc="This is a desktop app that implements a automated security call, "
 desc2="message to our contacts while in danger by justa single click!"
-git="cfecec.com"
-view="fewcfecfe.com"
+git="nil"
+view="nil"
 uses="Uses Python 3,Twilio,MySQL,Tkinter"
 />
 </div>
@@ -291,8 +302,8 @@ skill="COVID TRACKER"
 tag="<Guided/>"
 desc="This is a website created with guidance of JSmastery Youtuber. It fetches"
 desc2=" covid statistics froma public API and displays it with a visualization."
-git="cfecec.com"
-view="fewcfecfe.com"
+git="https://github.com/SabariGanesh-K/covid-tracker_by-k-sabari"
+view="https://trackcovid-k-sabari.netlify.app/"
 uses="USES:- HTML 5 , CSS 3, JS , ReactJS , ChartJS,MaterialUI"
 />
 </div>
@@ -309,8 +320,8 @@ skill="Restaurant Website"
 tag="<Guided/>"
 desc="This is awebsite done as a part of Coursera course I took. It wasguided by course"
 desc2="instructor . It represents details about a Retaurant,its menu and management"
-git=""
-view="fewcfecfe.com"
+git="nil"
+view="nil"
 uses="USES:- HTML 5 , CSS 3 , Bootstrap , ReactJS , Redux , FontAwesome , "
 />
 </div>
@@ -326,8 +337,8 @@ skill="PORTFOLIO"
 tag="<ONLY DESKTOP />"
 desc="This is a failed project which I attempted using HTML , CSS to recreate my own Wix website."
 desc2="It was published but is now deprecated due to its lack of responsiveness with devices :( "
-git="cfecec.com"
-view="fewcfecfe.com"
+git="https://github.com/SabariGanesh-K/personalWebsite"
+view="https://tinyurl.com/sabari22"
 uses="USES:- HTML 5 , CSS 3 "
 />
 </div>

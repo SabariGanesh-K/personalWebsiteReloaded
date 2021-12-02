@@ -14,7 +14,12 @@ padding: 2rem;
 border-radius: 1rem;
 }
 
+Card:hover {
+  background-color:rgba(0,0,0,0);
+  
 
+
+}
 /* PROJECT BUTTON  */
 .projectButton {
  position: relative;

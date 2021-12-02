@@ -39,13 +39,13 @@ return(
 <img src={dpintro} height="50%" width="50%" />
 <span height="45%" width="45%">
 <Row style={{display: "flex",justifyContent: "center",background: "black",borderRadius: "2rem",padding: "1%",}}>
-<a href="#"><span className="fa fa-3x fa-linkedin"style={{ color: "blue" }}/></a>&nbsp; &nbsp; &nbsp; &nbsp;
-<a href="#"><span className="fa fa-3x fa-instagram"style={{ color: "#f5022f" }}/></a>&nbsp; &nbsp; &nbsp; &nbsp;
-<a href="#"><span className="fa fa-3x fa-github"style={{ color: "white" }}/></a>
+<a href="https://www.linkedin.com/in/sabariganeshk/"><span className="fa fa-3x fa-linkedin"style={{ color: "blue" }}/></a>&nbsp; &nbsp; &nbsp; &nbsp;
+<a href="https://www.instagram.com/sabz_qetuowryip_1357924680/"><span className="fa fa-3x fa-instagram"style={{ color: "#f5022f" }}/></a>&nbsp; &nbsp; &nbsp; &nbsp;
+<a href="https://github.com/SabariGanesh-K/"><span className="fa fa-3x fa-github"style={{ color: "white" }}/></a>
 </Row></span></Col></Row></Container>
 </div> </div></ScrollAnimation><br/><br/> 
 <ScrollAnimation animateIn="animate__fadeInRight" animateOnce = {true}> 
-<div className = "container" style = {{width:'100%',display:'flex',justifyContent:'center',textAlign:"center"}}> <span className = "mark"><span style = {{opacity:'1'}}> Lorem Ipsum is simply dummy text of the printing  <br/><br/>and typeseta galley of type and scrambled itto <br/><br/>make a type specimen book. It has survivednot only five centuries, <br/><br/>but also theleap into electronic typesetting,<br/><br/> remainingessentially unchanged.</span></span></div>
+<div className = "container" style = {{width:'100%',display:'flex',justifyContent:'center',textAlign:"center"}}> <span className = "mark"><span style = {{opacity:'1'}}> Asperger 👀&lt;&gt; Coder ☕ &lt;&gt; Tech Enthusiast 💻 &lt;&gt; Melophile🎧 &lt;&gt;Introvert , but Extrovert :) &lt;&gt;  <br/><br/> 1.1K+ Follows in Linkedin 🚀 <br/><br/> And I enjoy talking about Innovation and startups 🔥<br/><br/> I like Stalking Modern Gadgets  and Technology😍 <br/><br/>  Stay Connected to Know more about me :))</span></span></div>
 <br/><br/></ScrollAnimation></div>
 );}
 export default Home;

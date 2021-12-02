@@ -35,19 +35,17 @@ class About extends PureComponent {
                   fontFamily: "Dancing Script",
                   fontWeight: "bolder",
                   fontSize: "2rem",
+                  color:'black'
                 }}
               >
                 <div>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Who is Sabari ? <br/>He is a cute  😍  cool 😎self obsessed 🤩 guy who knows to Code.<br/>
+                  Also a  big fan of Elon Musk  and hence believes in giving sweat and 100% determination in 
+                  everything he does 😎.  <br/>
+                  Sabari shortly called as SABZ is empathetic , but also capable of being rude 😈 !!!<br/>
+                  Fascinated by GTA  and its series , he started his coding journey which he eventually fell in love with 💪<br/>
+                  Sabz can go to any extent to fetch things he wants no matter what TF comes in between 💯!! 
+                  
                 </div>
               </div>
             </div>
@@ -62,7 +60,7 @@ class About extends PureComponent {
                 fontFamily: "monospace",
                 fontSize: "2.5rem",
                 textAlign: "center",
-                background:'pink'
+                background:'lightblue'
               }}
             >
               #EDUCATION
@@ -84,6 +82,7 @@ class About extends PureComponent {
                     display: "flex",
                     justifyContent: "center",
                     textAlign: "center",
+
                   }}
                 >
                   VIT CHENNAI : BTECH (2021-2025) <br />
