@@ -5,6 +5,19 @@
   background-size: cover;
   /* background:black; */
 }
+/*SOCIAL button */
+.socialButton{
+  font-size: 1rem;
+  background-color: rgb(153, 123, 128);
+  position:relative;
+  padding: 8px;
+  border-radius: 16px;
+  text-decoration: none;
+  margin: 0.5em;
+  border-radius: 1rem;
+  
+
+} 
 
 /* FEEDBACK button */
 .feedback{

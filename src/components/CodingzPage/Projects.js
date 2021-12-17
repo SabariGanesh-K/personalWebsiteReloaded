@@ -28,7 +28,26 @@ function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
           </Button>
         </Col>
       );
-    } else {
+    } else if (view == "nil") {
+      return (
+        <Col>
+          <Button
+            href={git}
+            target="_blank"
+            style={{
+              fontSize: "2rem",
+              background: "black",
+              color: "white",
+              textDecoration: "none",
+            }}
+          >
+            GITHUB &gt;
+          </Button>
+        </Col>
+      );
+    } 
+    
+    else {
       return (
         <Col>
           <Button
@@ -74,7 +93,7 @@ function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
           >
             {skill}
           </span>
-          <span style={{ fontSize: "1rem", color: "green" }}> {tag}</span>
+          <span style={{ fontSize: "1rem", color: "#360167" ,fontWeight:'bolder'}}> {tag}</span>
         </Col>
 
         <Col style={{ fontSize: "1rem", textAlign: "center", color: "white" }}>
