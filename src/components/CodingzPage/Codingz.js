@@ -470,11 +470,11 @@ class Codingz extends PureComponent {
               <RenderProject
                 skill="CGPA Calculator"
                 tag=""
-                desc="This is a website which helps in calculating the GPA of a semester."
-                desc2="It is responsive and also has dynamic gauge to visualize gpa out of 10."
+                desc="This is a website which helps in calculating and visualizing the GPA of "
+                desc2="a semester.It is hosted with the help of github synced with Netlify."
                 git="https://github.com/SabariGanesh-K/cgpaCalculator"
                 view="https://fkcgpa.netlify.app"
-                uses="USES:- Wix.com"
+                uses="USES:- HTML5 , CSS3 , ReactJS , Netlify "
               />
             </div>
           </ScrollAnimation>
