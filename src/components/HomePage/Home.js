@@ -79,13 +79,13 @@ justifyContent: "center",}}>
                         />
                       </a>
                       &nbsp; &nbsp; &nbsp; &nbsp;
-                       <a href="https://www.instagram.com/sabz_qetuowryip_1357924680/" target = "_blank">
-                        <span
-                          className="fa fa-3x fa-instagram"
-                          style={{ color: "#f5022f" }}
-                        />
-                      </a> 
-                      &nbsp; &nbsp; &nbsp; &nbsp;
+//                        <a href="https://www.instagram.com/sabz_qetuowryip_1357924680/" target = "_blank">
+//                         <span
+//                           className="fa fa-3x fa-instagram"
+//                           style={{ color: "#f5022f" }}
+//                         />
+//                       </a> 
+//                       &nbsp; &nbsp; &nbsp; &nbsp;
                       <a href="https://github.com/SabariGanesh-K/" target = "_blank">
                         <span
                           className="fa fa-3x fa-github"
