@@ -64,24 +64,24 @@ class Contact extends Component {
         >
           <img src={dp} style={{ borderRadius: "15rem", width: "20rem" }} />
         </div>
-        <br/> <br/>
-         <SocialWidget
-          logo={instagram}
-          direction="left"
-          link="https://www.instagram.com/sabz_qetuowryip_1357924680/"
-          textColor="black"
-          bgColor="rgb(204, 0, 102)"
-          id="@sabz_qetuowryip_1357924680"
-        />
- <br/> 
-        <SocialWidget
-          logo={instagram}
-          direction="left"
-          link="https://www.instagram.com/beingcodeworm/"
-          textColor="black"
-          bgColor="rgb(204, 0, 102)"
-          id="@beingcodeworm"
-        /> 
+//         <br/> <br/>
+//          <SocialWidget
+//           logo={instagram}
+//           direction="left"
+//           link="https://www.instagram.com/sabz_qetuowryip_1357924680/"
+//           textColor="black"
+//           bgColor="rgb(204, 0, 102)"
+//           id="@sabz_qetuowryip_1357924680"
+//         />
+//  <br/> 
+//         <SocialWidget
+//           logo={instagram}
+//           direction="left"
+//           link="https://www.instagram.com/beingcodeworm/"
+//           textColor="black"
+//           bgColor="rgb(204, 0, 102)"
+//           id="@beingcodeworm"
+//         /> 
  <br/> <br/>
         <SocialWidget
           logo={linkedin}
