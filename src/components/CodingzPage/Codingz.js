@@ -457,7 +457,7 @@ class Codingz extends PureComponent {
                 desc2="my Cool coding works.Currently it is being hosted with help of github,netlify"
                 git="https://github.com/SabariGanesh-K/personalWebsiteReloaded"
                 view="nil"
-                uses="USES:- HTML 5 , CSS 3 , JS , ReactJS , Netlify,Redux , Bootstrap |Reactstrap, FontAwesome"
+                uses="USES:-ReactJS, HTML 5 , CSS 3 , JS  , Netlify,Redux , Bootstrap |Reactstrap, FontAwesome"
               />
             </div>
           </ScrollAnimation>
@@ -467,6 +467,24 @@ class Codingz extends PureComponent {
             animateOnce={true}
           >
             <div style={{ display: "flex", justifyContent: "left" }}>
+              <RenderProject
+                skill="CS resources HUB"
+                tag=""
+                desc="Websites which provides resources comprising around 1000+ modules ,200+ lecures "
+                desc2="embedded as link in JSON and thus connected to frontend. "
+                git="https://github.com/SabariGanesh-K/get-the-fkin-resource"
+                view="https://csvideos.netlify.app"
+                uses="USES:-ReactJS , HTML5 , CSS3 ,  React Router , Netlify "
+              />
+            </div>
+          </ScrollAnimation>
+        
+<br/>
+          <ScrollAnimation
+            animateIn="animate__fadeInRightBig"
+            animateOnce={true}
+          >
+            <div style={{ display: "flex", justifyContent: "right" }}>
               <RenderProject
                 skill="CGPA Calculator"
                 tag=""
@@ -481,10 +499,10 @@ class Codingz extends PureComponent {
           <br />
           <br />
           <ScrollAnimation
-            animateIn="animate__fadeInRightBig"
+            animateIn="animate__fadeInLeftBig"
             animateOnce={true}
           >
-            <div style={{ display: "flex", justifyContent: "right" }}>
+            <div style={{ display: "flex", justifyContent: "left" }}>
               <RenderProject
                 skill="WIX WEBSITE"
                 tag="<Personal website 2/>"
@@ -498,10 +516,10 @@ class Codingz extends PureComponent {
           </ScrollAnimation>
           <br />
           <ScrollAnimation
-            animateIn="animate__fadeInLeftBig"
+            animateIn="animate__fadeInRightBig"
             animateOnce={true}
           >
-            <div style={{ display: "flex", justifyContent: "left" }}>
+            <div style={{ display: "flex", justifyContent: "right" }}>
               <RenderProject
                 skill="SECUREZ"
                 tag="<Desktop app/>"
@@ -515,10 +533,10 @@ class Codingz extends PureComponent {
           </ScrollAnimation>
           <br />
           <ScrollAnimation
-            animateIn="animate__fadeInRightBig"
+            animateIn="animate__fadeInLeftBig"
             animateOnce={true}
           >
-            <div style={{ display: "flex", justifyContent: "right" }}>
+            <div style={{ display: "flex", justifyContent: "left" }}>
               <RenderProject
                 skill="COVID TRACKER"
                 tag="<Guided/>"
@@ -533,10 +551,10 @@ class Codingz extends PureComponent {
           /
           <br />
           <ScrollAnimation
-            animateIn="animate__fadeInLeftBig"
+            animateIn="animate__fadeInRightBig"
             animateOnce={true}
           >
-            <div style={{ display: "flex", justifyContent: "left" }}>
+            <div style={{ display: "flex", justifyContent: "right" }}>
               <RenderProject
                 skill="Restaurant Website"
                 tag="<Guided/>"
@@ -550,10 +568,10 @@ class Codingz extends PureComponent {
           </ScrollAnimation>
           <br />
           <ScrollAnimation
-            animateIn="animate__fadeInRightBig"
+            animateIn="animate__fadeInLeftBig"
             animateOnce={true}
           >
-            <div style={{ display: "flex", justifyContent: "right" }}>
+            <div style={{ display: "flex", justifyContent: "left" }}>
               <RenderProject
                 skill="PORTFOLIO"
                 tag="<ONLY DESKTOP />"
