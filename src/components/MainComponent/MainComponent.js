@@ -7,7 +7,7 @@ import About from "../AboutPage/About";
 import Footer from "./Footer";
 import Contact from "../ContactPage/Contact";
 import Codingz from "../CodingzPage/Codingz";
-
+import ProjectPage from "../ProjectsPage/projectspage";
 class Main extends PureComponent {
   render() {
     return (
@@ -20,6 +20,7 @@ class Main extends PureComponent {
             <Route path="/codingz" element={<Codingz />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<ProjectPage />} />
             <Route path="*" element={<Home />} />
           </Routes>
 

@@ -7,7 +7,72 @@
   width: 100%;
 
 }
+.glass {
+  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  border-radius: 20px;
+  border:1px solid rgba(255,255,255,0.18);
+  box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+  width:95%
 
+}
+.mobile-header-master-container{
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  padding: 1rem;
+}
+.large-devices{
+  display:block;
+}
+.small-devices{
+  display:block;
+}
+@media (max-width: 500px) {
+  .large-devices {
+    display: none;
+  }
+}
+@media (min-width:500px){
+  .small-devices {
+    display: none;
+  }
+}
+.mobileheadercontainer{
+ z-index:10;
+ position: fixed;
+ /* top:0; */
+ right:0;
+ height: 100%;
+ width: 100%;
+ font-size: larger;
+ color: white;
+ background-color: rgba(0,0,0,1);
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ /* align-items: end; */
+}
+.no-link{
+  text-decoration:none  ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.mobileheaderitem{
+  
+  text-decoration-color: #000000;
+ 
+  background-color: rgba(0,0,0,0);
+  border:0;
+  color: white;
+  /* font-size: 20px; */
+  /* font-weight: bolder; */
+  
+ 
+
+}
 /* heder button */
 .buttons {
   text-decoration: none;
@@ -18,6 +83,7 @@
   color: #fff;
   width: 9em;
   height: 3em;
+  margin-left:3rem;
   line-height: 2em;
   text-align: center;
   background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);

@@ -2,7 +2,7 @@ import { Carousel } from "react-responsive-carousel";
 import { Row, Col, Container } from "reactstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./home.css";
-import dp from "./Media/dp2.jpg";
+import dp from "./Media/dp2.jpeg";
 import homeintro from "./Media/homeintro.png";
 import dpintro from "./Media/dpintro.png";
 import carousel1 from "./Media/carousel1.jpg";
@@ -18,40 +18,10 @@ function Home() {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img src={homeintro} width="50%" />
       </div>
+<br/><br/>
       <ScrollAnimation animateIn="animate__fadeInRight" animateOnce={true}>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <div
-            className="carousel-container"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              textAlign: "center",
-              alignContent: "center",
-              width: "50%",
-              paddingLeft: "5rem",
-              paddingRight: "5rem",
-            }}
-          >
-            <Carousel style={{display: "flex",
-textAlign: "center",
-justifyContent: "center",}}>
-              <div>
-                <img src={carousel1} />
-              </div>
-              <div>
-                <img src={carousel2} />
-              </div>
-              <div>
-                <img src={carousel3} />
-              </div>
-            </Carousel>
-          </div>
-        </div>
-      </ScrollAnimation> 
-
-      <ScrollAnimation animateIn="animate__fadeInRight" animateOnce={true}>
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <div className="glass" height="45%" width="95%">
+          <div className="glass" height="30%" width="95%">
             <Container>
               <Row>
                 <Col>
@@ -90,6 +60,7 @@ justifyContent: "center",}}>
                         <span
                           className="fa fa-3x fa-github"
                           style={{ color: "white" }}
+                          
                         />
                       </a>
                     </Row>
@@ -100,6 +71,28 @@ justifyContent: "center",}}>
           </div>{" "}
         </div>
       </ScrollAnimation>
+      <br/><br/>
+      <ScrollAnimation animateIn="animate__fadeInRight" animateOnce={true}>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <div className="carousel-container">
+            <Carousel style={{display: "flex",
+textAlign: "center",
+justifyContent: "center"}}>
+              <div>
+                <img src={carousel1} />
+              </div>
+              <div>
+                <img src={carousel2} />
+              </div>
+              <div>
+                <img src={carousel3} />
+              </div>
+            </Carousel>
+          </div>
+        </div>
+      </ScrollAnimation> 
+
+
       <br />
       <br />
       <ScrollAnimation animateIn="animate__fadeInRight" animateOnce={true}>

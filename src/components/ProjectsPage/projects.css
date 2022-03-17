@@ -1,0 +1,92 @@
+
+.projectspage{
+background: url('./Media/projectspage.jpg');
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-size: cover;
+display: flex;
+text-align: center;
+justify-content:center ;
+
+}
+.projects-container{
+  
+    margin-bottom: 3rem;
+
+    
+}
+
+.viewbutton{
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.gitbutton{
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border:0;
+    border-radius: 10px;
+}
+
+.skill{
+    font-size: 2rem;
+    color: black;
+    border-radius: 20px;
+    background-color: #3f0d12;
+background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+    margin:2rem;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tag{
+      font-size:  1rem ; 
+     text-align: center;
+     color:antiquewhite;
+     font-weight:bolder;
+}
+.desc{
+    margin:1rem;
+       font-size:  1rem ;
+        text-align:  center ; 
+        color:  white   ;
+}
+.uses{
+       font-size:  1rem ; 
+       text-align:  center ; 
+       color:  white   ;
+}
+.projectcard {
+   
+ 
+margin: 3rem;
+background-color: #3f0d12;
+background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+
+    border-radius: 20px;
+    transition: all .3s;
+   }
+
+   .projectcard2 {
+   
+   
+    background-color: #1a1a1a;
+
+    transition: all .2s;
+   }
+   
+   .projectcard2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+   }
+   
+   .projectcard:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
