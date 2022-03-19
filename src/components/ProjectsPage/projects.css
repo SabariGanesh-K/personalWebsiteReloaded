@@ -4,10 +4,8 @@ background: url('./Media/projectspage.jpg');
 background-repeat: no-repeat;
 background-attachment:fixed;
 background-size: cover;
-display: flex;
-text-align: center;
-justify-content:center ;
 
+width: 100%;
 }
 .projects-container{
   

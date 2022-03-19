@@ -7,12 +7,15 @@ import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import './about.css'
 import React, { PureComponent } from "react";
+import Header from "../MainComponent/Header";
 <span style={{ fontFamily: "Dancing Script", fontSize: "2rem" }}></span>;
 class About extends PureComponent {
   render() {
     return (
       <div className="about">    
+      <Header  status = {2} />
         <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
+
           <div style={{ textAlign: "center", justifyContent: "center" }}>
             <br />
             <br />

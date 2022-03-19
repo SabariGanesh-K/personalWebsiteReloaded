@@ -15,188 +15,55 @@ import courserafrontend from "./Media/courserafrontend.jpg";
 import udemykotlin from "./Media/udemykotlin.jpg";
 import badges from "./Media/badges.jpg";
 import { Card, Row, Col } from "react-bootstrap";
-
+import firebase from "./Media/firebase.jpg";
+import reactnative from "./Media/reactnative.jpg";
+import expo from "./Media/expo.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "./codingz.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
+import Header from "../MainComponent/Header";
 class Codingz extends PureComponent {
   render() {
     return (
       <div className="codingz">
+        <Header  status = {1}/>
         <ScrollAnimation animateIn="animate__slideInDown" animateOnce={true}>
-          <div
-            className="container"
-            style={{
-              display: "flex",
-              fontFamily: "Grechen Fuemen",
-              fontSize: "3rem",
-              textAlign: "center",
-              justifyContent: "center",
-            }}
-          >
+          <div className="introwords">
             In ❤️ with CODING , <br /> exploring WEB 3.0 🚀🚀🚀
           </div>
         </ScrollAnimation>
-        <br />
-        <br />
+        <br /> <br />
         <ScrollAnimation animateIn="animate__fadeInLeftBig" animateOnce={true}>
-          <div
-            className="glass"
-            style={{
-              fontFamily: "Roboto Slab",
-              color: "black",
-              fontWeight: "bolder",
-              fontSize: "2rem",
-              textAlign: "left",
-            }}
-          >
+          <div className="subtitle" >
             Here is A GLIMPSE.....
           </div>
         </ScrollAnimation>
         <br /> <br />
-        <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce={true}>
-          <div
-            className="container"
-            style={{
-              position: "relative",
-              display: "flex",
-              justifyContent: "center",
-              textAlign: "center",
-            }}
-          >
-            <Row>
-              <Col style={{ padding: "0.5rem" }}>
-                <a href="https://github.com/SabariGanesh-K" target="_blank" style = {{textDecoration:'none'}}>
-                  <Card
-                    style={{
-                      width: "100%",
-                      backgroundColor: "black",
-                      borderRadius: "8px",
-                      textAlign: "center",
-                    }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src={github}
-                      style={{ width: "50%",borderRadius:'45px' }}
-                    />
-                    <Card.Body>
-                      <span style={{ color: "white", fontWeight: "bolder" }}>
-                        <Card.Title>
-                          OPEN <br /> SOURCE 🔥
-                        </Card.Title>
-                      </span>
-                    </Card.Body>
-                  </Card>
-                </a>
-              </Col>
-            </Row>
-            <Row>
-              <Col style={{ padding: "0.5rem" }}>
-                <a
-                  href="https://www.hackerrank.com/K_Sabari_Ganesh"
-                  target="_blank"
-                  style = {{textDecoration:'none'}}
-                >
-                  <Card
-                    style={{
-                      width: "100%",
-                      backgroundColor: "green",
-                      borderRadius: "8px",
-                      textAlign: "center",
-                    }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src={hackerrank}
-                      style={{ width: "50%",borderRadius:'45px'  }}
-                    />
-                    <Card.Body>
-                      <span style={{ color: "white", fontWeight: "bolder" }}>
-                        <Card.Title>
-                          COMPETITIVE <br /> CODING 🚀
-                        </Card.Title>
-                      </span>
-                    </Card.Body>
-                  </Card>
-                </a>
-              </Col>
-            </Row>
-            <Row>
-              <Col style={{ padding: "0.5rem" }}>
-                <a
-                  href="https://www.instagram.com/beingcodeworm/"
-                  target="_blank"
-                  style = {{textDecoration:'none'}}
-                >
-                  <Card
-                    style={{
-                      width: "100%",
-                      backgroundColor: "#bc2a8d",
-                      borderRadius: "8px",
-                      textAlign: "center",
-                      textDecoration: "none",
-                    }}
-                  >
-                    <Card.Img
-                      variant="top"
-                      src={instagram}
-                      style={{ width: "50%",borderRadius:'45px'  }}
-                    />
 
-                    <Card.Body>
-                      <span style={{ color: "white", fontWeight: "bolder" }}>
-                        <Card.Title>
-                          INSTA <br />
-                          creations 🤩
-                        </Card.Title>
-                      </span>
-                    </Card.Body>
-                  </Card>
-                </a>
-              </Col>
-            </Row>
-          </div>
-        </ScrollAnimation>
+<ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce={true}>
+<div className="glimpse-container">
+  <div className="glimpse"><img src = {github} className="glimpse-image" alt = "github"/><a href = "https://github.com/SabariGanesh-K" className="glimpse-title" target="_blank"><span className="glimpse-title">Open Source 🚀</span></a></div>
+  <div className="glimpse"><img src = {hackerrank} className="glimpse-image" alt = "github"/><a href = "https://www.hackerrank.com/K_Sabari_Ganesh " className="glimpse-title"  target="_blank"><span className="glimpse-title">Competitive Coding 🚀</span></a></div>
+  <div className="glimpse"><img src = {instagram} className="glimpse-image" alt = "github"/><a href = "https://www.instagram.com/beingcodeworm/" className="glimpse-title"  target="_blank"><span className="glimpse-title">Insta Creations 🚀</span></a></div>
+</div>
+</ScrollAnimation>
         <br /> <br />
+        
         <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true}>
-          <div
-            className="glass"
-            style={{
-              fontFamily: "Roboto Slab",
-              color: "black",
-              fontWeight: "bolder",
-              fontSize: "2rem",
-            }}
-          >
+          <div className="subtitle">
             MY SKILLS INCLUDE
           </div>
         </ScrollAnimation>
-        <br />
-        <br />
+        <br /><br />
+        
         <ScrollAnimation animateIn="animate__flipInX" animateOnce={true}>
           <div className="container">
             <Row style={{ textAlign: "left" }}>
               <Col>
-                <img
-                  src={python}
-                  width="15%"
-                  height="15%"
-                  style={{ padding: "20px" }}
-                />
-                <img
-                  src={js}
-                  width="15%"
-                  height="15%"
-                  style={{ padding: "20px" }}
-                />
-                <img
-                  src={react}
-                  width="15%"
-                  height="15%"
-                  style={{ padding: "20px" }}
-                />
+                <img src={python} width="15%" height="15%" style={{ padding: "20px" }}/>
+                <img src={js} width="15%" height="15%" style={{ padding: "20px" }}/>
+                <img src={react} width="15%" height="15%" style={{ padding: "20px" }}/>
               </Col>
             </Row>
           </div>
@@ -205,24 +72,20 @@ class Codingz extends PureComponent {
           <div className="container">
             <Row style={{ textAlign: "right" }}>
               <Col>
-                <img
-                  src={git}
-                  width="15%"
-                  height="15%"
-                  style={{ padding: "20px" }}
-                />
-                <img
-                  src={html}
-                  width="15%"
-                  height="15%"
-                  style={{ padding: "20px" }}
-                />
-                <img
-                  src={css}
-                  width="15%"
-                  height="15%"
-                  style={{ padding: "20px" }}
-                />
+                <img src={git} width="15%" height="15%" style={{ padding: "20px" }}/>
+                <img src={html} width="15%" height="15%" style={{ padding: "20px" }}/>
+                <img src={css} width="15%" height="15%" style={{ padding: "20px" }}/>
+              </Col>
+            </Row>
+          </div>
+          
+          <br/>
+          <div className="container">
+            <Row style={{ textAlign: "left" }}>
+              <Col>
+                <img src={reactnative} width="15%" height="15%" style={{ padding: "20px" }}/>
+                <img src={firebase} width="15%" height="15%" style={{ padding: "20px" }}/>
+                <img src={expo} width="15%" height="15%" style={{ padding: "20px" }}/>
               </Col>
             </Row>
           </div>
@@ -230,16 +93,7 @@ class Codingz extends PureComponent {
         <br />
         <br />
         <ScrollAnimation animateIn="animate__flipInX" animateOnce={true}>
-          <div
-            className="glass"
-            style={{
-              fontFamily: "Roboto Slab",
-              color: "black",
-              fontWeight: "bolder",
-              fontSize: "2rem",
-              textAlign: "center",
-            }}
-          >
+          <div className="subtitle">
             Honours and achievements
           </div>
         </ScrollAnimation>
@@ -249,13 +103,7 @@ class Codingz extends PureComponent {
             className="container"
             style={{ display: "flex", justifyContent: "center" }}
           >
-            <div
-              style={{
-                fontFamily: "Audiowide",
-                fontSize: "2rem",
-                color: "black",
-              }}
-            >
+            <div className="achievementtitle">
               HACTOBERFEST{" "}
             </div>
           </div>
@@ -263,52 +111,17 @@ class Codingz extends PureComponent {
             className="container"
             style={{ display: "flex", justifyContent: "center" }}
           >
-            <span
-              style={{
-                display: "flex",
-                textAlign: "center",
-                justifyContent: "center",
-                fontWeight: "bolder",
-              }}
-            >
+            <span className="achievementdesc">
               I successfully completed the Hactoberfest challenge consecutively
               for2years 2020 and 2021{" "}
             </span>
           </div>
-          <div
-            className="container"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            <div
-              className="carousel-container"
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                textAlign: "center",
-                alignContent: "center",
-                padding: "2.5rem",
-                fontSize: "2rem",
-                width: "50%",
-                paddingLeft: "5rem",
-                paddingRight: "5rem",
-              }}
-            >
-              <Carousel
-                style={{
-                  display: "flex",
-                  textAlign: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <div>
-                  <img src={hacto2020swags} />
-                </div>
-                <div>
-                  <img src={hacto2020} />
-                </div>
-                <div>
-                  <img src={hacto2021} />
-                </div>
+          <div className="container" style={{ display: "flex", justifyContent: "center" }}>
+            <div className="carousel-container">
+              <Carousel style={{display: "flex",textAlign: "center",justifyContent: "center"}}>
+                <div><img src={hacto2020swags} /></div>
+                <div><img src={hacto2020} /></div>
+                <div><img src={hacto2021} /></div>
               </Carousel>
             </div>
           </div>
@@ -322,29 +135,13 @@ class Codingz extends PureComponent {
             className="container"
             style={{ display: "flex", justifyContent: "center" }}
           >
-            <div
-              style={{
-                fontFamily: "Audiowide",
-                fontSize: "2rem",
-                textAlign: "center",
-                color: "black",
-              }}
-            >
-              HACKERRANK BADGES{" "}
-            </div>
-          </div>
+            <div className="achievementtitle">HACKERRANK BADGES{" "}</div>
+      </div>
           <div
             className="container"
             style={{ display: "flex", justifyContent: "center" }}
           >
-            <span
-              style={{
-                display: "flex",
-                textAlign: "center",
-                justifyContent: "center",
-                fontWeight: "bolder",
-              }}
-            >
+            <span className="achievementdesc">
               Starting my journey with Competitive programming ,I achieved
               following badges in Hackerrank
             </span>
@@ -367,100 +164,31 @@ class Codingz extends PureComponent {
             className="container"
             style={{ display: "flex", justifyContent: "center" }}
           >
-            <div
-              style={{
-                fontFamily: "Audiowide",
-                fontSize: "2rem",
-                color: "black",
-              }}
-            >
-              COURSES{" "}
-            </div>
+            <div className = "achievementtitle">COURSES</div>
           </div>
           <div
             className="container"
             style={{ display: "flex", justifyContent: "center" }}
           >
-            <span
-              style={{
-                display: "flex",
-                textAlign: "center",
-                justifyContent: "center",
-                fontWeight: "bolder",
-              }}
-            >
+            <span className="achievementdesc">
               Sucessfully completed these online courses to gain TECH skills
             </span>
           </div>
-          <div
-            className="container"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            <div
-              className="carousel-container"
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                textAlign: "center",
-                alignContent: "center",
-                padding: "2.5rem",
-                fontSize: "2rem",
-                width: "50%",
-                paddingLeft: "5rem",
-                paddingRight: "5rem",
-              }}
-            >
-              <Carousel
-                style={{
-                  display: "flex",
-                  textAlign: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <div>
-                  <img src={courserafrontend} />
-                </div>
-                <div>
-                  <img src={udemykotlin} />
-                </div>
+          
+          <div className="container" style={{ display: "flex", justifyContent: "center" }}>
+
+            <div className="carousel-container" >
+              <Carousel  style={{display: "flex",textAlign: "center",justifyContent: "center"}}>
+                <div>  <img src={courserafrontend} /></div>
+                <div>  <img src={udemykotlin} /></div>
               </Carousel>
             </div>
           </div>
         </ScrollAnimation>
         <br />
         <br />
-        <ScrollAnimation animateIn="animate__flipInX" animateOnce={true}>
-          <div
-            className="glass"
-            style={{
-              fontFamily: "Roboto Slab",
-              color: "black",
-              fontWeight: "bolder",
-              fontSize: "2rem",
-              textAlign: "left",
-            }}
-          >
-            MY WORKS{" "}
-          </div>
-        </ScrollAnimation>
-        <br />
-  
-        <br />
-        <ScrollAnimation animateIn="animate__rotateIn" animateOnce={true}>
-          <div
-            className="container"
-            style={{
-              display: "flex",
-              fontFamily: "Grechen Fuemen",
-              fontSize: "3rem",
-              textAlign: "center",
-              justifyContent: "center",
-            }}
-          >
-            MORE TO GO... <br />
-            🚀🚀🚀
-          </div>
-        </ScrollAnimation>{" "}
+ <br />
+   
         <br />
         <br />
       </div>

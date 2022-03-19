@@ -14,12 +14,79 @@ padding: 2rem;
 border-radius: 1rem;
 }
 
-Card:hover {
-  background-color:rgba(0,0,0,0);
-  
 
+.introwords{
+  display: flex;
+  font-family: Grechen Fuemen;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+.glimpse-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+.glimpse{
+ /* width: 10rem; */
+ display: flex;
+ flex-direction: column;
+ width: 25%;
+ background-color: black;
 
 }
+.glimpse-title{
+  text-align: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  text-decoration: none;
+}
+.glimpse-image{
+  /* width: 50%; */
+}
+.subtitle{
+  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  border-radius: 20px;
+  border:1px solid rgba(255,255,255,0.18);
+  box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+  width:95%;
+  font-family: Roboto Slab;
+  color: black;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: left;
+}
+.achievementtitle{
+  font-family: Audiowide;
+  font-size: 2rem;
+  color: black;
+}
+.achievementdesc{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: bolder;
+  color:black
+}
+.carousel-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.carousel-list{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+Card:hover {
+  background-color:rgba(0,0,0,0);
+}
+
 /* PROJECT BUTTON  */
 .projectButton {
  position: relative;

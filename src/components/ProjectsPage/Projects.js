@@ -3,26 +3,33 @@ import Button from "@restart/ui/esm/Button";
 import { useEffect ,useState} from "react";
 
 function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
-    const [viewbutton, setviewbutton] = useState("");
-    const [gitbutton, setgitbutton] = useState("");
+    const [viewbutton, setviewbutton] = useState("nil");
+    const [gitbutton, setgitbutton] = useState("nil");
     
 
 
     useEffect(()=>{
-        if (git !== ""){
+        if (git !== "nil"){
             setgitbutton(
                 <a href = {git} target = "_blank"> <button className="gitbutton">GIT</button></a>
             )
         }
-            if (view !== ""){
+        else{
+            setgitbutton(null)
+        }
+            if (view !== "nil"){
                 setviewbutton(
                     <a href = {view} target = "_blank"> <button className="viewbutton">VIEW</button></a>
                 )
+                
 
         }
-        if (git === "" && view === ""){
-            setgitbutton(<div className="not-available">Project is currently not available for display.</div>)
+        else{
+            setviewbutton(null)
         }
+
+        
+        
     },[])
 return(
    

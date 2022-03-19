@@ -1,47 +1,29 @@
 import React, { Component } from "react";
 
-import instagram from "./Media/instagram.jpg";
+import instagram from "./Media/instagram.png";
 import dp from "./Media/dp2.jpg";
-import discord from "./Media/discord.jpg";
-import medium from "./Media/medium.jpg";
-import linkedin from "./Media/linkedin.jpg";
-import twitter from "./Media/twitter.jpg";
+import discord from "./Media/discord.png";
+import medium from "./Media/medium.png";
+import linkedin from "./Media/linkedin.png";
+import twitter from "./Media/twitter.png";
+import email from "./Media/email.png";
+import github from "./Media/github.png";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import "./contact.css";
-import SocialWidget from "./Socialwidget";
+
+import Header from "../MainComponent/Header";
+import Media from "./media";
 
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isFeedbackOpen: false,
-    };
-    this.toggleButton = this.toggleButton.bind(this);
-  }
-  toggleButton() {
-    this.setState({ isFeedbackOpen: !this.state.isFeedbackOpen });
-  }
+
 
   render() {
-    const feedBackForm = (status) => {
-      if (status) {
-        return (
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLScHjF_EzA1engfQ5MWiFrK-0UKRXejR2kFdqXAIbv7WqR0KDA/viewform?embedded=true"
-            width="100%"
-            height="1000rem"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-          >
-            Loading…
-          </iframe>
-        );
-      }
-    };
+  
+
     return (
       <div className="contact">
+        <Header  status = {3}/>
         <div
           className="container"
           style={{
@@ -65,59 +47,18 @@ class Contact extends Component {
           <img src={dp} style={{ borderRadius: "15rem", width: "20rem" }} />
         </div>
         <br/> <br/>
-        <SocialWidget
-          logo={instagram}
-           direction="left"
-          link="https://www.instagram.com/sabz_qetuowryip_1357924680/"
-          textColor="black"
-          bgColor="rgb(204, 0, 102)"
-          id="@sabz_qetuowryip_1357924680"
-        />
-  <br/> 
-        <SocialWidget
-          logo={instagram}
-          direction="left"
-        link="https://www.instagram.com/beingcodeworm/"
-         textColor="black"
-         bgColor="rgb(204, 0, 102)"
-         id="@beingcodeworm"
-        /> 
- <br/> <br/>
-        <SocialWidget
-          logo={linkedin}
-          direction="right"
-          link="https://www.linkedin.com/in/sabariganeshk/"
-          textColor="black"
-          bgColor="rgb(0, 102, 255)"
-          id="@sabariganeshk"
-        />
- <br/> 
-        <SocialWidget
-          logo={medium}
-          direction="right"
-          link="https://medium.com/@k.sabarii.ganesh/"
-          textColor="black"
-          bgColor="white"
-          id="@k.sabarii.ganesh"
-        />
- <br/> <br/>
-        <SocialWidget
-          logo={discord}
-          direction="left"
-          link="#"
-          textColor="black"
-          bgColor="#a366ff"
-          id="@SabariGaneshK#1057"
-        />
- <br/>
-        <SocialWidget
-          logo={twitter}
-          direction="left"
-          link="https://twitter.com/SABARISABS1"
-          textColor="black"
-          bgColor="lightblue"
-          id=" @SABARISABS1"
-        />
+
+          <div>
+            <Media link = "https://www.instagram.com/sabz_qetuowryip_1357924680/" tag = "@sabz_qetuowryip_1357924680"  img = {instagram} />
+            <Media link = "https://www.linkedin.com/in/sabariganeshk/" tag = "@sabariganeshk"  img = {linkedin} />
+            <Media link = "k.sabarii.ganesh@gmail.com" tag = "k.sabarii.ganesh@gmail.com"  img = {email} />
+            <Media link = "https://github.com/SabariGanesh-K" tag = "@SabariGanesh-K"  img = {github} />
+            <Media link = "https://medium.com/@k.sabarii.ganesh" tag = "@k.sabarii.ganesh"  img = {medium} />
+            <Media link = "" tag = "@Doge_To_The_Moon🚀🚀#1057"  img = {discord}  />
+            <Media link = "https://twitter.com/SABARISABS1" tag = "@sabz_qetuowryip_1357924680"  img = {twitter} />
+          </div>
+
+
  <br/> <br/>
         <ScrollAnimation animateIn="animate__flip" animateOnce={true}>
           <br />
@@ -135,35 +76,10 @@ class Contact extends Component {
           </div>
           <br />
           <br />
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              fontFamily: "monospace",
-              fontSize: "1rem",
-              textAlign: "center",
-              color: "white",
-            }}
-          >
-            GOT FEEDBACKS ? WORRY NOT !! FEEL FREE TO SEND IT..
-          </div>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <div className="feedback">
-              <button class="bttn" onClick={this.toggleButton}>
-                OPEN FEEDBACK
-              </button>
-            </div>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="animate__flip" animateOnce={true}>
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            {feedBackForm(this.state.isFeedbackOpen)}
-            <br />
-          </div>
-        </ScrollAnimation>
-      </div>
+ </ScrollAnimation>
+</div>
     );
-  }
+  
+}
 }
 export default Contact;

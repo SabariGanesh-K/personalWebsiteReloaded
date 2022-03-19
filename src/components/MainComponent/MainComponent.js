@@ -13,7 +13,7 @@ class Main extends PureComponent {
     return (
      
         <div>
-          <Header />
+        
 
           <Routes>
             <Route path="/home" element={<Home />} />
@@ -24,7 +24,7 @@ class Main extends PureComponent {
             <Route path="*" element={<Home />} />
           </Routes>
 
-          <Footer />
+          {/* <Footer /> */}
         </div>
     
     );

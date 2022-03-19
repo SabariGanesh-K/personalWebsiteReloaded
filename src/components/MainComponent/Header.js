@@ -2,14 +2,14 @@ import React from 'react';
 import DesktopHeader from './DesktopHeader';
 import MobileHeader from './MobileHeader';
 
-const Header = () =>{
+const Header = (props) =>{
 return(
     <>
     <div className='large-devices'>
-        <DesktopHeader/>
+        <DesktopHeader  />
     </div>
     <div className='small-devices'>
-        <MobileHeader/>
+        <MobileHeader status = {props.status}/>
     </div>
     </>
 )

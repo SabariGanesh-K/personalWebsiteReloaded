@@ -5,9 +5,12 @@ import RenderProject from './Projects'
 import './projects.css'
 
 import { data } from './projectsdata';
+import Header from '../MainComponent/Header';
+import Footer from '../MainComponent/Footer';
 const ProjectPage = () =>{
 return (
-    <div className="projectspage" style={{ width: "100%" ,margin:"0%"}}>
+    <div className="projectspage" >
+<Header  status = {4}/>
 <ScrollAnimation
 animateIn="animate__fadeInRightBig"
 animateOnce={true}
@@ -18,6 +21,22 @@ animateOnce={true}
             </div>
 ))}
     </ScrollAnimation>
+    <ScrollAnimation animateIn="animate__rotateIn" animateOnce={true}>
+          <div className="container"
+            style={{
+              display: "flex",
+              fontFamily: "Grechen Fuemen",
+              fontSize: "3rem",
+              textAlign: "center",
+              justifyContent: "center",
+              color:'white'
+            }}
+          >
+            MORE TO GO... <br />
+            🚀🚀🚀
+          </div>
+        </ScrollAnimation>
+    <Footer/>
 </div>
 )
 }

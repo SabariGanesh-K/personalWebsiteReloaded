@@ -73,14 +73,30 @@ class DesktopHeader extends Component {
       
       {/* <div className = "large-devices"> */}
       <Navbar dark expand = "md">
-          <div className = "container">
-            <br/>
-            <div   onClick = {this.toggleNav} style = {{fontSize:'2rem'}}>
-         <button className= "exploreButton" style = {{padding:'0rem'}}> <span className="fa fa-2x  fa-compass"> </span> {this.state.exploreText} </button>
-         </div>
-          {moreMenu(this.state.isNavOpen)}
+       
+       <div className="header-button-containers">
+          
+          <NavLink className = "nav-link" to = "/home">
+          <button className = "buttons" style = {{padding:'0rem'}} onClick = {this.toggleNav}> <span className="fa fa-1x  fa-home"></span> HOME </button>
+          </NavLink>
+      
+          <NavLink className = "nav-link" to = "/codingz">
+          <button className = "buttons" style = {{padding:'0rem'}} onClick = {this.toggleNav}  > <span className="fa fa-1x  fa-code"></span> CODINGZ </button>
+          </NavLink>
+      
+          <NavLink className = "nav-link" to = "/about">
+          <button className = "buttons" style = {{padding:'0rem'}} onClick = {this.toggleNav} > <span className="fa fa-1x  fa-user-secret"></span> ABOUT ME  </button>
+          </NavLink>
+ 
+          <NavLink className = "nav-link" to = "/contact">
+          <button className = "buttons"  style = {{padding:'0rem'}} onClick = {this.toggleNav}> <span className="fa fa-1x  fa-coffee"></span> CATCH ME  </button>
+          </NavLink>
 
-        </div>
+          <NavLink className = "nav-link" to = "/projects">
+          <button className = "buttons" style = {{padding:'0rem'}} onClick = {this.toggleNav} > <span className="fa fa-1x  fa-brain-circuit"></span> PROJECTS  </button>
+          </NavLink>
+      
+         </div>
         </Navbar>
       {/* </div> */}
     

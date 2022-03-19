@@ -1,15 +1,19 @@
 
 .navbar {
   overflow: hidden;
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
-  font-family: Arial;
-  width: 100%;
+  position: sticky;
+  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+  backdrop-filter: blur(100px); 
+  -webkit-backdrop-filter: blur(100px);
+  border-radius: 20px;
+  border:1px solid rgba(255,255,255,0.18);
+  box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+  width:100%;
 
 }
 .glass {
   background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
-  backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px); 
   -webkit-backdrop-filter: blur(100px);
   border-radius: 20px;
   border:1px solid rgba(255,255,255,0.18);
@@ -18,8 +22,8 @@
 
 }
 .mobile-header-master-container{
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  background-color: rgba(0,0,0,0.7);
+  /* background-image: linear-gradient(147deg, #000000 0%, #04619f 74%); */
   padding: 1rem;
 }
 .large-devices{
@@ -73,11 +77,19 @@
  
 
 }
+
+.header-button-containers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
 /* heder button */
 .buttons {
   text-decoration: none;
   position: relative;
   border: none;
+  cursor: pointer;
   font-size: 1rem;
   font-family: inherit;
   color: #fff;
