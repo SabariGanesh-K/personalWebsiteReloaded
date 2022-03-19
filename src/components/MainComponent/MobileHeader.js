@@ -17,11 +17,11 @@ const [sizeList,setSizeList] = useState(['3rem','20px','20px','20px','20px']);
         tmp[props.status] = '3rem';
         // console.log(tmp)
         setSizeList(tmp);
-    },[])
+    },[props.status])
     
     return(
         <div className='mobile-header-master-container'>
-        {togglemenu ? <img  src = {cross} onClick={toggle}/>:<img src = {menu} onClick={toggle}/> }
+        {togglemenu ? <img  src = {cross} onClick={toggle} alt = "on"/>:<img src = {menu} onClick={toggle} alt = "off"/> }
         {togglemenu && (
             <div className='mobileheadercontainer'>
                 <NavLink className = "no-link" to = "/home"  onClick={toggle}> <button className='mobileheaderitem'  style = {{fontSize:sizeList[0]}}  >Home</button></NavLink>

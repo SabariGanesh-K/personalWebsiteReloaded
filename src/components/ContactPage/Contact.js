@@ -14,6 +14,8 @@ import "./contact.css";
 
 import Header from "../MainComponent/Header";
 import Media from "./media";
+import ScrollToTop from "react-scroll-to-top";
+import Footer from "../MainComponent/Footer";
 
 class Contact extends Component {
 
@@ -24,6 +26,7 @@ class Contact extends Component {
     return (
       <div className="contact">
         <Header  status = {3}/>
+        <ScrollToTop/>
         <div
           className="container"
           style={{
@@ -44,10 +47,10 @@ class Contact extends Component {
           className="container"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={dp} style={{ borderRadius: "15rem", width: "20rem" }} />
+          <img src={dp} style={{ borderRadius: "15rem", width: "20rem" }} alt = "me:)"/>
         </div>
         <br/> <br/>
-
+        <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce={true}>
           <div>
             <Media link = "https://www.instagram.com/sabz_qetuowryip_1357924680/" tag = "@sabz_qetuowryip_1357924680"  img = {instagram} />
             <Media link = "https://www.linkedin.com/in/sabariganeshk/" tag = "@sabariganeshk"  img = {linkedin} />
@@ -57,7 +60,7 @@ class Contact extends Component {
             <Media link = "" tag = "@Doge_To_The_Moon🚀🚀#1057"  img = {discord}  />
             <Media link = "https://twitter.com/SABARISABS1" tag = "@sabz_qetuowryip_1357924680"  img = {twitter} />
           </div>
-
+</ScrollAnimation>
 
  <br/> <br/>
         <ScrollAnimation animateIn="animate__flip" animateOnce={true}>
@@ -77,6 +80,7 @@ class Contact extends Component {
           <br />
           <br />
  </ScrollAnimation>
+ <Footer/>
 </div>
     );
   

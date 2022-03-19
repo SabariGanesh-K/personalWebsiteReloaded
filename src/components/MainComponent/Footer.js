@@ -1,4 +1,4 @@
-import {Row,Col, Button} from 'reactstrap'
+import {Row,Col} from 'reactstrap'
 import './footer.css'
 function Footer(){
     return(

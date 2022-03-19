@@ -8,19 +8,22 @@ import "animate.css/animate.min.css";
 import './about.css'
 import React, { PureComponent } from "react";
 import Header from "../MainComponent/Header";
+import ScrollToTop from "react-scroll-to-top";
+import Footer from "../MainComponent/Footer";
 <span style={{ fontFamily: "Dancing Script", fontSize: "2rem" }}></span>;
 class About extends PureComponent {
   render() {
     return (
       <div className="about">    
       <Header  status = {2} />
+      <ScrollToTop/>
         <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
 
           <div style={{ textAlign: "center", justifyContent: "center" }}>
             <br />
             <br />
 
-            <img src={aboutdp} style={{ width: "25rem" }} />
+            <img src={aboutdp} style={{ width: "25rem" }} alt = "me:)" />
             <br />
             <br />
             <div
@@ -78,7 +81,7 @@ class About extends PureComponent {
             <br />
             <div style={{ display: "flex", justifyContent: "center" }}>
               <div style={{ display: "flex", justifyContent: "left" }}>
-                <img src={vit} width="50%" />
+                <img src={vit} width="50%" alt = "vit" />
                 <div
                   className="glass"
                   style={{
@@ -117,7 +120,7 @@ class About extends PureComponent {
                   NSN MEMORIAL SENIOR SECONDARY SCHOOL (2006=2021) <br /> CBSE :
                   Grade 10 and Grade 12
                 </div>
-                <img src={nsn} width="50%" />
+                <img src={nsn} width="50%" alt = "nsn" />
               </div>
               <div style={{ display: "flex", justifyContent: "left" }}></div>
             </div>
@@ -151,6 +154,7 @@ class About extends PureComponent {
                   filter: "blur(1px)",
                   WebkitFilter: "blur(1px)",
                 }}
+                alt = "leadership"
               />
               <div
                 style={{
@@ -187,6 +191,7 @@ class About extends PureComponent {
                   filter: "blur(1px)",
                   WebkitFilter: "blur(1px)",
                 }}
+                alt = "karate"
               />
               <div
                 style={{
@@ -208,6 +213,7 @@ class About extends PureComponent {
             </div>
           </ScrollAnimation>
         </div>
+        <Footer/>
       </div>
     );
   }

@@ -7,10 +7,12 @@ import './projects.css'
 import { data } from './projectsdata';
 import Header from '../MainComponent/Header';
 import Footer from '../MainComponent/Footer';
+import ScrollToTop from 'react-scroll-to-top';
 const ProjectPage = () =>{
 return (
     <div className="projectspage" >
 <Header  status = {4}/>
+<ScrollToTop/>
 <ScrollAnimation
 animateIn="animate__fadeInRightBig"
 animateOnce={true}

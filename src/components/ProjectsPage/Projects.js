@@ -1,5 +1,4 @@
-import { Row, Col } from "react-bootstrap";
-import Button from "@restart/ui/esm/Button";
+
 import { useEffect ,useState} from "react";
 
 function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
@@ -11,7 +10,7 @@ function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
     useEffect(()=>{
         if (git !== "nil"){
             setgitbutton(
-                <a href = {git} target = "_blank"> <button className="gitbutton">GIT</button></a>
+                <a href = {git} target = "_blank" rel="noreferrer"> <button className="gitbutton">GIT</button></a>
             )
         }
         else{
@@ -19,7 +18,7 @@ function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
         }
             if (view !== "nil"){
                 setviewbutton(
-                    <a href = {view} target = "_blank"> <button className="viewbutton">VIEW</button></a>
+                    <a href = {view} target = "_blank" rel="noreferrer"> <button className="viewbutton">VIEW</button></a>
                 )
                 
 
@@ -30,12 +29,13 @@ function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
 
         
         
-    },[])
+    },[git,view])
 return(
    
         <div className="projects-container">
-    <div class="projectcard">
-  <div class="projectcard2">
+            
+    <div className="projectcard">
+  <div className="projectcard2">
 <div className="skill">{skill}</div>
 <div className="tag">{tag}</div>
 <div className="desc">{desc}</div>

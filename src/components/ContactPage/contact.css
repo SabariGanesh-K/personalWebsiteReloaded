@@ -19,8 +19,10 @@
 
 } 
 .mediabox{
-  margin: 3rem;
+  /* margin: 3rem; */
   cursor: pointer;
+  margin-top: 5%;
+  padding: 1%;
   display: flex;
   border-width: 100%;
   border-color: white;
