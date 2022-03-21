@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
+  overflow: auto;
 }
 
 .projectBGM{
@@ -43,9 +44,6 @@ border-radius: 1rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 100%;
   text-decoration: none;
-}
-.glimpse-image{
-  /* width: 50%; */
 }
 .subtitle{
   background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));

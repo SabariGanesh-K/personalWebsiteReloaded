@@ -6,6 +6,7 @@
   display: "flex";
    text-align: "center";
    justify-content:'center' ;
+   overflow: auto;
  /* background: black; */
 }
 

@@ -3,6 +3,7 @@
   background:url('../AboutPage/Media/pexels-lumn-167699.jpg');
   background-repeat: no-repeat;
   background-attachment:fixed;
+  overflow: auto;
   background-size: cover;
 }
 

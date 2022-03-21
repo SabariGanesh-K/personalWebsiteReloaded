@@ -12,7 +12,7 @@ const ProjectPage = () =>{
 return (
     <div className="projectspage" >
 <Header  status = {4}/>
-<ScrollToTop/>
+{/* <ScrollToTop/> */}
 <ScrollAnimation
 animateIn="animate__fadeInRightBig"
 animateOnce={true}
