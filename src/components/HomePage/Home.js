@@ -38,7 +38,7 @@ function Home() {
                         <span className="fa fa-3x fa-linkedin" style={{ color: "blue" }} />
                       </a>
                       &nbsp; &nbsp; &nbsp; &nbsp;
-                        <a href="https://www.instagram.com/sabz_qetuowryip_1357924680/" target = "_blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/sabariganesh.tech/" target = "_blank" rel="noreferrer">
                          <span className="fa fa-3x fa-instagram" style={{ color: "#f5022f" }}/>
                        </a> 
                        &nbsp; &nbsp; &nbsp; &nbsp;
