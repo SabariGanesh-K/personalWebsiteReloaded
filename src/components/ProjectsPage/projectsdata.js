@@ -8,6 +8,15 @@ export const data = [{
 ,uses:"USES:-ReactJS, HTML 5 , CSS 3 , JS  , Netlify,Redux , Bootstrap |Reactstrap, FontAwesome"
 },
 {
+    skill:"BLOCKCHAIN ART E-COMMERCE"
+,tag:"<Web3/>"
+,desc:"A web3 ecommerce website similar to open sea that has Metamask authentication "
+,desc2:"and assets are buyable through Ethereum crypto currency."
+,git:'nil'
+,view:"https://namelesswebsite.netlify.app"
+,uses:"USES:-ReactJS, HTML 5 , CSS 3 , JS  , Netlify,Redux , Bootstrap |Reactstrap, FontAwesome"
+},
+{
     skill:"CS resources HUB",
 tag:"",
 desc:"Websites which provides resources comprising around 1000+ modules ,200+ lecures ",
