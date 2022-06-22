@@ -6,7 +6,7 @@ const Header = (props) =>{
 return(
     <>
     <div className='large-devices'>
-        <DesktopHeader  />
+        <DesktopHeader status = {props.status}  />
     </div>
     <div className='small-devices'>
         <MobileHeader status = {props.status}/>

@@ -4,9 +4,6 @@ import { useEffect ,useState} from "react";
 function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
     const [viewbutton, setviewbutton] = useState("nil");
     const [gitbutton, setgitbutton] = useState("nil");
-    
-
-
     useEffect(()=>{
         if (git !== "nil"){
             setgitbutton(
@@ -16,7 +13,7 @@ function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
         else{
             setgitbutton(null)
         }
-            if (view !== "nil"){
+        if (view !== "nil"){
                 setviewbutton(
                     <a href = {view} target = "_blank" rel="noreferrer"> <button className="viewbutton">VIEW</button></a>
                 )
@@ -26,10 +23,7 @@ function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
         else{
             setviewbutton(null)
         }
-
-        
-        
-    },[git,view])
+ },[git,view])
 return(
    
         <div className="projects-container">
@@ -41,6 +35,7 @@ return(
 <div className="desc">{desc}</div>
 <div className="desc">{desc2}</div>
 <div className="button-container" > {gitbutton} {viewbutton} </div>
+  <div className="uses_container">{uses}</div>
   </div>
 </div>
 </div>

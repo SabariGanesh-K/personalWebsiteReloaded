@@ -52,13 +52,13 @@ class Contact extends Component {
         <br/> <br/>
         <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce={true}>
           <div>
-            <Media link = "https://www.instagram.com/sabariganesh.tech/" tag = "@sabariganesh.tech"  img = {instagram} />
-            <Media link = "https://www.linkedin.com/in/sabariganeshk/" tag = "@sabariganeshk"  img = {linkedin} />
-            <Media link = "k.sabarii.ganesh@gmail.com" tag = "k.sabarii.ganesh@gmail.com"  img = {email} />
-            <Media link = "https://github.com/SabariGanesh-K" tag = "@SabariGanesh-K"  img = {github} />
-            <Media link = "https://medium.com/@k.sabarii.ganesh" tag = "@k.sabarii.ganesh"  img = {medium} />
-            <Media link = "" tag = "@Doge_To_The_Moon🚀🚀#1057"  img = {discord}  />
-            <Media link = "https://twitter.com/SABARISABS1" tag = "@sabz_qetuowryip_1357924680"  img = {twitter} />
+            <Media  link = "https://www.instagram.com/sabariganesh.tech/" tag = "sabariganesh.tech"  img = {instagram} />
+            <Media  link = "https://www.linkedin.com/in/sabariganeshk/" tag = "sabariganeshk"  img = {linkedin} />
+            <Media  link = "" tag = "k.sabarii.ganesh@gmail.com"  img = {email} />
+            <Media link = "https://github.com/SabariGanesh-K" tag = "SabariGanesh-K"  img = {github} />
+            <Media  link = "https://medium.com/@k.sabarii.ganesh" tag = "k.sabarii.ganesh"  img = {medium} />
+            <Media link = "" tag = "sabari.eth🚀🚀🚀#1057"  img = {discord}  />
+            <Media link = "https://twitter.com/SABARISABS1" tag = "SABARISABS1"  img = {twitter} />
           </div>
 </ScrollAnimation>
 

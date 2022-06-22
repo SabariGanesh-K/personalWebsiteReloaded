@@ -8,7 +8,8 @@ class DesktopHeader extends Component {
     super(props);
     this.state = {
       isNavOpen: false,
-      exploreText : "EXPLORE"
+      exploreText : "EXPLORE",
+      color:""
     };
     this.toggleNav = this.toggleNav.bind(this);
   }
@@ -23,8 +24,7 @@ class DesktopHeader extends Component {
     }
   }
 
-
-
+ 
   render() {
 
 

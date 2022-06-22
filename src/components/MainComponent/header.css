@@ -25,7 +25,7 @@
 .mobile-header-master-container{
   background-color: rgba(0,0,0,0.7);
   /* background-image: linear-gradient(147deg, #000000 0%, #04619f 74%); */
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 .large-devices{
   display:block;

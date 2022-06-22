@@ -13,6 +13,9 @@ import hacto2021 from "./Media/hacto2021.jpg";
 import hacto2020swags from "./Media/hacto2020swags.jpg";
 import courserafrontend from "./Media/courserafrontend.jpg";
 import udemykotlin from "./Media/udemykotlin.jpg";
+import solidity from "./Media/solidity.jpg";
+import moralis from "./Media/moralis.jpg";
+import hardhat from "./Media/hardhat.jpg"
 import badges from "./Media/badges.jpg";
 import {  Row, Col } from "react-bootstrap";
 import firebase from "./Media/firebase.jpg";
@@ -36,21 +39,8 @@ class Codingz extends PureComponent {
             In ❤️ with CODING , <br /> exploring WEB 3.0 🚀🚀🚀
           </div>
         </ScrollAnimation>
-        <br /> <br />
-        <ScrollAnimation animateIn="animate__fadeInLeftBig" animateOnce={true}>
-          <div className="subtitle" >
-            Here is A GLIMPSE.....
-          </div>
-        </ScrollAnimation>
-        <br /> <br />
+    
 
-<ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce={true}>
-<div className="glimpse-container">
-  <div className="glimpse"><img src = {github} className="glimpse-image" alt = "github"/><a href = "https://github.com/SabariGanesh-K" className="glimpse-title" target="_blank" rel="noreferrer"><span className="glimpse-title">Open Source 🚀</span></a></div>
-  <div className="glimpse"><img src = {hackerrank} className="glimpse-image" alt = "github"/><a href = "https://www.hackerrank.com/K_Sabari_Ganesh " className="glimpse-title"  target="_blank" rel="noreferrer"><span className="glimpse-title">Competitive Coding 🚀</span></a></div>
-  <div className="glimpse"><img src = {instagram} className="glimpse-image" alt = "github"/><a href = "https://www.instagram.com/beingcodeworm/" className="glimpse-title"  target="_blank" rel="noreferrer"><span className="glimpse-title">Insta Creations 🚀</span></a></div>
-</div>
-</ScrollAnimation>
         <br /> <br />
         
         <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true}>
@@ -92,6 +82,17 @@ class Codingz extends PureComponent {
               </Col>
             </Row>
           </div>
+
+          <br />
+          <div className="container">
+            <Row style={{ textAlign: "right" }}>
+              <Col>
+                <img src={hardhat} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={moralis} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={solidity} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+              </Col>
+            </Row>
+          </div>
         </ScrollAnimation>
         <br />
         <br />
@@ -129,36 +130,7 @@ class Codingz extends PureComponent {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="animate__lightSpeedInLeft"
-          animateOnce={true}
-        >
-          {" "}
-          <div
-            className="container"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            <div className="achievementtitle">HACKERRANK BADGES{" "}</div>
-      </div>
-          <div
-            className="container"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            <span className="achievementdesc">
-              Starting my journey with Competitive programming ,I achieved
-              following badges in Hackerrank
-            </span>
-          </div>
-          <br />
-          <div
-            className="container"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            <img src={badges} width="75%" alt = "badges"  />
-          </div>
-          <br />
-          <br />
-        </ScrollAnimation>
+
         <ScrollAnimation
           animateIn="animate__lightSpeedInRight"
           animateOnce={true}
