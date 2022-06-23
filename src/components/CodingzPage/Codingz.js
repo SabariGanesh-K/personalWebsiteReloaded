@@ -5,9 +5,8 @@ import react from "./Media/react.jpg";
 import git from "./Media/git.jpg";
 import html from "./Media/html.jpg";
 import css from "./Media/css.jpg";
-import github from "./Media/github.jpg";
-import instagram from "./Media/instagram.jpg";
-import hackerrank from "./Media/hackerrank.jpg";
+import azure from './Media/azurecertificate.jpg';
+import soliditycertificate from './Media/soliditycourse.jpg';
 import hacto2020 from "./Media/hacto2020.jpg";
 import hacto2021 from "./Media/hacto2021.jpg";
 import hacto2020swags from "./Media/hacto2020swags.jpg";
@@ -21,7 +20,10 @@ import {  Row, Col } from "react-bootstrap";
 import firebase from "./Media/firebase.jpg";
 import reactnative from "./Media/reactnative.jpg";
 import expo from "./Media/expo.jpg";
-import { Carousel } from "react-responsive-carousel";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import "./codingz.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
@@ -29,7 +31,15 @@ import Header from "../MainComponent/Header";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../MainComponent/Footer";
 class Codingz extends PureComponent {
+ 
   render() {
+    var settings = {
+      dots: true,
+      infinite: false,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
     return (
       <div className="codingz">
         <Header  status = {1}/>
@@ -121,13 +131,25 @@ class Codingz extends PureComponent {
             </span>
           </div>
           <div className="container" style={{ display: "flex", justifyContent: "center" }}>
-            <div className="carousel-container">
-              <Carousel style={{display: "flex",textAlign: "center",justifyContent: "center"}}>
-                <div><img src={hacto2020swags} alt = "carousel" /></div>
-                <div><img src={hacto2020} alt = "carousel" /></div>
-                <div><img src={hacto2021} alt = "carousel"  /></div>
-              </Carousel>
-            </div>
+          
+
+            <div className="carousel_master_container">
+            <div className="carousel_wrapper">
+            <Slider {...settings}>
+   
+      <div>
+      <div>  <img src={hacto2020swags}  className="carousel_img"  alt = "carousel_img"  /></div>
+      </div>
+      <div>
+      <div>  <img src={hacto2020} className="carousel_img"  alt = "carousel_img"  /></div>
+      </div>
+      <div>
+      <div>  <img src={hacto2021} className="carousel_img"  alt = "carousel_img"  /></div>
+      </div>
+     
+    </Slider>
+    </div>
+    </div>
           </div>
         </ScrollAnimation>
 
@@ -150,15 +172,27 @@ class Codingz extends PureComponent {
             </span>
           </div>
           
-          <div className="container" style={{ display: "flex", justifyContent: "center" }}>
-
-            <div className="carousel-container" >
-              <Carousel  style={{display: "flex",textAlign: "center",justifyContent: "center"}}>
-                <div>  <img src={courserafrontend} alt = "carousel"  /></div>
-                <div>  <img src={udemykotlin} alt = "carousel"  /></div>
-              </Carousel>
-            </div>
-          </div>
+    <br/>
+            <div className="carousel_master_container">
+            <div className="carousel_wrapper">
+            <Slider {...settings}>
+      <div  >
+   <img src={courserafrontend} alt = "carousel" className="carousel_img" />
+      </div>
+      <div>
+      <div>  <img src={soliditycertificate}  className="carousel_img"  alt = "carousel_img"  /></div>
+      </div>
+      <div>
+      <div>  <img src={azure} className="carousel_img"  alt = "carousel_img"  /></div>
+      </div>
+      <div>
+      <div>  <img src={udemykotlin} className="carousel_img"  alt = "carousel_img"  /></div>
+      </div>
+     
+    </Slider>
+    </div>
+    </div>
+          
         </ScrollAnimation>
         <br />
         <br />

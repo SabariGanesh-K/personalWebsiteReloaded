@@ -1,6 +1,5 @@
-import { Carousel } from "react-responsive-carousel";
-import { Row, Col, Container } from "reactstrap";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+
 import "./home.css";
 import dp from "./Media/dp2.jpg";
 import homeintro from "./Media/homeintro.png";
