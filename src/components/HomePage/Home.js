@@ -21,7 +21,7 @@ function Home() {
       </div>
 <br/><br/>
 
-<ScrollAnimation animateIn="animate__fadeInRight" animateOnce={true}>
+{/* <ScrollAnimation animateIn="animate__fade" animateOnce={true}> */}
       <div className="glass">
         <div className="home_dp">
           <div>
@@ -46,7 +46,7 @@ function Home() {
         </div>
      
       </div>
-      </ScrollAnimation>
+      {/* </ScrollAnimation> */}
    
       <br/><br/>
 
