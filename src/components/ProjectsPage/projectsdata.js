@@ -108,12 +108,24 @@ uses:"USES:- Expo (React Native) , Asyncstorage"
 },
 {
   
+    skill:"ERC721 NFT minter ",
+tag:"",
+category:'blockchain',
+desc:"Website allows users to play a F.L.A.M.E.S game. If they win the game , they",
+desc2:"can mint a ERC721 NFT for their loved ones !",
+git:"https://github.com/SabariGanesh-K/blockchain_flames",
+view:"https://mycrushisaidiot.netlify.app",
+uses:"USES:- Solidity , Hardhat  , NextJS , Fantom testnet , Metamask , TailwindCSS"
+  
+},
+{
+  
     skill:"Decentralized vote",
 tag:"",
 category:'blockchain',
 desc:"Decentralized way for voting. Uses blockchain mechanism to gather votes regarding a decsion.",
 desc2:"Supporting the idea of decentralization , makes every opinion count !",
-git:"nil",
+git:"https://github.com/SabariGanesh-K/decentralized_vote",
 view:"https://mycrushisaidiot.netlify.app",
 uses:"USES:- Solidity , Hardhat  , ReactJS , Fantom testnet , Metamask , TailwindCSS"
   
