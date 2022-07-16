@@ -114,7 +114,7 @@ category:'blockchain',
 desc:"Website allows users to play a F.L.A.M.E.S game. If they win the game , they",
 desc2:"can mint a ERC721 NFT for their loved ones !",
 git:"https://github.com/SabariGanesh-K/blockchain_flames",
-view:"https://mycrushisaidiot.netlify.app",
+view:"https://urcutecrush.netlify.app",
 uses:"USES:- Solidity , Hardhat  , NextJS , Fantom testnet , Metamask , TailwindCSS"
   
 },
