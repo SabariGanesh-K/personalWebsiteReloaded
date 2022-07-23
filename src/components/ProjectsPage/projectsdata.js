@@ -10,14 +10,14 @@ export const data = [{
 ,uses:"USES:-ReactJS, HTML 5 , CSS 3 , JS  , Netlify,Redux , Bootstrap |Reactstrap, FontAwesome"
 },
 {
-    skill:"BLOCKCHAIN ART E-COMMERCE"
+    skill:"Blockchain Art E-commerce "
 ,tag:"<Web3/>"
 ,category:'blockchain'
 ,desc:"A web3 ecommerce website similar to open sea that has Metamask authentication "
 ,desc2:"and assets are buyable through Ethereum crypto currency."
-,git:'nil'
+,git:'https://github.com/SabariGanesh-K/ecommerce_blockchain'
 ,view:"https://namelesswebsite.netlify.app"
-,uses:"USES:-ReactJS, HTML 5 , CSS 3 , JS  , Netlify,Redux , Bootstrap |Reactstrap, FontAwesome"
+,uses:"USES:-ReactJS, Moralis SDK ,React-Moralis, TailwindCSS , Metamask "
 },
 {
     skill:"CS resources HUB",
@@ -104,6 +104,18 @@ desc2:"Has local storage mechanism for quick access !!",
 git:"https://github.com/SabariGanesh-K/trackIt",
 view:"nil",
 uses:"USES:- Expo (React Native) , Asyncstorage"
+  
+},
+{
+  
+    skill:"Healthcare management system using Blockchain",
+tag:"",
+category:'blockchain',
+desc:"Ethereum DAPP with data security that make sure datas are accessed only by users and doctors !",
+desc2:"Has functions for various tasks to be handled by doctors to process medications. ",
+git:"https://github.com/SabariGanesh-K/Medical_blockchain_dapp",
+view:"https://www.linkedin.com/posts/sabariganeshk_ethereumblockchain-solidity-hardhat-activity-6955851374215540736-TRaX?utm_source=linkedin_share&utm_medium=member_desktop_web",
+uses:"USES:- Solidity , Hardhat  , Angular , Fantom testnet , Metamask , TailwindCSS"
   
 },
 {

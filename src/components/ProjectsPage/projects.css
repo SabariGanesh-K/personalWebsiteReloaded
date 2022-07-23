@@ -54,6 +54,18 @@ height: fit-content
 
     
 }
+.selector{
+
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-stretch: expanded;
+    /* margin: 1%; */
+}
 @media only screen and (max-width:500px) {
     .mobile_cat_selector{
       flex-direction: column;

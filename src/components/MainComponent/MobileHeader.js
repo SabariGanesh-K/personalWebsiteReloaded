@@ -36,10 +36,11 @@ const [sizeList,setSizeList] = useState(['3rem','20px','20px','20px','20px']);
                 <NavLink className = "no-link" to = "/about" onClick={toggle}> <button className='mobileheaderitem'  style = {{fontSize:sizeList[2]}}>About Me</button></NavLink>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
-                <NavLink className = "no-link" to = "/contact" onClick={toggle}> <button className='mobileheaderitem'  style = {{fontSize:sizeList[3]}}>Catch Me</button></NavLink>
-                </ScrollAnimation>
-         
                 <NavLink className = "no-link" to = "/projects" onClick={toggle}> <button className='mobileheaderitem'  style = {{fontSize:sizeList[4],color:"white"}}>PROJECTS</button></NavLink>
+  </ScrollAnimation>
+                <NavLink className = "no-link" to = "/contact" onClick={toggle}> <button className='mobileheaderitem'  style = {{fontSize:sizeList[3]}}>Catch Me</button></NavLink>
+         
+                
           
             </div>
             

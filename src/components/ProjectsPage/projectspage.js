@@ -35,7 +35,7 @@ return (
 
 {
   <div className='mobile_cat_selector'>
-  <select value={category} onChange={(e)=>setcategory(e.target.value)}>
+  <select  className='selector' value={category} onChange={(e)=>setcategory(e.target.value)}>
   <option value="frontend">Frontend</option>
   <option value="blockchain">Blockchain</option>
   <option selected value="wix">Wix</option>
