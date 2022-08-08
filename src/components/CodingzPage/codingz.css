@@ -14,7 +14,14 @@
 padding: 2rem;
 border-radius: 1rem;
 }
-
+.sticker{
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 30;
+  
+}
 
 .introwords{
   display: flex;

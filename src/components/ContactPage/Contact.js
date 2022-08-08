@@ -25,7 +25,9 @@ class Contact extends Component {
 
     return (
       <div className="contact">
-        <Header  status = {3}/>
+          <div className="sticker">
+      <Header />
+      </div>
         <ScrollToTop/>
         <div
           className="container"

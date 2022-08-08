@@ -42,8 +42,11 @@ class Codingz extends PureComponent {
     };
     return (
       <div className="codingz">
-        <Header  status = {1}/>
+          <div className="sticker">
+      <Header />
+      </div>
         <ScrollToTop/>
+        <br/><br/><br/><br/>
         <ScrollAnimation animateIn="animate__slideInDown" animateOnce={true}>
           <div className="introwords">
             In ❤️ with CODING , <br /> exploring WEB 3.0 🚀🚀🚀

@@ -12,7 +12,10 @@ const ProjectPage = () =>{
   const [category,setcategory] = useState('frontend')
 return (
     <div className="projectspage" >
-<Header  status = {4}/>
+   <div>
+      <Header />
+      </div>
+      <ScrollToTop/>
 {<div className='categories_options_container'>
   <div  onClick={e=>setcategory("frontend")} style = {category=="frontend"?{backgroundColor:'darkred',color:'black'}:{backgroundColor:'#1a1a1a'}} className='categories_option'>
     Frontend Web

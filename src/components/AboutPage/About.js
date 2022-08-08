@@ -17,8 +17,11 @@ class About extends PureComponent {
   render() {
     return (
       <div className="about">    
-      <Header  status = {2} />
+      <div className="sticker">
+      <Header />
+      </div>
       <ScrollToTop/>
+      <br/><br/>
         <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
 
           <div className="about_container">

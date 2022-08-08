@@ -1,7 +1,7 @@
 
 
 import "./home.css";
-import dp from "./Media/dp2.jpg";
+import dp from "./Media/dp2.jpeg";
 import homeintro from "./Media/homeintro.png";
 import dpintro from "./Media/dpintro.png";
 
@@ -11,10 +11,15 @@ import ScrollToTop from "react-scroll-to-top";
 import "animate.css/animate.min.css";
 import Header from "../MainComponent/Header";
 import Footer from "../MainComponent/Footer";
-function Home() {
+
+
+
+export const Home = () =>  {
   return (
     <div className="home" style={{ width: "100%" }}>
-      <Header status = {0} />
+        <div className="sticker">
+      <Header />
+      </div>
 <ScrollToTop/>
       <div className="greeting" >
         <img src={homeintro} width="50%" alt = "hello world" />
@@ -22,9 +27,11 @@ function Home() {
 <br/><br/>
 
 {/* <ScrollAnimation animateIn="animate__fade" animateOnce={true}> */}
-      <div className="glass">
+<div className="home_wrapper">
+      <div className="glass_home">
+        <div className="home_dp_wrapper">
         <div className="home_dp">
-          <div>
+          <div className="home_image_wrapper">
           <img className="dp_img" src = {dp} alt = "DP"/>
           </div>
         <div className="socials">
@@ -41,10 +48,14 @@ function Home() {
                       </a>
         </div>
         </div>
+        </div>
         <div className="home_desc">
+          <div className="home_image_wrapper">
         <img className="dp_img" src = {dpintro} alt = "DP"/>
         </div>
+        </div>
      
+      </div>
       </div>
       {/* </ScrollAnimation> */}
    

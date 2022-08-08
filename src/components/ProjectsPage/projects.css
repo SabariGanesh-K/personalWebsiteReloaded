@@ -6,15 +6,24 @@ background-attachment:fixed;
 background-size: cover;
 overflow: auto;
 /* height:100%; */
-width: 100%;
+width: 100vw;
 height: 100vh;
 }
+.sticker{
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+    
+  }
 .projects-container{
   
     margin-bottom: 3rem;
 height: fit-content
     
 }
+
 .greeting{
     display: flex;
     justify-content: center;
@@ -26,6 +35,7 @@ height: fit-content
     
     }
 }
+
 .uses_container{
     text-align: center;
     margin-bottom: 1%;
@@ -70,9 +80,14 @@ height: fit-content
     .mobile_cat_selector{
       flex-direction: column;
       visibility: visible;
+    
+     
     }
     .categories_options_container{
     visibility: hidden;
+    }
+    .projectspage{
+        width: 100%;
     }
   }
 .gitbutton{
