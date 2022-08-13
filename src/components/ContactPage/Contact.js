@@ -54,7 +54,7 @@ class Contact extends Component {
         <br/> <br/>
         <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce={true}>
           <div>
-            <Media  link = "https://www.instagram.com/sabariganesh.tech/" tag = "sabariganesh.tech"  img = {instagram} />
+            <Media  link = "https://www.instagram.com/sabari.eth/" tag = "sabari.eth"  img = {instagram} />
             <Media  link = "https://www.linkedin.com/in/sabariganeshk/" tag = "sabariganeshk"  img = {linkedin} />
             <Media  link = "" tag = "k.sabarii.ganesh@gmail.com"  img = {email} />
             <Media link = "https://github.com/SabariGanesh-K" tag = "SabariGanesh-K"  img = {github} />
