@@ -2,7 +2,7 @@
 <h1><h1/>
 <h1 align = "center">My Personal Website </h1>
 
-![image](https://user-images.githubusercontent.com/64348740/180598025-65cd6313-1215-4e93-8b13-b64f0c2713b9.png)
+![image](https://user-images.githubusercontent.com/64348740/184606488-ef24987e-32b9-4dce-b9ba-cdcbdcb88399.png)
 
 ![image](https://user-images.githubusercontent.com/64348740/180598048-4970a938-decf-4a4c-8292-a3fa23308d43.png)
 
