@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import RenderProject from './Projects'
@@ -8,8 +8,13 @@ import { data } from './projectsdata';
 import Header from '../MainComponent/Header';
 import Footer from '../MainComponent/Footer';
 import ScrollToTop from 'react-scroll-to-top';
+import { AppContext } from '../../context/AppConfig';
 const ProjectPage = () =>{
   const [category,setcategory] = useState('frontend')
+  const {setstatus} = useContext(AppContext)
+  useEffect(()=>{
+    setstatus(4);
+  },[])
 return (
     <div className="projectspage" >
    <div>

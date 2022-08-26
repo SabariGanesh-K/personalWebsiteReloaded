@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React, { PureComponent, useContext, useEffect } from "react";
 import python from "./Media/python.jpg";
 import js from "./Media/js.jpg";
 import react from "./Media/react.jpg";
@@ -30,9 +30,12 @@ import "animate.css/animate.min.css";
 import Header from "../MainComponent/Header";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../MainComponent/Footer";
-class Codingz extends PureComponent {
- 
-  render() {
+import {AppContext} from '../../context/AppConfig'
+  function Codingz() {
+ const {setstatus} = useContext(AppContext)
+  useEffect(()=>{
+    setstatus(1);
+  },[])
     var settings = {
       dots: true,
       infinite: false,
@@ -206,6 +209,6 @@ class Codingz extends PureComponent {
         <Footer/>
       </div>
     );
-  }
+  
 }
 export default Codingz;

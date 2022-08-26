@@ -6,15 +6,20 @@ import homeintro from "./Media/homeintro.png";
 import dpintro from "./Media/dpintro.png";
 
 import ScrollAnimation from "react-animate-on-scroll";
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
 import "animate.css/animate.min.css";
 import Header from "../MainComponent/Header";
 import Footer from "../MainComponent/Footer";
+import { AppContext } from "../../context/AppConfig";
 
 
 
 export const Home = () =>  {
+  const {setstatus} = useContext(AppContext)
+  useEffect(()=>{
+    setstatus(0);
+  },[])
   return (
     <div className="home" style={{ width: "100%" }}>
         <div className="sticker">

@@ -6,15 +6,19 @@ import aboutdp from "./Media/aboutdp.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import './about.css'
-import React, { PureComponent } from "react";
+import React, { PureComponent, useContext, useEffect } from "react";
 import Header from "../MainComponent/Header";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../MainComponent/Footer";
 import { Experiences } from "./Experiences";
 import Facts from "./facts";
+import { AppContext } from "../../context/AppConfig";
 
-class About extends PureComponent {
-  render() {
+function About() {
+  const {setstatus} = useContext(AppContext)
+  useEffect(()=>{
+    setstatus(2);
+  },[])
     return (
       <div className="about">    
       <div className="sticker">
@@ -170,5 +174,5 @@ class About extends PureComponent {
       </div>
     );
   }
-}
+
 export default About;

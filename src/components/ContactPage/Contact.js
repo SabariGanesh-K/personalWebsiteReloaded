@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useContext, useEffect } from "react";
 
 import instagram from "./Media/instagram.png";
 import dp from "./Media/dp2.jpg";
@@ -16,11 +16,15 @@ import Header from "../MainComponent/Header";
 import Media from "./media";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../MainComponent/Footer";
+import { AppContext } from "../../context/AppConfig";
 
-class Contact extends Component {
+function Contact() {
 
 
-  render() {
+  const {setstatus} = useContext(AppContext)
+  useEffect(()=>{
+    setstatus(3);
+  },[])
   
 
     return (
@@ -86,6 +90,6 @@ class Contact extends Component {
 </div>
     );
   
-}
+
 }
 export default Contact;
