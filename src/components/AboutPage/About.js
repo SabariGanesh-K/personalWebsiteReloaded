@@ -18,6 +18,7 @@ function About() {
   const {setstatus} = useContext(AppContext)
   useEffect(()=>{
     setstatus(2);
+    window.scrollTo(0, 0);
   },[])
     return (
       <div className="about">    

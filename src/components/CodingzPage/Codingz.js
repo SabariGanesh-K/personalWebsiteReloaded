@@ -4,6 +4,9 @@ import js from "./Media/js.jpg";
 import react from "./Media/react.jpg";
 import git from "./Media/git.jpg";
 import html from "./Media/html.jpg";
+import next from './Media/next.jpg';
+import ethers from './Media/ethers.jpg';
+import angular from './Media/angular.jpg';
 import css from "./Media/css.jpg";
 import azure from './Media/azurecertificate.jpg';
 import soliditycertificate from './Media/soliditycourse.jpg';
@@ -35,6 +38,7 @@ import {AppContext} from '../../context/AppConfig'
  const {setstatus} = useContext(AppContext)
   useEffect(()=>{
     setstatus(1);
+    window.scrollTo(0, 0);
   },[])
     var settings = {
       dots: true,
@@ -81,9 +85,10 @@ import {AppContext} from '../../context/AppConfig'
           <div className="container">
             <Row style={{ textAlign: "right" }}>
               <Col>
-                <img src={git} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={html} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={css} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+              <img src={hardhat} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={moralis} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={solidity} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+
               </Col>
             </Row>
           </div>
@@ -92,9 +97,9 @@ import {AppContext} from '../../context/AppConfig'
           <div className="container">
             <Row style={{ textAlign: "left" }}>
               <Col>
-                <img src={reactnative} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={firebase} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={expo} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={next} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={angular} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={ethers} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
               </Col>
             </Row>
           </div>
@@ -103,9 +108,9 @@ import {AppContext} from '../../context/AppConfig'
           <div className="container">
             <Row style={{ textAlign: "right" }}>
               <Col>
-                <img src={hardhat} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={moralis} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={solidity} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+              <img src={reactnative} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={firebase} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={expo} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
               </Col>
             </Row>
           </div>

@@ -19,6 +19,7 @@ export const Home = () =>  {
   const {setstatus} = useContext(AppContext)
   useEffect(()=>{
     setstatus(0);
+    window.scrollTo(0, 0);
   },[])
   return (
     <div className="home" style={{ width: "100%" }}>

@@ -24,6 +24,7 @@ function Contact() {
   const {setstatus} = useContext(AppContext)
   useEffect(()=>{
     setstatus(3);
+    window.scrollTo(0, 0);
   },[])
   
 

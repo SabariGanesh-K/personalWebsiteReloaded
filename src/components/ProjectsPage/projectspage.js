@@ -14,6 +14,7 @@ const ProjectPage = () =>{
   const {setstatus} = useContext(AppContext)
   useEffect(()=>{
     setstatus(4);
+    window.scrollTo(0, 0);
   },[])
 return (
     <div className="projectspage" >
