@@ -10,10 +10,11 @@ import Footer from '../MainComponent/Footer';
 import ScrollToTop from 'react-scroll-to-top';
 import { AppContext } from '../../context/AppConfig';
 const ProjectPage = () =>{
-  const [category,setcategory] = useState('frontend')
+  const [category,setcategory] = useState('blockchain')
+
   const {setstatus} = useContext(AppContext)
   useEffect(()=>{
-    setstatus(4);
+    setstatus(3);
     window.scrollTo(0, 0);
   },[])
 return (
@@ -55,16 +56,16 @@ return (
 }
 
 {/* <ScrollToTop/> */}
-<ScrollAnimation
+{/* <ScrollAnimation
 animateIn="animate__fadeInRightBig"
 animateOnce={true}
->
+> */}
     {data.map((item,index)=>( (item.category===category|| !category ) &&
         <div key = {index}  >
             <RenderProject skill = {item.skill} tag = {item.tag} desc = {item.desc} desc2 = {item.desc2} git = {item.git} view = {item.view} uses = {item.uses}/>
             </div>
 ))}
-    </ScrollAnimation>
+    {/* </ScrollAnimation> */}
    {<ScrollAnimation animateIn="animate__rotateIn" animateOnce={true}>
           <div className="container"
             style={{

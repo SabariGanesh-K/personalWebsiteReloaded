@@ -35,12 +35,12 @@ export const DesktopHeader = (props) =>  {
           <button onClick={()=>setstatus(2)} className = {`${props.status===2 ? "buttons-selected ":"buttons"}  `}style = {{padding:'0rem'}}   > <span className="fa fa-1x  fa-user-secret"></span> ABOUT ME  </button>
           </NavLink>
  
-          <NavLink className = "nav-link" to = "/contact">
-          <button onClick={()=>setstatus(3)} className = {`${props.status===3 ? "buttons-selected ":"buttons"}  `} style = {{padding:'0rem'}}  > <span className="fa fa-1x  fa-coffee"></span> CATCH ME  </button>
+          <NavLink className = "nav-link" to = "/projects">
+          <button onClick={()=>setstatus(3)} className = {`${props.status===3 ? "buttons-selected ":"buttons"}  `} style = {{padding:'0rem'}}  > <span className="fa fa-1x  fa-brain-circuit"></span> PROJECTS  </button>
           </NavLink>
 
-          <NavLink className = "nav-link" to = "/projects">
-          <button onClick={()=>setstatus(4)} className = {`${props.status===4 ? "buttons-selected ":"buttons"}  `}style = {{padding:'0rem'}}   > <span className="fa fa-1x  fa-brain-circuit"></span> PROJECTS  </button>
+          <NavLink className = "nav-link" to = "/contact">
+          <button onClick={()=>setstatus(4)} className = {`${props.status===4 ? "buttons-selected ":"buttons"}  `}style = {{padding:'0rem'}}   > <span className="fa fa-1x  fa-coffee"></span> CATCH ME  </button>
           </NavLink>
       
          </div>

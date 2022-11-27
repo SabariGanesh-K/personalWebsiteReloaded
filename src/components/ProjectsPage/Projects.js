@@ -25,6 +25,7 @@ function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
         }
  },[git,view])
 return(
+    
    
         <div className="projects-container">
             

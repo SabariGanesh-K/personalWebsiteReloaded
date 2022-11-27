@@ -27,13 +27,13 @@ function About() {
       </div>
       <ScrollToTop/>
       <br/><br/>
-        <ScrollAnimation animateIn="animate__slideInLeft" animateOnce={true}>
+        <ScrollAnimation  animateIn="animate__slideInLeft"  animateOnce={true} >
 
           <div className="about_container">
             <br />
             <br />
         <div className="img_container">
-            <img src={aboutdp} style={{ width: "25rem" }} alt = "me:)" />
+            <img  src={aboutdp} className='img_about'  alt = "me:)" />
             </div>
             <br />
 

@@ -1,7 +1,7 @@
 
 
 import "./home.css";
-import dp from "./Media/dp2.jpeg";
+import dp from "./Media/dp2.jpg";
 import homeintro from "./Media/homeintro.png";
 import dpintro from "./Media/dpintro.png";
 

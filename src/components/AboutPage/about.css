@@ -28,6 +28,11 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+}
+
+.img_about{
+  width: 25rem;
 }
 .about_words{
   background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
@@ -282,12 +287,28 @@ padding: 1%;
     max-width: 99%;
     margin: 2%;
   }
+  .img_container{
+    margin: 2%;
+    border-radius: 20%;
+  }
+
+  .img_about{
+    border-radius: 20%;
+    width: 20rem;
+  }
   .carousel_wrapper{
     /* width: 60rem;
     height: 33.75rem;
     position: relative; */
     max-width:15rem ;
     max-height:11.4rem ;
+  }
+  .experiences_container{
+
+  }
+  .experience_box{
+    min-width: 80%;
+    margin-bottom: 9%;
   }
   .carousel_img{
     width:15rem ;

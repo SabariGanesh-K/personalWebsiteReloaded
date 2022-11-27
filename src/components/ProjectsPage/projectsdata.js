@@ -10,6 +10,16 @@ export const data = [{
 ,uses:"USES:-ReactJS, HTML 5 , CSS 3 , JS  , Netlify,Redux , Bootstrap |Reactstrap, FontAwesome"
 },
 {
+    skill:"Fundraising Dapp with Dispute Handling",
+    tag:"<Won Lumos buidl For Web3 Hackathon under Polygon/>",
+    category:"blockchain",
+    desc:"decentralized platform using POLYGON Chain that automatically handles all fundraising AND disputes.",
+    desc2:" Users can donate and get added to the Raise verification system governed by smart contracts .",
+    git:"https://github.com/SabariGanesh-K/lumos-letsgo",
+    view:"https://www.linkedin.com/posts/sabariganeshk_web3-buidlforweb3-blockchain-activity-6995690747756699648-_Q2v?utm_source=share&utm_medium=member_desktop",
+    uses:"USES:- Polygon Chain , Solidity , Hardhat , ReactJS , TailwindCSS , Metamask"
+},
+{
     skill:"Blockchain Art E-commerce "
 ,tag:"<Web3/>"
 ,category:'blockchain'
@@ -27,7 +37,27 @@ desc:"Websites which provides resources comprising around 1000+ modules ,200+ le
 desc2:"embedded as link in JSON and thus connected to frontend. ",
 git:"https://github.com/SabariGanesh-K/get-the-fkin-resource",
 view:"https://csvideos.netlify.app",
-uses:"USES:-ReactJS , HTML5 , CSS3 ,  React Router , Netlify "
+uses:"USES:- ReactJS  , CSS3 ,  React Router , Netlify "
+},
+{
+skill:"E-Commerce App",
+tag:"<SIH SemiFinals project/>",
+category:"fullstack",
+desc:"To establish cross-border connection between local artisans and customers using an online web platform.",
+desc2:"Also ideated a method to prevent spam and quality maintainence using Tensorflow object detection.",
+git:"https://github.com/SabariGanesh-K/artisticalley",
+view:"https://artistic-alley.netlify.app/",
+uses:"USES:- Firebase , ReactJS , Netlify , Tensorflow , TailwindCSS"
+},
+{
+skill:"Leaderboard",
+tag:"<Club Utility Tool/>",
+category:"fullstack", 
+desc:"A utility tool for a club I am leading that involves tracking members works through",
+desc2:"points they earn ! Admins are authenticated and whitelisted in order to edit members points.",
+git:"https://github.com/SabariGanesh-K/placexp-leaderboard",
+view:"https://pxp-leaderboard.netlify.app",
+uses:"USES:- Firebase , ReactJS , Netlify , TailwindCSS "
 },
 {
     skill:"CGPA Calculator",
@@ -106,6 +136,7 @@ view:"nil",
 uses:"USES:- Expo (React Native) , Asyncstorage"
   
 },
+
 
 
 {

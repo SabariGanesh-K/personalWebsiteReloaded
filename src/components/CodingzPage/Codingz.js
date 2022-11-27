@@ -54,11 +54,11 @@ import {AppContext} from '../../context/AppConfig'
       </div>
         <ScrollToTop/>
         <br/><br/><br/><br/>
-        <ScrollAnimation animateIn="animate__slideInDown" animateOnce={true}>
+        {/* <ScrollAnimation animateIn="animate__slideInDown" animateOnce={true}> */}
           <div className="introwords">
             In ❤️ with CODING , <br /> exploring WEB 3.0 🚀🚀🚀
           </div>
-        </ScrollAnimation>
+        {/* </ScrollAnimation> */}
     
 
         <br /> <br />

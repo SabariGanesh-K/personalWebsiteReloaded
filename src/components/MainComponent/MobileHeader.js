@@ -9,9 +9,9 @@ import { AppContext } from '../../context/AppConfig';
 const MobileHeader = () =>{
     const [togglemenu,settogglemenu] = useState(false);
     const {status,setstatus} = useContext(AppContext)
-    console.log(status===0)
+    // console.log(status===0)
     function toggle(index){
-        console.log(index,status)
+        // console.log(index,status)
         if (!isNaN(index)){
             setstatus(index)
         }
@@ -28,7 +28,7 @@ const MobileHeader = () =>{
    
     
     return(
-        <div style = {{position:'fixed',margin:'2%'}} className='mobile-header-master-container'>
+        <div style = {{position:'fixed'}} className='mobile-header-master-container'>
         {togglemenu ? <img  src = {cross} onClick={toggle} alt = "on"/>:<img src = {menu} onClick={toggle} alt = "off"/> }
         {togglemenu && (
             <div className='mobileheadercontainer'>

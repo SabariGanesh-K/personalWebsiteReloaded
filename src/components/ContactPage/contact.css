@@ -59,3 +59,16 @@
 .contact_logo{
   margin: 1%;
 }
+@media only screen and (max-width:500px) {
+  .mediabox{
+    padding:1%
+  }
+  .mediatag{
+    font-weight: lighter;
+    font-size: small  ;
+  }
+  .social_logo{
+    width: 3rem;
+  }
+
+}

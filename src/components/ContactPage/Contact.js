@@ -23,7 +23,7 @@ function Contact() {
 
   const {setstatus} = useContext(AppContext)
   useEffect(()=>{
-    setstatus(3);
+    setstatus(4);
     window.scrollTo(0, 0);
   },[])
   
@@ -58,7 +58,7 @@ function Contact() {
         </div>
         <br/> <br/>
         <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce={true}>
-          <div>
+          <div >
             <Media  link = "https://www.instagram.com/sabari.eth/" tag = "sabari.eth"  img = {instagram} />
             <Media  link = "https://www.linkedin.com/in/sabariganeshk/" tag = "sabariganeshk"  img = {linkedin} />
             <Media  link = "" tag = "k.sabarii.ganesh@gmail.com"  img = {email} />

@@ -17,7 +17,7 @@ class FeedbackForm extends React.Component {
         } catch (e) {
           response = e;
         }
-        console.log(response)
+        // console.log(response)
       }
       handleChange = (e) => {
         this.setState({ [e.target.name]: e.target.value })
