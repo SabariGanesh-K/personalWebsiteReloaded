@@ -26,7 +26,8 @@ import expo from "./Media/expo.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import lumoscert from './Media/lumos1.png'
+import lumoscert2 from './Media/lumos2.png'
 import "./codingz.css";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
@@ -72,48 +73,27 @@ import {AppContext} from '../../context/AppConfig'
         
         <ScrollAnimation animateIn="animate__flipInX" animateOnce={true}>
           <div className="container">
-            <Row style={{ textAlign: "left" }}>
+            <Row style={{ textAlign: "center" }}>
               <Col>
                 <img src={python} width="15%" height="15%" style={{ padding: "20px" }}  alt = "skill"/>
                 <img src={js} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
                 <img src={react} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-              </Col>
-            </Row>
-          </div>
-
-          <br />
-          <div className="container">
-            <Row style={{ textAlign: "right" }}>
-              <Col>
-              <img src={hardhat} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={hardhat} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
                 <img src={moralis} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
                 <img src={solidity} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-
-              </Col>
-            </Row>
-          </div>
-          
-          <br/>
-          <div className="container">
-            <Row style={{ textAlign: "left" }}>
-              <Col>
                 <img src={next} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
                 <img src={angular} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
                 <img src={ethers} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-              </Col>
-            </Row>
-          </div>
-
-          <br />
-          <div className="container">
-            <Row style={{ textAlign: "right" }}>
-              <Col>
-              <img src={reactnative} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
+                <img src={reactnative} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
                 <img src={firebase} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
                 <img src={expo} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
               </Col>
             </Row>
           </div>
+
+          <br />
+      
+       
         </ScrollAnimation>
         <br />
         <br />
@@ -129,7 +109,56 @@ import {AppContext} from '../../context/AppConfig'
             style={{ display: "flex", justifyContent: "center" }}
           >
             <div className="achievementtitle">
-              HACTOBERFEST{" "}
+            🏆🥇   LUMOS METAVERSE Buidl for WEB3 Hackathon Winner !!
+            </div>
+          </div>
+          <div
+            className="container"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <span className="achievementdesc">
+             Team "Green genesis" won the Polygon Pool track where we built a Decentralized funding project with verifications and dispute handlings secured by blockchain
+            </span>
+          </div>
+          <br/>
+          <div style = {{display:'flex',flexDirection:'row',justifyContent:'center',padding:'2%'}}>
+          <a href = "https://github.com/SabariGanesh-K/lumos-letsgo" target = "_blank" style = {{textDecoration:'none'}} rel="noreferrer">     <button style = {{padding:'1%',backgroundColor:'black',color:'white',fontWeight:'bold',margin:'1%',cursor:'pointer'}}>View Project Github</button></a>
+          <a href = "https://www.linkedin.com/posts/sabariganeshk_web3-buidlforweb3-blockchain-activity-6995690747756699648-_Q2v?utm_source=share&utm_medium=member_desktop" target = "_blank" style = {{textDecoration:'none'}} rel="noreferrer"><button style = {{padding:'1%',backgroundColor:'white',cursor:'pointer', color:'black',fontWeight:'bold'}}>View Demo </button></a> 
+          
+          </div>
+          <br/> 
+          <div className="container" style={{ display: "flex", justifyContent: "center" }}>
+          
+
+            <div className="carousel_master_container">
+            <div className="carousel_wrapper">
+            <Slider {...settings}>
+   
+      <div>
+      <div>  <img src={lumoscert}  className="carousel_img"  alt = "carousel_img"  /></div>
+      </div>
+      <div>
+      <div>  <img src={lumoscert2}  className="carousel_img"  alt = "carousel_img"  /></div>
+      </div>
+    
+      
+     
+    </Slider>
+    </div>
+    </div>
+   
+          </div>
+    
+        </ScrollAnimation>
+
+
+        <ScrollAnimation animateIn="animate__flipInX" animateOnce={true}>
+          <div
+            className="container"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
+            <div className="achievementtitle">
+            🏆👕 HACTOBERFEST{" "}
             </div>
           </div>
           <div

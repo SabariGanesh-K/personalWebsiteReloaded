@@ -61,11 +61,12 @@ function Contact() {
           <div >
             <Media  link = "https://www.instagram.com/sabari.eth/" tag = "sabari.eth"  img = {instagram} />
             <Media  link = "https://www.linkedin.com/in/sabariganeshk/" tag = "sabariganeshk"  img = {linkedin} />
+            <Media link = "https://twitter.com/Sabari_ganesh_k" tag = "@Sabari_ganesh_k"  img = {twitter} />
             <Media  link = "" tag = "k.sabarii.ganesh@gmail.com"  img = {email} />
             <Media link = "https://github.com/SabariGanesh-K" tag = "SabariGanesh-K"  img = {github} />
             <Media  link = "https://medium.com/@k.sabarii.ganesh" tag = "k.sabarii.ganesh"  img = {medium} />
             <Media link = "" tag = "sabari.eth🚀🚀🚀#1057"  img = {discord}  />
-            <Media link = "https://twitter.com/SABARISABS1" tag = "SABARISABS1"  img = {twitter} />
+           
           </div>
 </ScrollAnimation>
 

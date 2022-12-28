@@ -81,7 +81,7 @@ export const Home = () =>  {
               {" "}
                Coder ☕ &lt;&gt; Love CRYPTO 🚀 &lt;&gt; Tech Enthusiast 💻 &lt;&gt;
               Melophile🎧 &lt;&gt;Introvert , but Extrovert :) &lt;&gt; <br />
-              <br /> 1.5K+ Network in Linkedin 🚀 <br />
+              <br /> 2K+ Network in Linkedin 🚀 <br />
               <br /> And I enjoy talking about Innovation and startups 🔥
               <br />
               <br /> I like Stalking Modern Gadgets and Technology😍 <br />
