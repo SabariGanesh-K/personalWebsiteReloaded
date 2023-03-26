@@ -59,7 +59,7 @@ function Contact() {
         <br/> <br/>
         <ScrollAnimation animateIn="animate__fadeInRightBig" animateOnce={true}>
           <div >
-            <Media  link = "https://www.instagram.com/sabari.eth/" tag = "sabari.eth"  img = {instagram} />
+            <Media  link = "https://www.instagram.com/sabariganesh.crypto/" tag = "sabariganesh.crypto"  img = {instagram} />
             <Media  link = "https://www.linkedin.com/in/sabariganeshk/" tag = "sabariganeshk"  img = {linkedin} />
             <Media link = "https://twitter.com/Sabari_ganesh_k" tag = "@Sabari_ganesh_k"  img = {twitter} />
             <Media  link = "" tag = "k.sabarii.ganesh@gmail.com"  img = {email} />

@@ -20,6 +20,16 @@ export const data = [{
     uses:"USES:- Polygon Chain , Solidity , Hardhat , ReactJS , TailwindCSS , Metamask"
 },
 {
+    skill:"Pay4All - Revolutionizing grassroots payments",
+    tag:"<Won ETHInda EthForAll under Polygon/>",
+    category:"blockchain",
+    desc:"Our team built Seamless platform that is transparent in displaying where the money flows by keeping a central ",
+    desc2:"aggregator and the user need only pay the unique wallet address corresponding to the worker.",
+    git:"https://github.com/chiranjeev13/pay4all",
+    view:"https://twitter.com/Sabari_ganesh_k/status/1637823856240099329?s=20",
+    uses:"USES:- Polygon Chain ,Quicknode RPC ,  Solidity , Hardhat  , Metamask"
+},
+{
     skill:"Blockchain Art E-commerce "
 ,tag:"<Web3/>"
 ,category:'blockchain'
@@ -39,6 +49,16 @@ git:"https://github.com/SabariGanesh-K/get-the-fkin-resource",
 view:"https://csvideos.netlify.app",
 uses:"USES:- ReactJS  , CSS3 ,  React Router , Netlify "
 },
+{
+    skill:"Event Management",
+    tag:"<Club utility />",
+    category:"fullstack",
+    desc:"Created a webapp that allowed people to register for our game event and get required points.",
+    desc2:"Admin side people can scan the participants to reduce their game points (redeem) as they play.",
+    git:"https://github.com/SabariGanesh-K/Event-Management",
+    view:"https://eventsmgm.netlify.app/",
+    uses:"USES:- Firebase Firestore , ReactJS , Netlify , TailwindCSS"
+    },
 {
 skill:"E-Commerce App",
 tag:"<SIH SemiFinals project/>",
