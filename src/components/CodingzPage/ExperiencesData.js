@@ -6,10 +6,20 @@ import dao from './Media/dao.png';
 import hacktober from './Media/hacktoberfest.png';
 import jwoc from './Media/jwoc.png'
 import mic from './Media/mic.jpg'
+import gd from './Media/golddust.png'
+import poly from './Media/polygon.jpg'
+import edmyn from './Media/edmyn.png'
 export const data = [
-    {org:'PlaceXP VITC',desig:'Lead Web Dev',link:'https://www.instagram.com/placexpvitc/',imgSrc:pxp,period:'present'
+  
+{org:'DAO Community VIT-C',desig:'President',link:'https://www.instagram.com/dao_vitcc/',imgSrc:dao,period:'present'
 },
-{org:'DAO Community VIT-C',desig:'Board Member/Blockchain Dev',link:'https://www.instagram.com/dao_vitcc/',imgSrc:dao,period:'present'
+{org:'Golddust Finance',desig:'Core DeFi',link:'https://www.golddust.finance',imgSrc:gd,period:'present'
+},
+{org:'Polygon Labs',desig:'Advocate',link:'https://twitter.com/0xPolyAdvocates',imgSrc:poly,period:'present'
+},
+{org:'EDMYN',desig:'Backend Developer',link:'https://edmyn.com/',imgSrc:edmyn,period:'Internship'
+},
+{org:'PlaceXP VITC',desig:'Lead Web Dev',link:'https://www.instagram.com/placexpvitc/',imgSrc:pxp,period:'present'
 },
    { org:'CYSCOM VIT-C',desig:'Web Developer / Blogger',link:'https://cyscomvit.com',imgSrc:cyscom,period:'present'
 },

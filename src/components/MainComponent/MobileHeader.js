@@ -36,7 +36,7 @@ const MobileHeader = () =>{
                 <NavLink className = "no-link" to = "/home" > <button  onClick={(e)=>toggle(0)} className='mobileheaderitem'  style = {status===0 ?  {fontSize:'3.5rem'}: {fontSize:'20px'} } >Home</button></NavLink>
                 {/* </ScrollAnimation> */}
                 {/* <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}> */}
-                <NavLink className = "no-link" to = "/codingz" > <button onClick={(e)=>toggle(1)} className='mobileheaderitem'  style = {status===1 ?  {fontSize:'3.5rem'}: {fontSize:'20px'} }  > Codingz</button></NavLink>
+                <NavLink className = "no-link" to = "/codingz" > <button onClick={(e)=>toggle(1)} className='mobileheaderitem'  style = {status===1 ?  {fontSize:'2.5rem'}: {fontSize:'20px'} }  > SKILLS / EXPERIENCES</button></NavLink>
                 {/* </ScrollAnimation> */}
                 {/* <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}> */}
                 <NavLink className = "no-link" to = "/about" > <button onClick={(e)=>toggle(2)} className='mobileheaderitem'  style = {status===2 ?  {fontSize:'3.5rem'}: {fontSize:'20px'} } >About Me</button></NavLink>

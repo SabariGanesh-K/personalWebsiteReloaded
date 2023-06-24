@@ -136,19 +136,35 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #1a1a1a ;
+    /* background-color: #1a1a1a ; */
     margin: 1%;
 }
-.categories_option{
+.categories_option_unselected{
   margin: 1%;
   font-size: large ;
   font-weight: bold;
-  color: bisque;
+  color: bisque;    
+    background-color: #1a1a1a;
+   
+    padding: 1%;
+    border-radius: 30%;
   cursor: pointer;
 }
-.categories_option:hover{
+.categories_option_unselected:hover{
     background-color: darkred;
+ 
 }
+.categories_option_selected{
+    margin: 1%;
+    font-size: large ;
+    font-weight: bold;
+    color: bisque;    
+      background-color: darkred;
+      color: black;
+      padding: 1%;
+      border-radius: 30%;
+    cursor: pointer;
+  }
 
 .projectcard {
    

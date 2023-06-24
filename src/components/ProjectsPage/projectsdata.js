@@ -10,6 +10,16 @@ export const data = [{
 ,uses:"USES:-ReactJS, HTML 5 , CSS 3 , JS  , Netlify,Redux , Bootstrap |Reactstrap, FontAwesome"
 },
 {
+    skill:"Beatspire - NFT marketplace for Music artists",
+    tag:"< Buildspace Nights and Weekends season 6 />",
+    category:"blockchain",
+    desc:"Built a  unique marketplace for music artist which enables fans to own a piece of their music ",
+    desc2:" Project got accepted at Buildspace N&W s3 . Built under Polygon 💟",
+    git:'nil',
+    view:"https://beatspire.com/",
+    uses:"USES:- Polygon Chain , Solidity , Hardhat , ReactJS , TailwindCSS , Netlify ,Firebase,"
+},
+{
     skill:"Fundraising Dapp with Dispute Handling",
     tag:"<Won Lumos buidl For Web3 Hackathon under Polygon/>",
     category:"blockchain",

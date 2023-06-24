@@ -1,13 +1,5 @@
 import React, { PureComponent, useContext, useEffect } from "react";
-import python from "./Media/python.jpg";
-import js from "./Media/js.jpg";
-import react from "./Media/react.jpg";
-import git from "./Media/git.jpg";
-import html from "./Media/html.jpg";
-import next from './Media/next.jpg';
-import ethers from './Media/ethers.jpg';
-import angular from './Media/angular.jpg';
-import css from "./Media/css.jpg";
+
 import azure from './Media/azurecertificate.jpg';
 import soliditycertificate from './Media/soliditycourse.jpg';
 import hacto2020 from "./Media/hacto2020.jpg";
@@ -15,14 +7,6 @@ import hacto2021 from "./Media/hacto2021.jpg";
 import hacto2020swags from "./Media/hacto2020swags.jpg";
 import courserafrontend from "./Media/courserafrontend.jpg";
 import udemykotlin from "./Media/udemykotlin.jpg";
-import solidity from "./Media/solidity.jpg";
-import moralis from "./Media/moralis.jpg";
-import hardhat from "./Media/hardhat.jpg"
-import badges from "./Media/badges.jpg";
-import {  Row, Col } from "react-bootstrap";
-import firebase from "./Media/firebase.jpg";
-import reactnative from "./Media/reactnative.jpg";
-import expo from "./Media/expo.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -35,6 +19,8 @@ import Header from "../MainComponent/Header";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../MainComponent/Footer";
 import {AppContext} from '../../context/AppConfig'
+import { Experiences } from "./Experiences";
+import { Skills } from "./Skills";
   function Codingz() {
  const {setstatus} = useContext(AppContext)
   useEffect(()=>{
@@ -63,40 +49,16 @@ import {AppContext} from '../../context/AppConfig'
     
 
         <br /> <br />
-        
-        <ScrollAnimation animateIn="animate__backInLeft" animateOnce={true}>
-          <div className="subtitle">
-            MY SKILLS INCLUDE
-          </div>
-        </ScrollAnimation>
-        <br /><br />
-        
+        <Skills/>
+        <br/><br/>
+    
         <ScrollAnimation animateIn="animate__flipInX" animateOnce={true}>
-          <div className="container">
-            <Row style={{ textAlign: "center" }}>
-              <Col>
-                <img src={python} width="15%" height="15%" style={{ padding: "20px" }}  alt = "skill"/>
-                <img src={js} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={react} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={hardhat} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={moralis} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={solidity} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={next} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={angular} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={ethers} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={reactnative} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={firebase} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-                <img src={expo} width="15%" height="15%" style={{ padding: "20px" }} alt = "skill"/>
-              </Col>
-            </Row>
+          <div className="subtitle">
+            Honours and achievements
           </div>
-
-          <br />
-      
-       
         </ScrollAnimation>
-        <br />
-        <br />
+        <Experiences/>
+        <br/><br/>
         <ScrollAnimation animateIn="animate__flipInX" animateOnce={true}>
           <div className="subtitle">
             Honours and achievements

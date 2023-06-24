@@ -28,7 +28,7 @@ export const DesktopHeader = (props) =>  {
           </NavLink>
       
           <NavLink className = "nav-link" to = "/codingz">
-          <button onClick={()=>setstatus(1)} className = {`${props.status===1 ? "buttons-selected ":"buttons"}  `}style = {{padding:'0rem'}}    > <span className="fa fa-1x  fa-code"></span> CODINGZ </button>
+          <button onClick={()=>setstatus(1)} className = {`${props.status===1 ? "buttons-selected ":"buttons"}  `}style = {{padding:'0rem'}}    > <span className="fa fa-1x  fa-code"></span> SKILLS / EXPERIENCES </button>
           </NavLink>
       
           <NavLink className = "nav-link" to = "/about">

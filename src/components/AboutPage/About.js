@@ -10,7 +10,7 @@ import React, { PureComponent, useContext, useEffect } from "react";
 import Header from "../MainComponent/Header";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../MainComponent/Footer";
-import { Experiences } from "./Experiences";
+
 import Facts from "./facts";
 import { AppContext } from "../../context/AppConfig";
 
@@ -124,7 +124,7 @@ function About() {
         <div className="subtitle_about">
               EXPERIENCE
             </div>
-            <Experiences/>
+            {/* <Experiences/> */}
             </ScrollAnimation>
         <div>
           <ScrollAnimation animateIn="animate__zoomInLeft" animateOnce={true}>
