@@ -1,8 +1,6 @@
 .codingz {
-  background:url('../CodingzPage/Media/5813469.jpg');
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size: cover;
+  background-color: #0A0A0A;
+
   overflow: auto;
 }
 

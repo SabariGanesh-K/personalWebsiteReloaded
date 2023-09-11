@@ -1,14 +1,12 @@
 .home {
-
-  background:url('../HomePage/Media/homepgbg.jpeg');
+background-color: #0A0A0A;
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  
+  overflow: hidden;
    justify-content:center ;
-   overflow: auto;
  /* background: black; */
 }
 .sticker{
@@ -37,29 +35,25 @@
   justify-content: center;
 }
 .glass_home{
-  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
  
-  border-radius: 20px;
-  border:1px solid rgba(255,255,255,0.18);
-  
-
-  display: flex;
-  justify-content: row;
-  width: 75%;
-  height: 75%;
-  
-}
-.home_wrapper{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: fit-content;
- 
+  justify-content: center;
   
 }
+.profile_desig{
+  color: var(--shade-2, #B3B3B3);
+text-align: center;
+/* subtitle */
+font-family: "Manrope", 'Courier New', Courier, monospace;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 48px */
+}
+
 .dp_img{
-  max-width: 89%;
-  max-height: 89%;
+ 
   border-radius: 3rem;
   display: flex;
   flex-direction: column;
@@ -70,8 +64,7 @@
   flex-direction: row;
   justify-content: center;
 
-  max-width: 50%;
-  max-height: 50%;
+  
   margin: 1%;
 }
 .home_dp{
@@ -89,12 +82,26 @@
 }
 .home_image_wrapper{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profile_name{
+  font-size:4rem;
+font-weight: bolder;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+boxR{
+  display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .mark {
-  font-size:1.5rem;
-  background-color:rgba(0,0,0,0.7);
+  font-size:2rem;
+  background-color: #0A0A0A;
+
   /* background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); */
   font-family: 'Special Elite', cursive;
   color:white
@@ -117,6 +124,8 @@ padding-right: 5rem;
   font-size: small;
 }
 button2 {
+  margin-top: 20px;
+  position: relative;
   padding: 1.3em 3em;
   font-size: 18px;
   text-transform: uppercase;
@@ -146,24 +155,37 @@ button2:active {
 .home_button_containers{
   display: flex;
   text-decoration: none;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 a{
   text-decoration: none;
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:942px) {
+  .dp_img{
+ 
+    width: 300px;
+    
+  }
+  .mark{
+    font-size: 1.5rem;
+  }
+  
+  .profile_name{
+    font-size: 2rem;
+    text-align: center;
+  }
   .glass{
     flex-direction: column;
   }
   button2 {
     padding: 1.3em 3em;
-    font-size: 10px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 2.5px;
     font-weight: 500;
     color: #000;
-    width: 100%;
     background-color: #fff;
     border: none;
     border-radius: 45px;
