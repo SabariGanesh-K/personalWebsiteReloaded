@@ -37,16 +37,9 @@
     
   </head>
   <body   onload="myFunction()"  style="overflow-x: hidden;background-color:	black;">
-    <div id="loader" style="display:block;" >
+    <div id="loader"  >
       
-      <div class="ls-particles ls-part-1"></div>
-      <div class="ls-particles ls-part-2"></div>
-      <div class="ls-particles ls-part-3"></div>
-      <div class="ls-particles ls-part-4"></div>
-      <div class="ls-particles ls-part-5"></div>
-      <div class="lightsaber ls-left ls-green"></div>
-      <div class="lightsaber ls-right ls-red"></div>
-      
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/7de39f12-d09a-46dd-ac22-12322e263bf7/s1SyyBUcQf.json" background="black" speed="2" style="width: 300px; height: 300px;" loop  autoplay direction="1" mode="normal"></lottie-player>
     </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root" style="display:none;"></div>
@@ -57,7 +50,7 @@
    
     
     function myFunction() {
-  myVar = setTimeout(showPage, 0);
+  myVar = setTimeout(showPage, 3000);
 }
 
 function showPage() {
