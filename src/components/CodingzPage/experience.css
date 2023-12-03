@@ -8,6 +8,7 @@
     text-align: center;
     align-items: center;
     margin: 1%;
+    z-index: 100;
     }
     .org{
         color: black;
@@ -15,26 +16,31 @@
         text-align: center;
         font-size: 20px;
         cursor: pointer;
+        z-index: 100;
       }
       .desig{
         text-align: center;
         font-size: 20px;
+        z-index: 100;
       }
       .exp_logo{
         width: 15rem;
         height: 15rem;
+        z-index: 100;
       }
       .button_container{
         display: flex;
         flex-direction: row;
         justify-content: center;
         text-decoration: none;
+        z-index: 100;
       }
       .experiences_container{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        flex-wrap: wrap;   
+        flex-wrap: wrap; 
+        z-index: 100;  
       }
 
       .cssbuttons-io {

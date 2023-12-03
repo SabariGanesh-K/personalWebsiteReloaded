@@ -1,24 +1,28 @@
 
 .projectspage{
-background: url('./Media/projectspage.jpg');
-background-repeat: no-repeat;
-background-attachment:fixed;
-background-size: cover;
-overflow: auto;
-/* height:100%; */
-width: 100vw;
-height: 100vh;
-}
-.sticker{
-    top: 0;
+
+    background-color: #0A0A0A;
+    /* z-index: 200; */
+    overflow: hidden;
+    background-color: #0A0A0A;
   
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+       justify-content:center ;
+}
+.stickerpro{
+    top: 0;
     position: fixed;
+    z-index: 200;
     width: 100%;
-    z-index: 30;
     
   }
 .projects-container{
-  
+  z-index: 100;
+  position: relative;
     margin-bottom: 3rem;
 height: fit-content
     
@@ -27,6 +31,7 @@ height: fit-content
 .greeting{
     display: flex;
     justify-content: center;
+    z-index: 200;
 }
 @media only screen and (max-width:600px) {
     .greeting{
@@ -37,6 +42,7 @@ height: fit-content
 }
 
 .uses_container{
+    z-index: 200;
     text-align: center;
     margin-bottom: 1%;
     background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
@@ -46,6 +52,7 @@ height: fit-content
     padding: 3px;
 }
 .viewbutton{
+      z-index: 200;
     font-size: 2rem;
     background-color: white;
     color: black;
@@ -54,6 +61,7 @@ height: fit-content
     margin: 1%;
 }
 .mobile_cat_selector{
+      z-index: 200;
     visibility: hidden;
     display: flex;
     flex-direction: row;
@@ -65,6 +73,7 @@ height: fit-content
     
 }
 .selector{
+      z-index: 200;
 
     background-color: black;
     color: white;
@@ -85,12 +94,14 @@ height: fit-content
     }
     .categories_options_container{
     visibility: hidden;
+    z-index: 100;
     }
     .projectspage{
         width: 100%;
     }
   }
 .gitbutton{
+      z-index: 200;
     font-size: 2rem;
     cursor: pointer;
     background-color: black;
@@ -102,6 +113,7 @@ height: fit-content
 }
 
 .skill{
+      z-index: 200;
     font-size: 2rem;
     color: black;
     border-radius: 20px;
@@ -110,36 +122,42 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
     margin:2rem;
 }
 .button-container{
+      z-index: 200;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
  
 }
 .tag{
+      z-index: 200;
       font-size:  1rem ; 
      text-align: center;
      color:antiquewhite;
      font-weight:bolder;
 }
 .desc{
+      z-index: 200;
     margin:1rem;
        font-size:  1rem ;
         text-align:  center ; 
         color:  white   ;
 }
 .uses{
+      z-index: 200;
        font-size:  1rem ; 
        text-align:  center ; 
        color:  white   ;
 }
 .categories_options_container{
+      z-index: 200;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     /* background-color: #1a1a1a ; */
-    margin: 1%;
+    /* margin: 1%; */
 }
 .categories_option_unselected{
+      z-index: 200;
   margin: 1%;
   font-size: large ;
   font-weight: bold;
@@ -151,10 +169,12 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
   cursor: pointer;
 }
 .categories_option_unselected:hover{
-    background-color: darkred;
+      z-index: 200;
+    background-color: black;
  
 }
 .categories_option_selected{
+      z-index: 200;
     margin: 1%;
     font-size: large ;
     font-weight: bold;
@@ -168,6 +188,7 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
 
 .projectcard {
    
+      z-index: 200;
  
 margin: 3rem;
 background-color: #3f0d12;
@@ -179,6 +200,7 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
 
    .projectcard2 {
    
+      z-index: 200;
    
     background-color: #1a1a1a;
 

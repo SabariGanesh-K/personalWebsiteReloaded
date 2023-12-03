@@ -9,7 +9,7 @@ import "animate.css/animate.min.css";
 import Header from "../MainComponent/Header";
 import Footer from "../MainComponent/Footer";
 import { AppContext } from "../../context/AppConfig";
-
+import bgpage from './Media/bgpage.mp4'
 export const Home = () => {
   const { setstatus } = useContext(AppContext);
   useEffect(() => {
@@ -26,6 +26,9 @@ export const Home = () => {
   };
   return (
     <div className="home" style={{ width: "100%" }}>
+      <video id="bgvideo"  autoPlay loop muted>
+          <source src = {bgpage} type = 'video/mp4' />
+          </video>
       <div className="sticker">
         <Header />
       </div>

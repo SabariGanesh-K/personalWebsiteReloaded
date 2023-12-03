@@ -1,7 +1,34 @@
 .codingz {
   background-color: #0A0A0A;
+  /* z-index: 100; */
+  overflow: hidden;
+  background-color: #0A0A0A;
 
-  overflow: auto;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+     justify-content:center ;
+}
+
+#bgvideo{
+  position: fixed;
+object-fit: fill;
+width: 100vw;
+height: 100vh;
+right: 0;
+bottom: 0;
+top:0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+object-fit: fill;
+-webkit-filter: blur(15px);
+-moz-filter: blur(15px);
+-o-filter: blur(15px);
+-ms-filter: blur(15px);
+filter: blur(15px);
 }
 
 .projectBGM{
@@ -12,12 +39,12 @@
 padding: 2rem;
 border-radius: 1rem;
 }
-.sticker{
+.stickercod{
   top: 0;
-
   position: fixed;
+  z-index: 200;
   width: 100%;
-  z-index: 30;
+
   
 }
 
@@ -26,10 +53,13 @@ border-radius: 1rem;
   font-family: Grechen Fuemen;
   font-size: 3rem;
   text-align: center;
+  z-index: 100;
+  
   justify-content: center;
 }
 .glimpse-container{
   display: flex;
+  z-index: 100;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -39,6 +69,7 @@ border-radius: 1rem;
  /* width: 10rem; */
  display: flex;
  flex-direction: column;
+ z-index: 100;
  width: 25%;
  background-color: black;
 
@@ -46,27 +77,28 @@ border-radius: 1rem;
 .glimpse-title{
   text-align: center;
   color: white;
+  z-index: 100;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 100%;
   text-decoration: none;
 }
 .subtitle{
-  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
 
-  border-radius: 20px;
-  border:1px solid rgba(255,255,255,0.18);
- 
+  margin-top: 1rem;
+  z-index: 100;
+ margin-bottom: 1rem;
   width:95%;
   font-family: Roboto Slab;
-  color: black;
+  color: white;
   font-weight: bolder;
-  font-size: 2rem;
-  text-align: left;
+  font-size: 1rem;
+  text-align: center;
 }
 .achievementtitle{
   font-family: Audiowide;
   font-size: 2rem;
   color: black;
+  z-index: 100;
 }
 .skills_container{
   display: flex;
@@ -74,11 +106,13 @@ border-radius: 1rem;
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
+  z-index: 100;
 }
 .skill_logo{
   width:10rem;
   height: 10rem;
   margin: 1%;
+  z-index: 100;
 
 }
 .achievementdesc{
@@ -86,17 +120,20 @@ border-radius: 1rem;
   text-align: center;
   justify-content: center;
   font-weight: bolder;
-  color:black
+  color:black;
+  z-index: 100;
 }
 .carousel-container{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  z-index: 100;
 }
 .carousel-list{
   display: flex;
   text-align: center;
   justify-content: center;
+  z-index: 100;
 }
 Card:hover {
   background-color:rgba(0,0,0,0);
@@ -115,11 +152,13 @@ Card:hover {
  padding: 0;
  font-size: inherit;
  font-family: inherit;
+ z-index: 100;
 }
 
 .projectButton.learn-more {
  width: 12rem;
  height: auto;
+ z-index: 100;
 }
 
 .projectButton.learn-more.circle {
@@ -131,6 +170,7 @@ Card:hover {
  height: 3rem;
  background: #282936;
  border-radius: 1.625rem;
+ z-index: 100;
 }
 
 .projectButton.learn-more .circle .icon {

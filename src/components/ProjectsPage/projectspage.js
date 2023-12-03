@@ -3,7 +3,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import RenderProject from "./Projects";
 import "./projects.css";
-
+import bgpage from "../HomePage/Media/bgpage.mp4";
 import { data } from "./projectsdata";
 import Header from "../MainComponent/Header";
 import Footer from "../MainComponent/Footer";
@@ -19,11 +19,17 @@ const ProjectPage = () => {
   }, []);
   return (
     <div className="projectspage">
-      <div>
+          <video id="bgvideo" autoPlay loop muted>
+        <source src={bgpage} type="video/mp4" />
+      </video>
+      <div className="stickerpro">
         <Header />
       </div>
       <ScrollToTop />
-      {
+      <br />
+      <br />
+      <br />
+      <br />
         <div className="categories_options_container">
           <div
             onClick={(e) => setcategory("frontend")}
@@ -78,9 +84,7 @@ const ProjectPage = () => {
             App
           </div>
         </div>
-      }
-
-      {
+     
         <div className="mobile_cat_selector">
           <select
             className="selector"
@@ -96,7 +100,7 @@ const ProjectPage = () => {
             <option value="app">App</option>
           </select>
         </div>
-      }
+      
 
       {/* <ScrollToTop/> */}
       {/* <ScrollAnimation

@@ -1,6 +1,6 @@
 
 import { useEffect ,useState} from "react";
-
+import './projects.css'
 function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
     const [viewbutton, setviewbutton] = useState("nil");
     const [gitbutton, setgitbutton] = useState("nil");

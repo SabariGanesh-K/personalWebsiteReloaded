@@ -1,6 +1,8 @@
 import React from "react";
 import { data } from "./ExperiencesData";
 import "./experience.css";
+import './codingz.css'
+
 export const Experiences = () => {
   return (
     <div className="experiences_container">
