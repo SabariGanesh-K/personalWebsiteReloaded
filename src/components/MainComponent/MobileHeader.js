@@ -33,18 +33,18 @@ const MobileHeader = () =>{
         {togglemenu && (
             <div className='mobileheadercontainer'>
                 {/* <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}> */}
-                <NavLink className = "no-link" to = "/home" > <button  onClick={(e)=>toggle(0)} className='mobileheaderitem'  style = {status===0 ?  {fontSize:'3.5rem'}: {fontSize:'20px'} } >Home</button></NavLink>
+                <NavLink className = "no-link" to = "/home" > <button  onClick={(e)=>toggle(0)} className='mobileheaderitem'  style = {status===0 ?  {fontSize:'3.5rem',width:"100%"}: {fontSize:'20px'} } >Home</button></NavLink>
                 {/* </ScrollAnimation> */}
                 {/* <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}> */}
-                <NavLink className = "no-link" to = "/codingz" > <button onClick={(e)=>toggle(1)} className='mobileheaderitem'  style = {status===1 ?  {fontSize:'2.5rem'}: {fontSize:'20px'} }  > SKILLS / EXPERIENCES</button></NavLink>
+                <NavLink className = "no-link" to = "/codingz" > <button onClick={(e)=>toggle(1)} className='mobileheaderitem'  style = {status===1 ?  {fontSize:'2.5rem',width:"100%"}: {fontSize:'20px'} }  > SKILLS / EXPERIENCES</button></NavLink>
                 {/* </ScrollAnimation> */}
                 {/* <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}> */}
-                <NavLink className = "no-link" to = "/about" > <button onClick={(e)=>toggle(2)} className='mobileheaderitem'  style = {status===2 ?  {fontSize:'3.5rem'}: {fontSize:'20px'} } >About Me</button></NavLink>
+                <NavLink className = "no-link" to = "/about" > <button onClick={(e)=>toggle(2)} className='mobileheaderitem'  style = {status===2 ?  {fontSize:'3.5rem',width:"100%"}: {fontSize:'20px'} } >About Me</button></NavLink>
                 {/* </ScrollAnimation> */}
                 {/* <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}> */}
-                <NavLink className = "no-link" to = "/projects"> <button  onClick={(e)=>toggle(3)} className='mobileheaderitem'  style = {status===3 ?  {fontSize:'3.5rem'}: {fontSize:'20px'} } >PROJECTS</button></NavLink>
+                <NavLink className = "no-link" to = "/projects"> <button  onClick={(e)=>toggle(3)} className='mobileheaderitem'  style = {status===3 ?  {fontSize:'3.5rem',width:"100%"}: {fontSize:'20px'} } >PROJECTS</button></NavLink>
   {/* </ScrollAnimation> */}
-                <NavLink className = "no-link" to = "/contact" > <button onClick={(e)=>toggle(4)} className='mobileheaderitem'  style = {status===4 ?  {fontSize:'3.5rem'}: {fontSize:'20px'} } >Catch Me</button></NavLink>
+                <NavLink className = "no-link" to = "/contact" > <button onClick={(e)=>toggle(4)} className='mobileheaderitem'  style = {status===4 ?  {fontSize:'3.5rem',width:"100%"}: {fontSize:'20px'} } >Catch Me</button></NavLink>
          
                 
           

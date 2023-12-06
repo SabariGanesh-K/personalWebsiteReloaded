@@ -10,9 +10,9 @@ const Media = (props) =>{
         },2000)
     }
     return(
-        <>
+        <div  className="container">
       {props.link && <a href = {props.link} target = "_blank" style = {{textDecoration:'none'}} rel="noreferrer">
-        <button className = "mediabox" >
+        <button className = "mediabox " >
             <div>
             <img className='social_logo' src = {props.img} alt = "logo"/>
             </div>
@@ -28,9 +28,9 @@ const Media = (props) =>{
             <div><span className='mediatag'><></>@{props.tag}</span></div>
            
         </button>
-         {popup && <div style = {{color:'white',textAlign:'center',backgroundColor:'black'}}>ID copied to clipboard</div>}</>
+         {popup && <div style = {{color:'white',fontSize:"1rem",fontFamily:'Inter', textAlign:'center',backgroundColor:'black'}}>ID copied to clipboard</div>}</>
         }
-        </>
+        </div>
         // onClick={()=>{props.cpyclip && navigator.clipboard.writeText(props.tag)}}
     )
 }

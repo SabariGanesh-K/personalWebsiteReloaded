@@ -24,7 +24,8 @@
   z-index: 100;
   position: relative;
     margin-bottom: 3rem;
-height: fit-content
+height: fit-content;
+backdrop-filter:  blur(15px);
     
 }
 
@@ -45,10 +46,8 @@ height: fit-content
     z-index: 200;
     text-align: center;
     margin-bottom: 1%;
-    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
-
-    color: black;
-    font-size: medium;
+  font-size: x-large;
+    color: white;
     padding: 3px;
 }
 .viewbutton{
@@ -61,7 +60,7 @@ height: fit-content
     margin: 1%;
 }
 .mobile_cat_selector{
-      z-index: 200;
+      z-index: 100;
     visibility: hidden;
     display: flex;
     flex-direction: row;
@@ -117,8 +116,7 @@ height: fit-content
     font-size: 2rem;
     color: black;
     border-radius: 20px;
-    background-color: #3f0d12;
-background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+    background-color: white;
     margin:2rem;
 }
 .button-container{
@@ -138,7 +136,8 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
 .desc{
       z-index: 200;
     margin:1rem;
-       font-size:  1rem ;
+    font-family: Inter;
+       font-size:large ;
         text-align:  center ; 
         color:  white   ;
 }
@@ -162,7 +161,6 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
   font-size: large ;
   font-weight: bold;
   color: bisque;    
-    background-color: #1a1a1a;
    
     padding: 1%;
     border-radius: 30%;
@@ -170,7 +168,8 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
 }
 .categories_option_unselected:hover{
       z-index: 200;
-    background-color: black;
+    background-color: white;
+    color: black;
  
 }
 .categories_option_selected{
@@ -178,8 +177,8 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
     margin: 1%;
     font-size: large ;
     font-weight: bold;
-    color: bisque;    
-      background-color: darkred;
+    color: black;    
+      background-color: white;
       color: black;
       padding: 1%;
       border-radius: 30%;
@@ -191,8 +190,8 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
       z-index: 200;
  
 margin: 3rem;
-background-color: #3f0d12;
-background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+/* background-color: #3f0d12; */
+/* background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%); */
 
     border-radius: 20px;
     transition: all .3s;
@@ -202,7 +201,7 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
    
       z-index: 200;
    
-    background-color: #1a1a1a;
+    /* background-color: #1a1a1a; */
 
     transition: all .2s;
    }
@@ -213,5 +212,5 @@ background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
    }
    
    .projectcard:hover {
-    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+    box-shadow: white;
    }

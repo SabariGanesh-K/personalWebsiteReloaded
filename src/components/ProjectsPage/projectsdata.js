@@ -17,6 +17,67 @@ export const data = [{
     desc2:" Project got accepted at Buildspace N&W s3 . Built under Polygon 💟",
     git:'nil',
     view:"https://beatspire.com/",
+    uses:"USES:- Polygon Blockchain ,NFTs, IPFS ,  Solidity , Hardhat , ReactJS , TailwindCSS , Netlify ,Firebase,"
+},
+{
+    skill:"Decentralized Dispute handler with VRF",
+    tag:"",
+    category:"blockchain",
+    desc:"Decentralized solutions for disputes that arises within communities , especially DAOs. This solution uses the technology of VRF v2 .",
+    desc2:"EVM based Chainlink consumer integrated with dispute handler equipped with 51% attack preventio",
+    git:'nil',
+    view:"https://beatspire.com/",
+    uses:"USES:-Chainlink VRF RNG , Solidity "
+},
+{
+    skill:"Beatspire - NFT marketplace for Music artists",
+    tag:"< Buildspace Nights and Weekends season 6 />",
+    category:"fullstack",
+    desc:"Built a  unique marketplace for music artist which enables fans to own a piece of their music ",
+    desc2:" Project got accepted at Buildspace N&W s3 . Built under Polygon 💟",
+    git:'nil',
+    view:"https://beatspire.com/",
+    uses:"USES:- ReactJ, Google Firebase CLoud ,Polygon Blockchain Chain ,NFTs, Solidity , Hardhat , ReactJS , TailwindCSS , Netlify ,Firebase,"
+},
+{
+    skill:"CrowdTix - Elevate Your events",
+    tag:"",
+    category:"fullstack",
+    desc:" Complete one platform to host events. Built in features for event addition, hosting and Approval system. ",
+    desc2:"Approve participants so as to have restricted events. Easy share on social media",
+    git:'https://github.com/SabariGanesh-K/crowdtix-v1',
+    view:"nil",
+    uses:"USES:- NextJS, NoSQL,MongoDB , AWS Cloud , AWS DynamoDB for DB, Elastic Beanstalk for APIs , AWS Amplify for Hosting , NodeJS,MongoDB, Express,Chakra UI,TailwindCSS"
+},
+{
+    skill:"Rider - V1",
+    tag:"",
+    category:"fullstack",
+    desc:"Complete carpool system for seamless shared ride. Request rides with destination timings and wait for your mates. ",
+    desc2:"Approve riders based on request system built in. Have a safe shared ride .",
+    git:'https://github.com/SabariGanesh-K/rider-client',
+    view:"nil",
+    uses:"USES:- NextJS, NoSQL,MongoDB , AWS Cloud , AWS DynamoDB for DB, Elastic Beanstalk for APIs , AWS Amplify for Hosting , NodeJS,MongoDB, Express ,Chakra UI,TailwindCSS"
+},
+{
+    skill:"Data Visual Project",
+    tag:"",
+    category:"fullstack",
+    desc:"Built a purchase - sell product stock tracker . Allows users to track their data everyday ",
+    desc2:"and view it graphically for different durations.",
+    git:'https://github.com/SabariGanesh-K/SalesData-Tracker',
+    view:"https://beatspire.com/",
+    uses:"USES:- ReactJS , AWS Cloud , AWS RDS for DB, Elastic Beanstalk for APIs , AWS Amplify for Hosting , NodeJS, Express"
+},
+
+{
+    skill:"Beatspire - NFT marketplace for Music artists",
+    tag:"< Buildspace Nights and Weekends season 6 />",
+    category:"fullstack",
+    desc:"Built a  unique marketplace for music artist which enables fans to own a piece of their music ",
+    desc2:" Project got accepted at Buildspace N&W s3 . Built under Polygon 💟",
+    git:'nil',
+    view:"https://beatspire.com/",
     uses:"USES:- Polygon Chain , Solidity , Hardhat , ReactJS , TailwindCSS , Netlify ,Firebase,"
 },
 {

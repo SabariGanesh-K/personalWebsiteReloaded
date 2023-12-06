@@ -1,28 +1,118 @@
 
 .about{
-  background:url('../AboutPage/Media/pagebg.jpg');
   background-repeat: no-repeat;
   background-attachment:fixed;
   overflow: auto;
   background-size: cover;
 }
 
+.about_button{
+  color: white;
+  background-color: black;
+  padding: 5%;
+  font-size: larger;
+  cursor: pointer;
+  margin-top: 3%;
+  border: 0;
+}
+
 .about-page-header{
   background-color: #63a4ff;
+  z-index: 100;
+
 background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 }
-.sticker{
+.stickerabt{
   top: 0;
   position: fixed;
   z-index: 200;
   width: 100%;
 }
+.belt-slider {
+  position: relative;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.belt-slider-inner {
+  display: flex;
+  z-index: 100;
+  transition: transform 0.5s ease-in-out;
+}
+
+.belt-slider-item {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  z-index: 100;
+}
+
+.belt-slider-item.active {
+  transform: translateX(0);
+  z-index: 100;
+}
+
+.belt-slider-prev,
+.belt-slider-next {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  transform: translateY(-50%);
+}
+
+.belt-slider-prev {
+  left: 0;
+}
+
+.belt-slider-next {
+  right: 0;
+  z-index: 100;
+}
+
+@media (max-width: 768px) {
+  .belt-slider-inner {
+    flex-direction: column;
+  }
+
+  .belt-slider-item {
+    width: 100%;
+    height: auto;
+  }
+
+  .belt-slider-prev,
+  .belt-slider-next {
+    display: none;
+  }
+}
+
+#bgvideo{
+  position: fixed;
+object-fit: fill;
+width: 100vw;
+height: 100vh;
+right: 0;
+bottom: 0;
+top:0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+object-fit: fill;
+-webkit-filter: blur(15px);
+-moz-filter: blur(15px);
+-o-filter: blur(15px);
+-ms-filter: blur(15px);
+filter: blur(15px);
+}
 .about_container{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 100;
+
 }
 .img_container{
+  z-index: 100;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -31,18 +121,21 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 
 .img_about{
   width: 25rem;
+  z-index: 100;
+
 }
 .about_words{
   background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+  z-index: 100;
 
   border-radius: 20px;
   border:1px solid rgba(255,255,255,0.18);
  
   margin: 1%;
-  
+  padding: 2%;
   text-align: center;
   width: 80%;
-  font-family: Dancing Script;
+  font-family: Inter;
   font-weight: bolder;
   font-size: 2rem;
   color:black;
@@ -52,9 +145,15 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
   display: flex;
   flex-direction: row;
   justify-content: center;
+  z-index: 100;
+
+}
+.containerabt{
+  z-index: 100;
 }
 
 .institute_desc{
+  z-index: 100;
  
   display: flex;
   flex-direction: column;
@@ -67,6 +166,7 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
   display: flex;
   border:1px solid;
   /* padding: 2%; */
+  z-index: 100;
   
   flex-direction: row;
   justify-content: center;
@@ -74,10 +174,14 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 .institute_container{
   display: flex;
   flex-direction: row;
+  z-index: 100;
+
 }
 
 
 .institute_logo{
+  z-index: 100;
+
   width: 10rem;
   height: 10rem;
   background-color: white;
@@ -93,11 +197,25 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
   color: black;
   margin-left: 3%;
   margin-top: 2%;
+  z-index: 100;
+  z-index: 100;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+.carousel{
+  z-index: 30;
+  display: flex;
 }
 .skill_master_container{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  z-index: 100;
+
  
 }
 .skill_container{
@@ -106,13 +224,18 @@ background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
   justify-content: center;
   padding: 2%;
   border-radius: 20px;
+  z-index: 100;
+
 }
 .skill_logo{
   width: 10rem;
+  z-index: 100;
 
 }
 .skill_desc{
 margin-left: 1%;
+z-index: 100;
+
 display: flex;
 font-size: 20px;
 font-weight: 600;
@@ -124,12 +247,18 @@ justify-content: center;
   flex-direction: row;
   justify-content: center;
   text-decoration: none;
+  z-index: 100;
+
 }
 .explore{
   text-decoration: none;
+  z-index: 100;
+
 }
 .carousel_master_container{
   display: flex;
+  z-index: 100;
+
   flex-direction: row;
   justify-content: center;
 }
@@ -139,11 +268,44 @@ justify-content: center;
   position: relative; */
   max-width: 50rem;
   max-height: 38rem;
+  z-index: 100;
+
 }
 .carousel_img{
-  width: 50rem;
+  width: full;
   height: 38rem;
   object-fit: cover;
+  z-index: 100;
+
+}
+/* src/components/Marquee.css */
+.marquee-container {
+  overflow: hidden;
+  width: full;
+  z-index: 100;
+  height: 600px; /* Adjust the height as needed */
+}
+
+.marquee {
+  z-index: 100;
+  display: flex;
+  animation: marqueeAnimation 1s linear infinite; /* Adjust the animation duration as needed */
+}
+
+.marquee img {
+  z-index: 100;
+  width: full; /* Fixed width of each image */
+  height: 100%; /* 100% height to maintain aspect ratio */
+  object-fit: contain; /* Ensure the image covers the container without stretching */
+}
+
+@keyframes marqueeAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 
@@ -154,6 +316,7 @@ justify-content: center;
   font-weight: 500;
   font-size: 18px;
   cursor: pointer;
+  
   display: flex;
   flex-direction: row;
   justify-content: center;

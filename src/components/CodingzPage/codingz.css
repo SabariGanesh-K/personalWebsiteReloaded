@@ -99,6 +99,22 @@ border-radius: 1rem;
   font-size: 2rem;
   color: black;
   z-index: 100;
+  background-color: white;
+  border-radius: 1rem;
+}
+.achieveButton{
+  border: 0;
+  padding: 1%;
+  margin-bottom: 1%;
+  font-size: large;
+  font-family: Inter;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.achieveButton:hover{
+  color: black;
+  background-color: white;
 }
 .skills_container{
   display: flex;

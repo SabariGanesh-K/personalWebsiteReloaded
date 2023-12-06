@@ -1,10 +1,34 @@
 .contact {
-  background:url('../ContactPage/Media/contactpgbg.jpeg');
+  background-color: #0A0A0A;
+  /* z-index: 100; */
+  overflow: hidden;
+  background-color: #0A0A0A;
+
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+     justify-content:center ;
   /* background:black; */
+}
+#bgvideo{
+  position: fixed;
+object-fit: fill;
+width: 100vw;
+height: 100vh;
+right: 0;
+bottom: 0;
+top:0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+object-fit: fill;
+-webkit-filter: blur(15px);
+-moz-filter: blur(15px);
+-o-filter: blur(15px);
+-ms-filter: blur(15px);
+filter: blur(15px);
 }
 /*SOCIAL button */
 .socialButton{
@@ -16,21 +40,22 @@
   text-decoration: none;
   margin: 0.5em;
   border-radius: 1rem;
-  
+  z-index: 100;
+  display: flex;
 
 } 
-.sticker{
+.stickercont{
   top: 0;
-
   position: fixed;
+  z-index: 200;
   width: 100%;
-  z-index: 30;
   
 }
 .mediabox{
   /* margin: 3rem; */
   cursor: pointer;
   margin-top: 5%;
+  z-index: 100;
   padding: 1%;
   display: flex;
   border-width: 100%;
@@ -41,6 +66,17 @@
  width: 95%;
  padding: 1%;
   background-color: rgba(0,0,0,0.3);
+  
+  
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: small;
+  z-index: 30;
 }
 .mediatag{
   color: white;
@@ -52,12 +88,16 @@
   font-size: 150%;
   padding-top: 5%;
   justify-content: space-evenly;
+  z-index: 100;
+  display: flex;
 }
 .mediabox:hover{
   background-color: black;
 }
 .contact_logo{
   margin: 1%;
+  z-index: 100;
+  display: flex;
 }
 @media only screen and (max-width:500px) {
   .mediabox{

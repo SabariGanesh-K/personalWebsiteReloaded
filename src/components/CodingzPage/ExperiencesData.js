@@ -9,8 +9,14 @@ import mic from './Media/mic.jpg'
 import gd from './Media/golddust.png'
 import poly from './Media/polygon.jpg'
 import edmyn from './Media/edmyn.png'
+import hstack from './Media/hstack.jpg'
+import nmind from './Media/nmind.jpeg'
+
 export const data = [
-  
+   {org:'Hashstack Finance',desig:'Software Developer Engineer',link:'https://hashstack.finance',imgSrc:hstack,period:'present'
+},
+{org:'Nethermind',desig:'Cryptography Researcher',link:'https://www.nethermind.io',imgSrc:nmind,period:'Incoming'
+},
 {org:'DAO Community VIT-C',desig:'President',link:'https://www.instagram.com/dao_vitcc/',imgSrc:dao,period:'present'
 },
 {org:'Golddust Finance',desig:'Core DeFi',link:'https://www.golddust.finance',imgSrc:gd,period:'present'

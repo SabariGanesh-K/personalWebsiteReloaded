@@ -1,7 +1,7 @@
 
 import { useEffect ,useState} from "react";
 import './projects.css'
-function RenderProject({ skill, tag, desc, git, view, uses, desc2 }) {
+function RenderProject({ skill, tag, desc, git, view, uses, desc2,descs }) {
     const [viewbutton, setviewbutton] = useState("nil");
     const [gitbutton, setgitbutton] = useState("nil");
     useEffect(()=>{
@@ -35,6 +35,11 @@ return(
 <div className="tag">{tag}</div>
 <div className="desc">{desc}</div>
 <div className="desc">{desc2}</div>
+{descs && descs.map((item,k)=>{
+    return(
+        <div key={k} className="desc"> {item} </div>
+    )
+})}
 <div className="button-container" > {gitbutton} {viewbutton} </div>
   <div className="uses_container">{uses}</div>
   </div>

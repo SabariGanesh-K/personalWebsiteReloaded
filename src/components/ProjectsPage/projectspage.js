@@ -10,7 +10,7 @@ import Footer from "../MainComponent/Footer";
 import ScrollToTop from "react-scroll-to-top";
 import { AppContext } from "../../context/AppConfig";
 const ProjectPage = () => {
-  const [category, setcategory] = useState("blockchain");
+  const [category, setcategory] = useState("fullstack");
 
   const { setstatus } = useContext(AppContext);
   useEffect(() => {
@@ -31,6 +31,26 @@ const ProjectPage = () => {
       <br />
       <br />
         <div className="categories_options_container">
+        <div
+            onClick={(e) => setcategory("fullstack")}
+            className={
+              category == "fullstack"
+                ? "categories_option_selected"
+                : "categories_option_unselected"
+            }
+          >
+            Fullstack App
+          </div>
+          <div
+            onClick={(e) => setcategory("blockchain")}
+            className={
+              category == "blockchain"
+                ? "categories_option_selected"
+                : "categories_option_unselected"
+            }
+          >
+            Blockchain 
+          </div>
           <div
             onClick={(e) => setcategory("frontend")}
             className={
@@ -41,16 +61,7 @@ const ProjectPage = () => {
           >
             Frontend Web
           </div>
-          <div
-            onClick={(e) => setcategory("blockchain")}
-            className={
-              category == "blockchain"
-                ? "categories_option_selected"
-                : "categories_option_unselected"
-            }
-          >
-            Blockchain Full Stack
-          </div>
+        
           <div
             onClick={(e) => setcategory("wix")}
           
@@ -62,16 +73,7 @@ const ProjectPage = () => {
           >
             Wix
           </div>
-          <div
-            onClick={(e) => setcategory("fullstack")}
-            className={
-              category == "fullstack"
-                ? "categories_option_selected"
-                : "categories_option_unselected"
-            }
-          >
-            Fullstack Web 2.0
-          </div>
+        
           <div
             className={
               category == "app"
@@ -91,12 +93,13 @@ const ProjectPage = () => {
             value={category}
             onChange={(e) => setcategory(e.target.value)}
           >
+              <option value="fullstack">Fullstack</option>
             <option value="frontend">Frontend</option>
             <option value="blockchain">Blockchain</option>
             <option selected value="wix">
               Wix
             </option>
-            <option value="fullstack">Fullstack</option>
+          
             <option value="app">App</option>
           </select>
         </div>
