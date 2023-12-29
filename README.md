@@ -2,12 +2,32 @@
 <h1><h1/>
 <h1 align = "center">My Personal Website </h1>
 
-![image](https://user-images.githubusercontent.com/64348740/184606488-ef24987e-32b9-4dce-b9ba-cdcbdcb88399.png)
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/f6e933f3-56a2-499c-8de0-0ff8ad6ca3af)
 
-![image](https://user-images.githubusercontent.com/64348740/184606782-d52030fe-2fa4-4f2b-b773-7c918ef85356.png)
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/5601c603-6ff3-4d6f-a650-2d07b96d8de5)
 
-![image](https://user-images.githubusercontent.com/64348740/184607308-610e2307-89b1-4eb0-b588-745d4116f725.png)
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/5584e603-401c-4be3-88b0-c71d88053cd4)
 
-![image](https://user-images.githubusercontent.com/64348740/180598059-7edf2eee-d23b-4f68-a9e3-f26176863e53.png)
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/89f761c9-9101-49f2-80ae-f1a2801cf6c4)
+
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/283452e4-036a-4046-97d4-f337a304f758)
+
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/94958ffb-966b-44e6-a947-6cca8e4a59ad)
+
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/ddcc8ffc-e8f7-4ec3-aac4-dc2c23f75cf2)
+
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/611c4e04-d0f6-4248-8efa-92cc90686894)
+
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/4d4948cd-f7d6-45e7-ba0e-fa7fd9665fa2)
+
+![image](https://github.com/SabariGanesh-K/personalWebsiteReloaded/assets/64348740/51991a4c-683a-4f1b-b717-d251b8ae5a70)
+
+
+
+
+
+
+
+
 
 
