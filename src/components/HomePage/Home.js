@@ -117,7 +117,7 @@ export const Home = () => {
           <span className="mark">
             <span style={{ opacity: "1" }}>
               {" "}
-              🚀  <span>SDE Intern</span> @HashStack Finance 🚀 <br/>🚀  <span>Incoming Cryptography Researcher</span> @Nethermind 🚀 <br/> 🚀 Advocate @Polygon Labs 🚀 <br/> 🚀  President @DAO Community VITC 🚀 <br/> 🚀 Ex-Backend Edmyn  🚀<br/>
+              🚀  <span>SDE Intern</span> @HashStack Finance 🚀 <br/>🚀  <span>Incoming Cryptography Researcher</span> @Nethermind 🚀 <br/> 🚀 Advocate @Polygon Labs 🚀 <br/> 🚀  Ex-President @DAO Community VITC 🚀 <br/> 🚀 Ex-Backend Edmyn  🚀<br/>
            <br/> <br/>  <span>And many more....</span>
             </span>
           </span>
